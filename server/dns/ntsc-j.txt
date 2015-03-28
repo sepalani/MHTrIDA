@@ -1,0 +1,13 @@
+gpcm.gs.nintendowifi.net
+gpsp.gs.nintendowifi.net
+mh.capcom.co.jp
+monhunter3wii.available.gs.nintendowifi.net
+monhunter3wii.gamestats.gs.nintendowifi.net
+monhunter3wii.gamestats2.gs.nintendowifi.net
+monhunter3wii.master.gs.nintendowifi.net
+monhunter3wii.ms16.nintendowifi.net
+monhunter3wii.natneg1.gs.nintendowifi.net
+monhunter3wii.natneg2.gs.nintendowifi.net
+monhunter3wii.natneg3.gs.nintendowifi.net
+mmh-t1-opn02.mmh-service.capcom.co.jp
+naswii.nintendowifi.net

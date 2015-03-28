@@ -1,0 +1,13 @@
+gpcm.gs.nintendowifi.net
+gpsp.gs.nintendowifi.net
+mh.capcom.co.jp
+mh3uswii.available.gs.nintendowifi.net
+mh3uswii.gamestats.gs.nintendowifi.net
+mh3uswii.gamestats2.gs.nintendowifi.net
+mh3uswii.master.gs.nintendowifi.net
+mh3uswii.ms1.nintendowifi.net
+mh3uswii.natneg1.gs.nintendowifi.net
+mh3uswii.natneg2.gs.nintendowifi.net
+mh3uswii.natneg3.gs.nintendowifi.net
+mmh-t1-opn04.mmh-service.capcom.co.jp
+naswii.nintendowifi.net

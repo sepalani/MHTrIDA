@@ -17,6 +17,16 @@ These maps are generated with my RSO Tools. It retrieves symbols from RSO in fil
 
 
 
+Response Buffer Address
+-----------------------
+When the game sends a request to the server, it stores the server response somewhere in the memory. Knowing where it's stored allow us to know which function may use it. I use Dolphin Emulator to dump the RAM, the RAM address begins at 0x80000000. To find this buffer address, you only need to send a response from the server and track it inside the RAM. Here are the addresses used by the game to store the responses of this server.
+
+**[1st request's response]**
+ * 0x80CD5318 [PAL]
+ * 0x80CD5318 [NTSC-U]
+ * 0x80CA9400 [NTSC-J]
+
+
 Error Codes
 -----------
 After some testing, I was able to figure out the meaning of error codes related to this server.

@@ -1,29 +1,42 @@
 # Save
+In the the Monster Hunter Tri save there are 3 kind of files.
+ * The network file which store some network settings, like the network assistance code.
+ * The system file, I really don't know what are in there and it isn't a priority as of right now.
+ * Then the most interesting part, data files.
+
+These data files are "files" where you can store hunters, all their properties and they also store common option settings for them. This post will more likely detail all the content found in these data files and sometimes how to exploit them.
+
 
 Checksum
 --------
-The game uses a checksum to check the save integrity. To compute the checksum you need to add each byte from the address 0x09 to the end of the file.
+The game uses a checksum to check the save integrity. To compute the checksum you need to add each byte from the address 0x08 (which is the 9th byte) to the end of the file.
  * Checksum address: 0x04 [Size: 4 bytes (uint32)]
+
 
 File Options
 ------------
  * TODO
 
+
 Hunter Profile
 --------------
  * TODO
+
 
 Item Box
 --------
  * TODO
 
+
 Equip Box
 ---------
  * TODO
 
+
 Day-Night Cycle/Quest Location
 ------------------------------
 Your quests can begin at different places. One single byte sets where you're going (in offline mode), the exact same byte that sets the day-night cycle which takes respectively the value 0 and 1. Unfortunately if the value is above 1 (which should normally never happen) you're going somewhere else allowing you to change the quest location.
+
 
 Arena Records
 -------------

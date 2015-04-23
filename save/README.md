@@ -18,9 +18,12 @@ File Options
  * TODO
 
 
-Hunter Profile
---------------
- * TODO
+Hunter Profiles
+---------------
+These profiles seem to be 0x6000 (24.576) bytes each. Supposing that the file options are 0x48 (78) bytes, then profiles are arranges like that:
+ * Profile 1 address: 0x0048
+ * Profile 2 address: 0x6048
+ * Profile 3 address: 0xC048
 
 
 Item Box

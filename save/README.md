@@ -35,6 +35,33 @@ Equip Box
 ---------
  * TODO
 
+Farm
+----
+The farms levels and the box contents can be found at those addresses for the 1st profile:
+
+1. **Farms Level**
+ * 0x469C - Herb Level [uint8]
+ * 0x469D - Shroom Level [uint8]
+ * 0x469E - Honey Level [uint8]
+ * 0x469F - Insect Level [uint8]
+2. **Slot 1**
+ * 0x46A0 - Item ID [uint16]
+ * 0x46A2 - Catalyser ID [uint16]
+ * 0x46A4 - Days remaining [uint8]
+ * 0x46A5 - Number of days [uint8]
+ * 0x46A6 - Reward [uint16]
+3. **Slot 2** 
+ * 0x46A8 - Item ID [uint16]
+ * 0x46AA - Catalyser ID [uint16]
+ * 0x46AC - Days remaining [uint8]
+ * 0x46AD - Number of days [uint8]
+ * 0x46AE - Reward [uint16]
+4. **Slot 3**
+ * 0x46B0 - Item ID [uint16]
+ * 0x46B2 - Catalyser ID [uint16]
+ * 0x46B4 - Days remaining [uint8]
+ * 0x46B5 - Number of days [uint8]
+ * 0x46B6 - Reward [uint16]
 
 Day-Night Cycle/Quest Location
 ------------------------------

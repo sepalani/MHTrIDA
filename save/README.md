@@ -28,8 +28,13 @@ These profiles seem to be 0x6000 (24.576) bytes each. Supposing that the file op
 
 Item Box
 --------
- * TODO
-
+Hunters' Item Box is composed of (x800) **Item Slots** which are a pairs of **Item ID** [uint16] and **Quantity** [int16].
+ 1. **Item Slot** [Size: 4 bytes]
+  * 0x00 - Item ID [uint16]
+  * 0x02 - Quantity [int16]
+ 2. **Item Box** [Size: **Item Slot** (x800) | 0xC80 (4800) bytes]
+  * 0x0001C8 | 0x0061C8 | 0x00C1C8 - First slot
+  * 0x000E44 | 0x006E44 | 0x00CE44 - Last slot
 
 Equip Box
 ---------

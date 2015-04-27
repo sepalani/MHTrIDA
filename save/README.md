@@ -41,6 +41,11 @@ Equip Box
  * TODO
 
 
+Fishery
+-------
+ * TODO
+
+
 Farm
 ----
 The farms levels and the box contents can be found at those addresses for the 1st, 2nd and 3rd profiles respectively:

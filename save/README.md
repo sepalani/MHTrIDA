@@ -43,7 +43,41 @@ Equip Box
 
 Fishery
 -------
- * TODO
+Hunting Boats allow you to collect items by sending your fleets on different locations. During the game you'll be able to manage 3 boats, the **Cap'n ship**, the **Black ship** and the **Red ship**.
+
+1. **Cap'n**
+ * 0x3F80 - Boat status [uint8]
+ * 0x3F81 - Fisher's mood [uint8]
+ * 0x3F82 - Boat Level [uint8]
+ * 0x3F83 - Destination [uint8]
+ * 0x3F84 - Days remaining [uint8]
+ * 0x3F85 - Prefered Destination [uint8]
+ * 0x3F86 - Tackle [uint16]
+ * 0x3F88 - Rewards [uint16]
+ * 0x3F8A - Previous Mood [uint8]
+ * 0x3F8B - Previous Prefered Destination [uint8]
+2. **Black**
+ * 0x3F8C - Boat status [uint8]
+ * 0x3F8D - Fisher's mood [uint8]
+ * 0x3F8E - Boat Level [uint8]
+ * 0x3F8F - Destination [uint8]
+ * 0x3F90 - Days remaining [uint8]
+ * 0x3F91 - Prefered Destination [uint8]
+ * 0x3F92 - Bait ID [uint16]
+ * 0x3F94 - Rewards [uint16]
+ * 0x3F96 - Previous Mood [uint8]
+ * 0x3F97 - Previous Prefered Destination [uint8]
+3. **Red**
+ * 0x3F98 - Boat Status [uint8]
+ * 0x3F99 - Fisher's mood [uint8]
+ * 0x3F9A - Boat Level [uint8]
+ * 0x3F9B - Destination [uint8]
+ * 0x3F9C - Days remaining [uint8]
+ * 0x3F9D - Prefered Destination [uint8]
+ * 0x3F9E - Bait ID [uint16]
+ * 0x3FA0 - Rewards [uint16]
+ * 0x3FA2 - Previous Mood [uint8]
+ * 0x3FA3 - Previous Prefered Destination [uint8]
 
 
 Farm

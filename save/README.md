@@ -26,6 +26,22 @@ These profiles seem to be 0x6000 (24.576) bytes each. Supposing that the file op
  * Profile 3 address: 0xC048
 
 
+Hunter Pouches
+--------------
+In fact, even if there are two kind of pouch: the **Blademaster Pouch** and the **Gunner pouch**, the only difference between them is a matter of size. A pouch is made of **Item Slots** which are a pairs of **Item ID** [uint16] and **Quantity** [int16]. A gunner pouch is **one page** (x8 **Item Slot**) bigger than a blademaster pouch. However this pouch can only contains gunner class items (ammos).
+ 1. **Item Slot** [Size: 4 bytes]
+  * 0x00 - Item ID [uint16]
+  * 0x02 - Quantity [int16]
+ 2. **Pouch Page** [Size: **Item Slot** (x8) | 0x20 (32) bytes]
+  * 0x00 - **Item Slot** (x8)
+ 3. **Blademaster Pouch** [Size: **Pouch Page** (x3) | 0x60 (96) bytes]
+  * 0x0000E8 | 0x0060E8 | 0x00C0E8 - First slot
+  * 0x000144 | 0x006144 | 0x00C144 - Last slot
+ 3. **Gunner Pouch** [Size: **Pouch Page** (x4) | 0x80 (128) bytes]
+  * 0x000148 | 0x006148 | 0x00C148 - First slot
+  * 0x0001C4 | 0x0061C4 | 0x00C1C4 - Last slot
+
+
 Item Box
 --------
 Hunters' Item Box is composed of (x800) **Item Slots** which are a pairs of **Item ID** [uint16] and **Quantity** [int16].
@@ -44,40 +60,39 @@ Equip Box
 Fishery
 -------
 Hunting Boats allow you to collect items by sending your fleets on different locations. During the game you'll be able to manage 3 boats, the **Cap'n ship**, the **Black ship** and the **Red ship**.
-
-1. **Cap'n**
- * 0x003F80 | 0x009F80 | 0x00FF80 - Boat status [uint8]
- * 0x003F81 | 0x009F81 | 0x00FF81 - Fisher's mood [uint8]
- * 0x003F82 | 0x009F82 | 0x00FF82 - Boat Level [uint8]
- * 0x003F83 | 0x009F83 | 0x00FF83 - Destination [uint8]
- * 0x003F84 | 0x009F84 | 0x00FF84 - Days remaining [uint8]
- * 0x003F85 | 0x009F85 | 0x00FF85 - Prefered Destination [uint8]
- * 0x003F86 | 0x009F86 | 0x00FF86 - Tackle [uint16]
- * 0x003F88 | 0x009F88 | 0x00FF88 - Rewards [uint16]
- * 0x003F8A | 0x009F8A | 0x00FF8A - Previous Mood [uint8]
- * 0x003F8B | 0x009F8B | 0x00FF8B - Previous Prefered Destination [uint8]
-2. **Black**
- * 0x003F8C | 0x009F8C | 0x00FF8C - Boat status [uint8]
- * 0x003F8D | 0x009F8D | 0x00FF8D - Fisher's mood [uint8]
- * 0x003F8E | 0x009F8E | 0x00FF8E - Boat Level [uint8]
- * 0x003F8F | 0x009F8F | 0x00FF8F - Destination [uint8]
- * 0x003F90 | 0x009F90 | 0x00FF90 - Days remaining [uint8]
- * 0x003F91 | 0x009F91 | 0x00FF91 - Prefered Destination [uint8]
- * 0x003F92 | 0x009F92 | 0x00FF92 - Bait ID [uint16]
- * 0x003F94 | 0x009F94 | 0x00FF94 - Rewards [uint16]
- * 0x003F96 | 0x009F96 | 0x00FF96 - Previous Mood [uint8]
- * 0x003F97 | 0x009F97 | 0x00FF97 - Previous Prefered Destination [uint8]
-3. **Red**
- * 0x003F98 | 0x009F98 | 0x00FF98 - Boat Status [uint8]
- * 0x003F99 | 0x009F99 | 0x00FF99 - Fisher's mood [uint8]
- * 0x003F9A | 0x009F9A | 0x00FF9A - Boat Level [uint8]
- * 0x003F9B | 0x009F9B | 0x00FF9B - Destination [uint8]
- * 0x003F9C | 0x009F9C | 0x00FF9C - Days remaining [uint8]
- * 0x003F9D | 0x009F9D | 0x00FF9D - Prefered Destination [uint8]
- * 0x003F9E | 0x009F9E | 0x00FF9E - Bait ID [uint16]
- * 0x003FA0 | 0x009FA0 | 0x00FFA0 - Rewards [uint16]
- * 0x003FA2 | 0x009FA2 | 0x00FFA2 - Previous Mood [uint8]
- * 0x003FA3 | 0x009FA3 | 0x00FFA3 - Previous Prefered Destination [uint8]
+ 1. **Cap'n**
+  * 0x003F80 | 0x009F80 | 0x00FF80 - Boat status [uint8]
+  * 0x003F81 | 0x009F81 | 0x00FF81 - Fisher's mood [uint8]
+  * 0x003F82 | 0x009F82 | 0x00FF82 - Boat Level [uint8]
+  * 0x003F83 | 0x009F83 | 0x00FF83 - Destination [uint8]
+  * 0x003F84 | 0x009F84 | 0x00FF84 - Days remaining [uint8]
+  * 0x003F85 | 0x009F85 | 0x00FF85 - Prefered Destination [uint8]
+  * 0x003F86 | 0x009F86 | 0x00FF86 - Tackle [uint16]
+  * 0x003F88 | 0x009F88 | 0x00FF88 - Rewards [uint16]
+  * 0x003F8A | 0x009F8A | 0x00FF8A - Previous Mood [uint8]
+  * 0x003F8B | 0x009F8B | 0x00FF8B - Previous Prefered Destination [uint8]
+ 2. **Black**
+  * 0x003F8C | 0x009F8C | 0x00FF8C - Boat status [uint8]
+  * 0x003F8D | 0x009F8D | 0x00FF8D - Fisher's mood [uint8]
+  * 0x003F8E | 0x009F8E | 0x00FF8E - Boat Level [uint8]
+  * 0x003F8F | 0x009F8F | 0x00FF8F - Destination [uint8]
+  * 0x003F90 | 0x009F90 | 0x00FF90 - Days remaining [uint8]
+  * 0x003F91 | 0x009F91 | 0x00FF91 - Prefered Destination [uint8]
+  * 0x003F92 | 0x009F92 | 0x00FF92 - Bait ID [uint16]
+  * 0x003F94 | 0x009F94 | 0x00FF94 - Rewards [uint16]
+  * 0x003F96 | 0x009F96 | 0x00FF96 - Previous Mood [uint8]
+  * 0x003F97 | 0x009F97 | 0x00FF97 - Previous Prefered Destination [uint8]
+ 3. **Red**
+  * 0x003F98 | 0x009F98 | 0x00FF98 - Boat Status [uint8]
+  * 0x003F99 | 0x009F99 | 0x00FF99 - Fisher's mood [uint8]
+  * 0x003F9A | 0x009F9A | 0x00FF9A - Boat Level [uint8]
+  * 0x003F9B | 0x009F9B | 0x00FF9B - Destination [uint8]
+  * 0x003F9C | 0x009F9C | 0x00FF9C - Days remaining [uint8]
+  * 0x003F9D | 0x009F9D | 0x00FF9D - Prefered Destination [uint8]
+  * 0x003F9E | 0x009F9E | 0x00FF9E - Bait ID [uint16]
+  * 0x003FA0 | 0x009FA0 | 0x00FFA0 - Rewards [uint16]
+  * 0x003FA2 | 0x009FA2 | 0x00FFA2 - Previous Mood [uint8]
+  * 0x003FA3 | 0x009FA3 | 0x00FFA3 - Previous Prefered Destination [uint8]
 
 
 Farm

@@ -100,28 +100,28 @@ Farm
 The farms levels and the box contents can be found at those addresses for the 1st, 2nd and 3rd profiles respectively:
 
 1. **Farms Level**
- * 0x00469C | 0x00A69C | 0x01069C - Herb Level [uint8]
- * 0x00469D | 0x00A69D | 0x01069D - Shroom Level [uint8]
- * 0x00469E | 0x00A69E | 0x01069E - Honey Level [uint8]
- * 0x00469F | 0x00A69F | 0x01069F - Insect Level [uint8]
+  * 0x00469C | 0x00A69C | 0x01069C - Herb Level [uint8]
+  * 0x00469D | 0x00A69D | 0x01069D - Shroom Level [uint8]
+  * 0x00469E | 0x00A69E | 0x01069E - Honey Level [uint8]
+  * 0x00469F | 0x00A69F | 0x01069F - Insect Level [uint8]
 2. **Slot 1**
- * 0x0046A0 | 0x00A6A0 | 0x0106A0 - Item ID [uint16]
- * 0x0046A2 | 0x00A6A2 | 0x0106A2 - Catalyser ID [uint16]
- * 0x0046A4 | 0x00A6A4 | 0x0106A4 - Days remaining [uint8]
- * 0x0046A5 | 0x00A6A5 | 0x0106A5 - Number of days [uint8]
- * 0x0046A6 | 0x00A6A6 | 0x0106A6 - Reward [uint16]
+  * 0x0046A0 | 0x00A6A0 | 0x0106A0 - Item ID [uint16]
+  * 0x0046A2 | 0x00A6A2 | 0x0106A2 - Catalyser ID [uint16]
+  * 0x0046A4 | 0x00A6A4 | 0x0106A4 - Days remaining [uint8]
+  * 0x0046A5 | 0x00A6A5 | 0x0106A5 - Number of days [uint8]
+  * 0x0046A6 | 0x00A6A6 | 0x0106A6 - Reward [uint16]
 3. **Slot 2** 
- * 0x0046A8 | 0x00A6A8 | 0x0106A8 - Item ID [uint16]
- * 0x0046AA | 0x00A6AA | 0x0106AA - Catalyser ID [uint16]
- * 0x0046AC | 0x00A6AC | 0x0106AC - Days remaining [uint8]
- * 0x0046AD | 0x00A6AD | 0x0106AD - Number of days [uint8]
- * 0x0046AE | 0x00A6AE | 0x0106AE - Reward [uint16]
+  * 0x0046A8 | 0x00A6A8 | 0x0106A8 - Item ID [uint16]
+  * 0x0046AA | 0x00A6AA | 0x0106AA - Catalyser ID [uint16]
+  * 0x0046AC | 0x00A6AC | 0x0106AC - Days remaining [uint8]
+  * 0x0046AD | 0x00A6AD | 0x0106AD - Number of days [uint8]
+  * 0x0046AE | 0x00A6AE | 0x0106AE - Reward [uint16]
 4. **Slot 3**
- * 0x0046B0 | 0x00A6B0 | 0x0106B0 - Item ID [uint16]
- * 0x0046B2 | 0x00A6B2 | 0x0106B2 - Catalyser ID [uint16]
- * 0x0046B4 | 0x00A6B4 | 0x0106B4 - Days remaining [uint8]
- * 0x0046B5 | 0x00A6B5 | 0x0106B5 - Number of days [uint8]
- * 0x0046B6 | 0x00A6B6 | 0x0106B6 - Reward [uint16]
+  * 0x0046B0 | 0x00A6B0 | 0x0106B0 - Item ID [uint16]
+  * 0x0046B2 | 0x00A6B2 | 0x0106B2 - Catalyser ID [uint16]
+  * 0x0046B4 | 0x00A6B4 | 0x0106B4 - Days remaining [uint8]
+  * 0x0046B5 | 0x00A6B5 | 0x0106B5 - Number of days [uint8]
+  * 0x0046B6 | 0x00A6B6 | 0x0106B6 - Reward [uint16]
 
 
 Day-Night Cycle/Quest Location
@@ -129,11 +129,11 @@ Day-Night Cycle/Quest Location
 Your quests can begin at different places. One single byte sets where you're going (in offline mode), the exact same byte that sets the **day-night cycle** which takes respectively the value 0 or 1. Unfortunately if the value is above 1 (which should normally never happen) you're going somewhere else allowing you to change the **quest location**.
 
 1. **Cycle value**
- * 0x00 - Day cycle
- * 0x01 - Night cycle
- * 0x?? - Quest location changer
+  * 0x00 - Day cycle
+  * 0x01 - Night cycle
+  * 0x?? - Quest location changer
 2. **Cycle address**
- * 0x0003E48 | 0x009E48 | 0x00FE48 - **Cycle value** [uint8]
+  * 0x0003E48 | 0x009E48 | 0x00FE48 - **Cycle value** [uint8]
 
 
 Arena Records

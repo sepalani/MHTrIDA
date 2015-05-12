@@ -6,67 +6,67 @@
 0000003a .line.__destroy_global_chain
 0000003a .line.__destroy_global_chain
 0000003a .line.__destroy_global_chain
-0000006c .line.__register_atexit__FPFv_v
-0000006c .line.__register_atexit__FPFv_v
-0000006c .line.__register_atexit__FPFv_v
-0000006c .line.__register_atexit__FPFv_v
+0000006c .line.__register_atexit(void (*)(void))
+0000006c .line.__register_atexit(void (*)(void))
+0000006c .line.__register_atexit(void (*)(void))
+0000006c .line.__register_atexit(void (*)(void))
 00000074 .dwarf.0013.DestructorChain::DestructorChain
 00000074 .dwarf.0013.DestructorChain::DestructorChain
 00000074 .dwarf.0013.DestructorChain::DestructorChain
 00000074 .dwarf.0013.DestructorChain::DestructorChain
-000000ba .line.hbm_data_load__Fv
+000000ba .line.hbm_data_load(void)
 00000115 .dwarf.0007.__global_destructor_chain
 00000115 .dwarf.0007.__global_destructor_chain
 00000115 .dwarf.0007.__global_destructor_chain
 00000115 .dwarf.0007.__global_destructor_chain
-00000146 .line.net_connect_init__FP14_net_ctrl_work
+00000146 .line.net_connect_init(_net_ctrl_work *)
 0000014f .dwarf.0006.__register_global_object
 0000014f .dwarf.0006.__register_global_object
 0000014f .dwarf.0006.__register_global_object
 0000014f .dwarf.0006.__register_global_object
-00000150 .line.hbm_create__Fv
-00000180 .line.get_monster_disp_size__FUcUsPf
+00000150 .line.hbm_create(void)
+00000180 .line.get_monster_disp_size(unsigned char, unsigned short, float *)
 0000018c .dwarf.0006.__destroy_global_chain
 0000018c .dwarf.0006.__destroy_global_chain
 0000018c .dwarf.0006.__destroy_global_chain
 0000018c .dwarf.0006.__destroy_global_chain
-000001a8 .line.get_monster_size_border__FUcPPUs
+000001a8 .line.get_monster_size_border(unsigned char, unsigned short **)
 000001bc .line._prolog
-000001dc .line.net_connect_main__FP14_net_connect_w
+000001dc .line.net_connect_main(_net_connect_w *)
 000001eb .dwarf.0007.__destroy_global_chain_reference
 000001eb .dwarf.0007.__destroy_global_chain_reference
 000001eb .dwarf.0007.__destroy_global_chain_reference
 000001eb .dwarf.0007.__destroy_global_chain_reference
-00000286 .line.__as__8_net_sprFRC8_net_spr
-0000029f .dwarf.0006.__register_atexit__FPFv_v
-0000029f .dwarf.0006.__register_atexit__FPFv_v
-0000029f .dwarf.0006.__register_atexit__FPFv_v
-0000029f .dwarf.0006.__register_atexit__FPFv_v
+00000286 ._net_spr::line.__as(_net_spr const &)
+0000029f .dwarf.0006.__register_atexit(void (*)(void))
+0000029f .dwarf.0006.__register_atexit(void (*)(void))
+0000029f .dwarf.0006.__register_atexit(void (*)(void))
+0000029f .dwarf.0006.__register_atexit(void (*)(void))
 000002fa .line._prolog
 000003e2 .line._epilog
-000003e4 .line.hbm_start__Fv
+000003e4 .line.hbm_start(void)
 0000040a .dwarf.0013.MEMAllocatorFunc::MEMAllocatorFunc
 00000450 .line._unresolved
-00000466 .line.hbm_exec__Fv
+00000466 .line.hbm_exec(void)
 0000048a .dwarf.0013.MEMAllocator::MEMAllocator
 000004a8 .line._epilog
 00000552 .line._unresolved
 00000553 .dwarf.0013.HBMDataInfo::HBMDataInfo
-00000592 .line.hbm_draw__Fv
-0000066e .line.IsHomeButtonMenu__Fv
-00000696 .line.drawBanIcon__FUc
-000006dc .line.hbm_start_blackout__Fv
-00000704 .line.hbm_delete__Fv
+00000592 .line.hbm_draw(void)
+0000066e .line.IsHomeButtonMenu(void)
+00000696 .line.drawBanIcon(unsigned char)
+000006dc .line.hbm_start_blackout(void)
+00000704 .line.hbm_delete(void)
 0000072c .line._prolog
 00000768 .line._epilog
 000007a4 .line._unresolved
 000007e1 .dwarf.0007.hbmInfo
-00000850 .line.lb_npc_talk_se_req__FUsPQ34nw4r4math4VEC3
-000008a8 .line.net_connect_draw__Fv
-0000092a .line.net_connect_buffer__Fv
-00000940 .line.__as__Q34nw4r4math4VEC3FRCQ34nw4r4math4VEC3
-00000940 .line.__as__Q34nw4r4math5_VEC3FRCQ34nw4r4math5_VEC3
-00000940 .line.lb_npc_talk_proc__Fv
+00000850 .line.lb_npc_talk_se_req(unsigned short, nw4r::math::VEC3 *)
+000008a8 .line.net_connect_draw(void)
+0000092a .line.net_connect_buffer(void)
+00000940 .nw4r::math::VEC3::line.__as( (nw4r::math::VEC3 const &))
+00000940 .nw4r::math::_VEC3::line.__as( (nw4r::math::_VEC3 const &))
+00000940 .line.lb_npc_talk_proc(void)
 00000b44 .dwarf.0017.KPADEXStatus::KPADEXStatus
 00000bd5 .dwarf.0013.KPADStatus::KPADStatus
 00000f40 .dwarf.0013.HBMKPadData::HBMKPadData
@@ -78,28 +78,28 @@
 0000110c .dwarf.0007.hbm_data_adrs
 00001137 .dwarf.0007.hbm_data_free_size
 00001187 .dwarf.0007.hbm_curpos
-000012ed .dwarf.0006.hbm_data_load__Fv
-000013be .dwarf.0006.hbm_create__Fv
-000017ac .dwarf.0006.hbm_start__Fv
-000017f8 .dwarf.0006.hbm_exec__Fv
-000018cd .dwarf.0006.hbm_draw__Fv
-00001977 .dwarf.0006.IsHomeButtonMenu__Fv
+000012ed .dwarf.0006.hbm_data_load(void)
+000013be .dwarf.0006.hbm_create(void)
+000017ac .dwarf.0006.hbm_start(void)
+000017f8 .dwarf.0006.hbm_exec(void)
+000018cd .dwarf.0006.hbm_draw(void)
+00001977 .dwarf.0006.IsHomeButtonMenu(void)
 000019e3 .dwarf.0013._GXTexObj::_GXTexObj
 00001a2c .dwarf.0004._GXTexFmt
 00001bce .dwarf.0004._GXTexWrapMode
 00001c37 .dwarf.0013._tex_info::_tex_info
 00001d94 .dwarf.0013.Vec::Vec
 00001e13 .dwarf.0013.Vec2::Vec2
-00001e69 .dwarf.0007.@LOCAL@GetAnmPlayPolicy__Q24nw4r3g3dFQ34nw4r3g3d9AnmPolicy@policyTable
-00001e6d .dwarf.0007.@LOCAL@GetAnmPlayPolicy__Q24nw4r3g3dFQ34nw4r3g3d9AnmPolicy@policyTable
-00001e6f .dwarf.0007.@LOCAL@GetAnmPlayPolicy__Q24nw4r3g3dFQ34nw4r3g3d9AnmPolicy@policyTable
+00001e69 .dwarf.0007.@LOCAL@nw4r::g3d::GetAnmPlayPolicy( (nw4r::g3d::AnmPolicy))@policyTable
+00001e6d .dwarf.0007.@LOCAL@nw4r::g3d::GetAnmPlayPolicy( (nw4r::g3d::AnmPolicy))@policyTable
+00001e6f .dwarf.0007.@LOCAL@nw4r::g3d::GetAnmPlayPolicy( (nw4r::g3d::AnmPolicy))@policyTable
 00001e72 .dwarf.0013._GXColor::_GXColor
-00001f17 .dwarf.0006.drawBanIcon__FUc
+00001f17 .dwarf.0006.drawBanIcon(unsigned char)
 00001fb1 .dwarf.0013.nw4r::ef::AnimCurveCache::AnimCurveCache
 00001fb6 .dwarf.0013.nw4r::ef::AnimCurveCache::AnimCurveCache
 00001fb9 .dwarf.0013.nw4r::ef::AnimCurveCache::AnimCurveCache
-00001ff3 .dwarf.0006.hbm_start_blackout__Fv
-00002039 .dwarf.0006.hbm_delete__Fv
+00001ff3 .dwarf.0006.hbm_start_blackout(void)
+00002039 .dwarf.0006.hbm_delete(void)
 000020c5 .dwarf.0006._prolog
 00002147 .dwarf.0006._epilog
 0000214d .dwarf.0013._ITEM_DATA::_ITEM_DATA
@@ -111,10 +111,10 @@
 000022a2 .dwarf.0007._ctors
 000022c6 .dwarf.0004.VITVMode
 00002331 .dwarf.0007.Item_data
-00002342 .line.online_sub_ec_init__Fv
+00002342 .line.online_sub_ec_init(void)
 00002357 .dwarf.0007.npcFixed001
 00002380 .dwarf.0013._EVENT_TALK_SET::_EVENT_TALK_SET
-00002388 .line.online_sub_ec__Fv
+00002388 .line.online_sub_ec(void)
 0000243b .dwarf.0004.VIXFBMode
 000024e5 .dwarf.0013._GXRenderModeObj::_GXRenderModeObj
 0000256b .dwarf.0007.npcEvent001
@@ -208,9 +208,9 @@
 00003151 .dwarf.0007.error_message_0503XX
 00003183 .dwarf.0007.error_message_0504XX
 000031b5 .dwarf.0007.error_message_0510XX
-000031b6 .line.online_sub_reflect_init__Fv
+000031b6 .line.online_sub_reflect_init(void)
 000031e7 .dwarf.0007.error_message_05104X
-000031fc .line.online_sub_reflect__Fv
+000031fc .line.online_sub_reflect(void)
 00003219 .dwarf.0007.error_message_0513XX
 0000324b .dwarf.0007.error_message_0514XX
 0000327d .dwarf.0007.error_message_0522XX
@@ -228,19 +228,19 @@
 00003464 .dwarf.0007.patch_message_12
 00003492 .dwarf.0007.patch_message_13
 000034e5 .dwarf.0007.ms_wii_msg_tbl
-00003530 .line.online_sub_patch_do_check__Fl
-0000354e .line.net_connect_announce__Fv
+00003530 .line.online_sub_patch_do_check(long)
+0000354e .line.net_connect_announce(void)
 0000355d .dwarf.0013._MH_VEC2::_MH_VEC2
-000035b2 .line.net_connect_maintenance__Fv
+000035b2 .line.net_connect_maintenance(void)
 00003600 .dwarf.0013._btn_disp_w::_btn_disp_w
-000036a2 .line.net_connect_terms__Fv
+000036a2 .line.net_connect_terms(void)
 0000370b .dwarf.0013._system_w::_system_w
 00003ac6 .line._prolog
 00003b70 .line._epilog
 00003bac .line._unresolved
-00003bc8 .line.disp_net_connect_err__FUc
-00003ce0 .line.disp_net_connect_plat__Fl
-00003d88 .line.disp_error_string__Fll
+00003bc8 .line.disp_net_connect_err(unsigned char)
+00003ce0 .line.disp_net_connect_plat(long)
+00003d88 .line.disp_error_string(long, long)
 00003df8 .dwarf.0013._GXTexObj::_GXTexObj
 00003e41 .dwarf.0004._GXTexFmt
 00003f4a .dwarf.0007.item_str
@@ -251,34 +251,34 @@
 0000440b .dwarf.0007.armor_str
 00004430 .dwarf.0002.cSystem::cSystem
 00004456 .dwarf.0007.armor_explain
-000044a2 .line.getOpeningErrorCode__FP12NetworkError
-00004506 .line.getOpeningDNSErrorCode__FP12NetworkError
+000044a2 .line.getOpeningErrorCode(NetworkError *)
+00004506 .line.getOpeningDNSErrorCode(NetworkError *)
 00004517 .dwarf.0013._SKILL_TYPE_DATA::_SKILL_TYPE_DATA
-0000451a .line.getOpeningSSLErrorCode__FP12NetworkError
+0000451a .line.getOpeningSSLErrorCode(NetworkError *)
 0000453a .dwarf.0002.NetworkBuffer::NetworkBuffer
-000045ba .line.getNetworkErrorCode__FP12NetworkError
-0000460a .line.getNetworkTCPErrorCode__FP12NetworkError
+000045ba .line.getNetworkErrorCode(NetworkError *)
+0000460a .line.getNetworkTCPErrorCode(NetworkError *)
 00004613 .dwarf.0013.NetworkUniqueId::Core::Core
 00004657 .dwarf.0002.NetworkUniqueId::NetworkUniqueId
-00004676 .line.set_open_error_code__FP12NetworkError
+00004676 .line.set_open_error_code(NetworkError *)
 00004711 .dwarf.0002.NetworkSession::NetworkSession
-0000472a .line.set_layer_error_code__FP12NetworkError
-00004824 .line.set_ec_error_code__FP12NetworkError
+0000472a .line.set_layer_error_code(NetworkError *)
+00004824 .line.set_ec_error_code(NetworkError *)
 00004922 .dwarf.0007.npcCommand002
 0000492e .dwarf.0013._ARMOR_DATA::_ARMOR_DATA
-00004946 .line.set_patch_error_code__FP12NetworkError
+00004946 .line.set_patch_error_code(NetworkError *)
 0000496f .dwarf.0007.npcFixed002
 000049ba .dwarf.0007.npcEvent002
 00004a05 .dwarf.0007.npcSmallTalk002
-00004a40 .line.check_dopatch_error__Fi
+00004a40 .line.check_dopatch_error(int)
 00004a54 .dwarf.0007.npcGame002
-00004a86 .line.set_pc_error_code__Fv
+00004a86 .line.set_pc_error_code(void)
 00004a9e .dwarf.0007.npcTalkData002
-00004aa2 .line.getMediatorInstance__15sNetworkLibraryFv
-00004aac .line.getInstance__15sNetworkLibraryFv
-00004ac8 .line.getInstance__12PatInterfaceFv
+00004aa2 .sNetworkLibrary::line.getMediatorInstance(void)
+00004aac .sNetworkLibrary::line.getInstance(void)
+00004ac8 .PatInterface::line.getInstance(void)
 00004aec .dwarf.0007.npcScript002_00
-00004b3a .line.strchr__3stdFPci
+00004b3a .std::line.strchr(char *, int)
 00004b3b .dwarf.0007.npcScript002_01
 00004b8a .dwarf.0007.npcScript002_02
 00004bb5 .dwarf.0013.NetworkError::NetworkError
@@ -407,7 +407,7 @@
 0000a943 .dwarf.0007.npcScript005_01
 0000a992 .dwarf.0007.npcScript005_02
 0000a9af .dwarf.0013.NetworkLayer::Parent::Parent
-0000a9cc .line.lb_npc_snd_sub__Fv
+0000a9cc .line.lb_npc_snd_sub(void)
 0000a9e1 .dwarf.0007.npcScript005_03
 0000aa30 .dwarf.0007.npcTalkScript005
 0000aa5e .dwarf.0007.talkNpc005
@@ -416,8 +416,8 @@
 0000aca6 .dwarf.0013.NetworkCommunityPat::Lock::Lock
 0000ad30 .dwarf.0013.NetworkCommunityPat::LockList::LockList
 0000ae7c .dwarf.0013._layer_command_stack::_layer_command_stack
-0000af08 .line.__ct__14_npc_talk_se_wFv
-0000af1a .line.__ct__Q34nw4r4math4VEC3Fv
+0000af08 ._npc_talk_se_w::line.__ct(void)
+0000af1a .nw4r::math::VEC3::line.__ct( (void))
 0000afd9 .dwarf.0013._layer_command_w::_layer_command_w
 0000b11e .dwarf.0013._EQUIP::_EQUIP
 0000b293 .dwarf.0013._mh3_user_binary::_mh3_user_binary
@@ -486,10 +486,10 @@
 0000e90e .dwarf.0007.talkNpc007
 00010532 .dwarf.0007.npcCommand008
 0001057f .dwarf.0007.npcFixed008
-00010584 .dwarf.0006.net_connect_init__FP14_net_ctrl_work
+00010584 .dwarf.0006.net_connect_init(_net_ctrl_work *)
 000105ca .dwarf.0007.npcEvent008
 00010615 .dwarf.0007.npcSmallTalk008
-0001063d .dwarf.0006.net_connect_main__FP14_net_connect_w
+0001063d .dwarf.0006.net_connect_main(_net_connect_w *)
 00010664 .dwarf.0007.npcGame008
 000106ae .dwarf.0007.npcTalkData008
 000106fc .dwarf.0007.npcScript008_00
@@ -507,8 +507,8 @@
 00010fd2 .dwarf.0002.NetworkResolver::NetworkResolver
 0001117a .dwarf.0002.NetworkRandom::NetworkRandom
 000112be .dwarf.0002.sNetworkLibrary::sNetworkLibrary
-00011aaa .dwarf.0006.net_connect_draw__Fv
-00011c77 .dwarf.0006.net_connect_buffer__Fv
+00011aaa .dwarf.0006.net_connect_draw(void)
+00011c77 .dwarf.0006.net_connect_buffer(void)
 00011cfb .dwarf.0013.PatConnection::Server::Server
 00011e57 .dwarf.0013.PatConnection::RW_HEAD::RW_HEAD
 00011f63 .dwarf.0002.PatConnection::PatConnection
@@ -558,14 +558,14 @@
 000165f1 .dwarf.0007.npcScript011_03
 00016640 .dwarf.0007.npcTalkScript011
 0001666e .dwarf.0007.talkNpc011
-00016ecd .dwarf.0006.online_sub_ec_init__Fv
-00016f59 .dwarf.0006.online_sub_ec__Fv
-0001715e .dwarf.0006.online_sub_reflect_init__Fv
-000171b4 .dwarf.0006.online_sub_reflect__Fv
-00017276 .dwarf.0006.online_sub_patch_do_check__Fl
-000172ce .dwarf.0006.net_connect_announce__Fv
-00017345 .dwarf.0006.net_connect_maintenance__Fv
-000173c2 .dwarf.0006.net_connect_terms__Fv
+00016ecd .dwarf.0006.online_sub_ec_init(void)
+00016f59 .dwarf.0006.online_sub_ec(void)
+0001715e .dwarf.0006.online_sub_reflect_init(void)
+000171b4 .dwarf.0006.online_sub_reflect(void)
+00017276 .dwarf.0006.online_sub_patch_do_check(long)
+000172ce .dwarf.0006.net_connect_announce(void)
+00017345 .dwarf.0006.net_connect_maintenance(void)
+000173c2 .dwarf.0006.net_connect_terms(void)
 0001796b .dwarf.0006._prolog
 000179ca .dwarf.0006._epilog
 00017a28 .dwarf.0006._unresolved
@@ -597,41 +597,41 @@
 00018f1b .dwarf.0013._btndata::_btndata
 000192fa .dwarf.0013._swdata::_swdata
 000197ce .dwarf.0007.Psw
-000197ef .dwarf.0007.mpInstance__12PatInterface
-00019837 .dwarf.0007.mpInstance__15sNetworkLibrary
+000197ef .PatInterface::dwarf.0007.mpInstance(void)
+00019837 .sNetworkLibrary::dwarf.0007.mpInstance(void)
 00019882 .dwarf.0002.NetworkMediator::NetworkMediator
-000198d1 .dwarf.0007.mpMediator__15sNetworkLibrary
+000198d1 .sNetworkLibrary::dwarf.0007.mpMediator(void)
 0001991c .dwarf.0007.net_ctrl_wk
-000199b9 .dwarf.0006.disp_net_connect_err__FUc
-00019c26 .dwarf.0006.disp_net_connect_plat__Fl
-00019d73 .dwarf.0006.disp_error_string__Fll
-00019e59 .dwarf.0006.getOpeningErrorCode__FP12NetworkError
-00019eb3 .dwarf.0006.getOpeningDNSErrorCode__FP12NetworkError
-00019f13 .dwarf.0006.getOpeningSSLErrorCode__FP12NetworkError
-00019f73 .dwarf.0006.getNetworkErrorCode__FP12NetworkError
-00019fcd .dwarf.0006.getNetworkTCPErrorCode__FP12NetworkError
-0001a0a7 .dwarf.0006.set_open_error_code__FP12NetworkError
-0001a1ad .dwarf.0006.set_layer_error_code__FP12NetworkError
+000199b9 .dwarf.0006.disp_net_connect_err(unsigned char)
+00019c26 .dwarf.0006.disp_net_connect_plat(long)
+00019d73 .dwarf.0006.disp_error_string(long, long)
+00019e59 .dwarf.0006.getOpeningErrorCode(NetworkError *)
+00019eb3 .dwarf.0006.getOpeningDNSErrorCode(NetworkError *)
+00019f13 .dwarf.0006.getOpeningSSLErrorCode(NetworkError *)
+00019f73 .dwarf.0006.getNetworkErrorCode(NetworkError *)
+00019fcd .dwarf.0006.getNetworkTCPErrorCode(NetworkError *)
+0001a0a7 .dwarf.0006.set_open_error_code(NetworkError *)
+0001a1ad .dwarf.0006.set_layer_error_code(NetworkError *)
 0001a1ea .dwarf.0007.npcCommand013
 0001a237 .dwarf.0007.npcFixed013
 0001a282 .dwarf.0007.npcEvent013
-0001a2b5 .dwarf.0006.set_ec_error_code__FP12NetworkError
+0001a2b5 .dwarf.0006.set_ec_error_code(NetworkError *)
 0001a2cd .dwarf.0007.npcSmallTalk013
 0001a31c .dwarf.0007.npcGame013
 0001a366 .dwarf.0007.npcTalkData013
-0001a396 .dwarf.0006.set_patch_error_code__FP12NetworkError
+0001a396 .dwarf.0006.set_patch_error_code(NetworkError *)
 0001a3b4 .dwarf.0007.npcScript013_00
 0001a403 .dwarf.0007.npcScript013_01
 0001a452 .dwarf.0007.npcScript013_02
-0001a480 .dwarf.0006.check_dopatch_error__Fi
+0001a480 .dwarf.0006.check_dopatch_error(int)
 0001a4a1 .dwarf.0007.npcScript013_03
-0001a4cc .dwarf.0006.set_pc_error_code__Fv
+0001a4cc .dwarf.0006.set_pc_error_code(void)
 0001a4f0 .dwarf.0007.npcTalkScript013
 0001a51e .dwarf.0007.talkNpc013
-0001a590 .dwarf.0006.getMediatorInstance__15sNetworkLibraryFv
-0001a5fe .dwarf.0006.getInstance__15sNetworkLibraryFv
-0001a6e5 .dwarf.0006.getInstance__12PatInterfaceFv
-0001a993 .dwarf.0006.strchr__3stdFPci
+0001a590 .sNetworkLibrary::dwarf.0006.getMediatorInstance(void)
+0001a5fe .sNetworkLibrary::dwarf.0006.getInstance(void)
+0001a6e5 .PatInterface::dwarf.0006.getInstance(void)
+0001a993 .std::dwarf.0006.strchr(char *, int)
 0001c142 .dwarf.0007.npcCommand014
 0001c18f .dwarf.0007.npcFixed014
 0001c1da .dwarf.0007.npcEvent014
@@ -1564,8 +1564,8 @@
 00037e0b .dwarf.0007.weapon_data
 00037e58 .dwarf.0007.weapon_str
 00037ea4 .dwarf.0007.weapon_explain
-00037f96 .dwarf.0006.get_monster_disp_size__FUcUsPf
-00038034 .dwarf.0006.get_monster_size_border__FUcPPUs
+00037f96 .dwarf.0006.get_monster_disp_size(unsigned char, unsigned short, float *)
+00038034 .dwarf.0006.get_monster_size_border(unsigned char, unsigned short **)
 0003809f .dwarf.0013._equip_data_tbl::_equip_data_tbl
 000381ed .dwarf.0013._item_dt_tbl::_item_dt_tbl
 000382d4 .dwarf.0013._str_tbl_data::_str_tbl_data
@@ -2352,8 +2352,8 @@
 000be321 .dwarf.0007.village_npc_talk_se_tbl
 000be378 .dwarf.0007.town_npc_talk_se_tbl
 000be3ca .dwarf.0013._npc_talk_se_w::_npc_talk_se_w
-000be4d8 .dwarf.0006.lb_npc_talk_se_req__FUsPQ34nw4r4math4VEC3
-000be5f2 .dwarf.0006.lb_npc_talk_proc__Fv
+000be4d8 .dwarf.0006.lb_npc_talk_se_req(unsigned short, nw4r::math::VEC3 *)
+000be5f2 .dwarf.0006.lb_npc_talk_proc(void)
 000be6d8 .dwarf.0013._se_req_q::_se_req_q
 000beb3d .dwarf.0013._se_w::_se_w
 000bee39 .dwarf.0013._CP_VECTOR::_CP_VECTOR
@@ -2459,7 +2459,7 @@
 000c7df5 .dwarf.0013._YURE_W::_YURE_W
 000c8130 .dwarf.0013._PLW::_PLW
 000cbc0a .dwarf.0013._LB_NPC::_LB_NPC
-000cf128 .dwarf.0006.lb_npc_snd_sub__Fv
+000cf128 .dwarf.0006.lb_npc_snd_sub(void)
 000cf22f .dwarf.0013.nw4r::math::_VEC3::_VEC3
 000cf2b0 .dwarf.0013.nw4r::math::VEC3::VEC3
 000cf316 .dwarf.0007.lb_npc
@@ -2467,535 +2467,535 @@
 000cf51a .dwarf.0013._INTERIOR_RES_BOX::_INTERIOR_RES_BOX
 000cf6fb .dwarf.0013._LOBBY_W::_LOBBY_W
 000d0414 .dwarf.0007.lobby_w
-000d04be .dwarf.0006.__ct__Q34nw4r4math4VEC3Fv
+000d04be .nw4r::math::VEC3::dwarf.0006.__ct( (void))
 80004338 memcpy
 8000443c memset
-80031f58 SetSystemVcnt__Fl
-80032914 change_widemode_req__FUc
-80032924 check_change_widemode_flag__Fv
-8003292c change_widemode_req_default__Fv
-80032954 set_now_brightness__Ff
-800329c0 hbm_InitGX__Fv
-80033134 get_ScreenSize__FP8_MH_VEC2
-800331d0 ck_WideMode__Fv
-80033268 __nw__FUl
-80033320 __dl__FPv
-80034020 disp_beta_tex__FP3VecP4Vec28_GXColorP9_GXTexObj
-80034340 dbg_drawgraph_init__Fv
-80034ca0 drawSpr2TF__FUcP9fltSpr2TFUc
-80037170 push_eft_effect_heap_num__FPPQ34nw4r2ef6Effectl
-80037504 res_eft_model_create__FP6MHcharUsUl
-8003750c res_eft_model_create_light__FP6MHcharUsUll
-80037604 res_eft_UV_model_create__FP6MHcharUsUllPP9_g3d_worklUc
-80037638 res_eft_UV_model_create_name__FP6MHcharPcUllPP9_g3d_worklUc
-800377bc get_eft_res_name__FUs
-800377cc res_eft_create__FUsUsUl
-80037ecc SetRootMtxTrans__FPQ34nw4r2ef6EffectPQ34nw4r4math4VEC3
-8003814c effect_move__FPQ34nw4r2ef6Effect
-800381fc change_color_eff__FPQ34nw4r2ef6EffectPQ34nw4r4math4VEC38_GXColor
-8003828c change_paramscale_eff__FPQ34nw4r2ef6Effectf
-8003832c change_paramscale_eff_vec3__FPQ34nw4r2ef6EffectPQ34nw4r4math4VEC3
-80038de8 eftGetKeyRGB__FPUclPUcPUcPUc
-80038f30 eftGetKeyAlpha__FPUcl
-8003aac4 eft001_set_pos__FPQ34nw4r4math4VEC3UlP10_CP_VECTORUcf
-8003bbe8 eft002_set__FP4_PLWUcUcf
-8003bcc0 eft002_set_shell__FP8_SHELL_WUcfl
-8003ec14 eft004_set__FUcPQ34nw4r4math4VEC3fUlUc
-8003ec90 eft004_set_pl__FP4_PLWUcfffUl
-8003ede8 eft004_set_pl2__FP4_PLWUcUlfffUl
-80041208 eft007_set__FP4_PLWUcUcUlPQ34nw4r4math4VEC3f
-8004139c eft007_set_vec__FP4_PLWUcUcUlPQ34nw4r4math4VEC3fP10_CP_VECTOR
-80043478 eft009_set_pos__FUcPQ34nw4r4math4VEC3P10_CP_VECTORfUl
-80045ef0 eft013_set__FP4_PLWUc
-800463a0 eft013_set_dmeft_pl__FP4_PLWUcf
-800496d0 eft014_set_daihouden__FP11_ENEMY_WORKfPQ34nw4r4math4VEC3
-8004a878 eft015_set__FP8_SHELL_WUcPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3P10_CP_VECTORUc
-80051104 eft019_set__FPQ34nw4r4math4VEC3UcUc
-800516d0 eft019_set_core__FPQ34nw4r4math4VEC3UcUcff
-8005171c eft019_set_vec__FPQ34nw4r4math4VEC3P10_CP_VECTORUcUcf
-80051788 eft019_set_brethend__FPQ34nw4r4math4VEC3P10_CP_VECTORUcUcf
-80051874 eft019_set_tyakudan__FPQ34nw4r4math4VEC3P10_CP_VECTORUcUcf
-800518dc eft019_set_mazule__FUcPQ34nw4r4math4VEC3UcP10_CP_VECTORP4_PLW
-80051a68 eft019_set_subtype__FUcUcPQ34nw4r4math4VEC3UcP10_CP_VECTORlf
-80051dd0 eft019_set_ring__FPQ34nw4r4math4VEC3UcP10_CP_VECTOR
-80051e20 eft019_set_smoke__FPQ34nw4r4math4VEC3UcUcl
-80055b30 eft022_set__FPQ34nw4r4math4VEC3Uc
-80057498 eft026_set__FP4_PLWUcUlUl
-80059d68 eft028_set_koware__FUcPQ34nw4r4math4VEC3Ucl
-8005b198 eft029_set_scale__FP4_PLWUcf
-8005b3d4 eft029_set_kaihou__FP4_PLWUc
-8006140c eft033_set__FP4_PLWUcUlf
-800614f4 eft033_set_ofs__FP4_PLWUcUlPQ34nw4r4math4VEC3f
-800642a8 eft035_set__FP11_ENEMY_WORKUcPQ34nw4r4math4VEC3P10_CP_VECTORUcf
-80064400 eft035_set2__FP11_ENEMY_WORKUcPQ34nw4r4math4VEC3P10_CP_VECTORUcf
-80069c0c eft042_set2__FP11_ENEMY_WORKUcPQ34nw4r4math4VEC3P10_CP_VECTOR
-8006ce9c eft045_set__FPQ34nw4r4math4VEC3P10_CP_VECTORUcP4_PLW
-80071b68 eft050_set__FP4_PLWPQ34nw4r4math4VEC3Uc
-80072f74 eft053_get_shell_data__FP4_PLWUcPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3PQ34nw4r4math4VEC3
-800734b8 eft053_get_model_ang__FUcUc
-8008e31c em003_call_act_type_ck__FP11_ENEMY_WORK
-8008e374 em003_atama_koware_act_ck__FP11_ENEMY_WORK
-8008e480 em003_yobi_boss_em_ck__FUc
-80139698 em030_condition_ck__FP11_ENEMY_WORK
-801396b4 em030_homing_range_ck__FP11_ENEMY_WORK
-801560f8 em_parts_damage_level_get__FP11_ENEMY_WORKUc
-8015d8d8 get_enemy_data__FP11_ENEMY_WORK
-80165dd0 em_work_die_ck__FP11_ENEMY_WORK
-80165df8 em_die_ck__FP11_ENEMY_WORK
-80165e40 em_area_ck__FP11_ENEMY_WORK
-80165fd0 em_act_ck__FP11_ENEMY_WORKUcUc
-80166a18 ana_em_ck_sub__FP11_ENEMY_WORKUcPQ34nw4r4math4VEC3fUc
-80166c2c ana_em_ck__FUcPQ34nw4r4math4VEC3fUc
-80166efc shibire_em_ck_sub__FP11_ENEMY_WORKUcPQ34nw4r4math4VEC3fUc
-80167068 shibire_em_ck__FUcPQ34nw4r4math4VEC3fUc
-80168d14 em_sleep_ck__FP11_ENEMY_WORKUc
-80169aa0 em_get_mot_no__FP11_ENEMY_WORK
-80169abc em_frame_check__FP11_ENEMY_WORKUsff
-80169ac8 em_after_frame_check__FP11_ENEMY_WORKUsff
-8016a344 em_water_check__FP11_ENEMY_WORK
-8016a350 em_magma_check__FP11_ENEMY_WORK
-80171798 get_joint_wmat_em__FP11_ENEMY_WORKUlPQ34nw4r4math5MTX34
-801717a0 get_joint_wpos_em__FP11_ENEMY_WORKUlPQ34nw4r4math4VEC3
-801717a8 get_em_scale__FP11_ENEMY_WORK
-801717b8 get_em_chg_scale__FP11_ENEMY_WORK
-8017f22c senko_set__FPQ34nw4r4math4VEC3fUcs
-8017f404 kemuri_set__FPQ34nw4r4math4VEC3fUc
-80182d54 em_get_unique_work__FUsPP11_ENEMY_WORKPP16_ENEMY_MINI_WORK
-80183484 em_ride_hit_check__FPQ34nw4r4math4VEC3UcPP11_ENEMY_WORKPUlPf
-80187c48 PutPageArrow__FPUsssUsPC10_mh_ivec2_Uc
-80187f08 get_rare_color__FUc
-8018b96c chk_pointer__Fv
-8019531c PitTrapSet__FPCQ34nw4r4math4VEC3Uc
-8019ded8 pl_motion_set__Fv
-801a0c38 get_gm_daynight__Fv
-801a1008 hit_point_sphr__FPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3f
-801a3b50 GetGroundHit__FPQ34nw4r4math4VEC3UlUc
-801a3b74 GetGroundHit2__FPQ34nw4r4math4VEC3UlUcPUc
-801a4184 hit_ground_comon__FPQ34nw4r4math4VEC3UcP8LandDataPfUlUsPfPfP15_HIT_TENJO_DATA
-801a8408 findInterSection__FPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3PQ34nw4r4math4VEC3UcUlUcUsPUc
-801a8434 findInterSection2__FPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3PQ34nw4r4math4VEC3UcUlUcUsPUcP8LandData
-801a8464 findInterSection3__FPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3PQ34nw4r4math4VEC3UcUlUcUsPUcP8LandDataUc
-801b1ca8 get_hit_id__Fv
-801b2018 body_set__FP7_BODY_WP10_BODY_DATAUcUlUc
-801b2188 hit_flag_set__FP6_HIT_WUl
-801b21d8 hit_result_check__FP6_HIT_W
-801b34a8 get_item_data_ptr__Fv
-801b34b4 ItemName__FUs
-801b34d8 ItemExp__FUs
-801b354c GetItemData__FUs
-801b4234 get_lsp_data_ptr__Fv
-801b423c get_sub_lsp_data_ptr__Fv
-801b4244 get_wide_offset__FUc
-801b4308 get_lsp_data__FUsP10_mh_ivec2_
-801b45d4 draw_sprite__FRC10_SPR_DATA_PC10_mh_ivec2_
-801b4728 draw_sprite_idx__FUsPC10_mh_ivec2_
-801b4834 draw_sprite_ary__FPCUsPC10_mh_ivec2_
-801b4da8 draw_sprite_anim_idx__FUsUsPC10_mh_ivec2_
-801b4e78 draw_sprite_anim_ary__FPCUsUsPC10_mh_ivec2_
-801b4f68 put_button_icon_tex__FsssUlUcUcUs
-801b50c8 put_button_icon__FsssUlUcUc
-801b5414 draw_itemicon_item_id__FRC10_SPR_DATA_UsPC10_mh_ivec2_
-801b5668 put_itemicon_tex__FsssUlUcUs
-801b5a78 draw_equipicon__FRC10_SPR_DATA_P6_EQUIPPC10_mh_ivec2_
-801b5df4 draw_weaponicon_idx__FUsUcUlPC10_mh_ivec2_
-801b62a8 draw_monstericon_idx__FUsUcPC10_mh_ivec2_
-801b64d0 draw_number_idx__FUsUcUlPC10_mh_ivec2_
-801b7438 draw_font_order__FPC10_mh_ivec2_ssUlPScUlPC10_mh_ivec2_
-801b751c draw_font__FRC10_SPR_DATA_PScUlPC10_mh_ivec2_
-801b7600 draw_font_idx__FUsPScUlPC10_mh_ivec2_
-801b7e68 color_mult__FUlUl
-801b9640 put_frame_sub_tex__FssUsUsUlUsUsUs
-801b9cac get_menu_tbl_ptr__Fv
-801b9cb8 get_menu_lsp_tbl__FUs
-801bcd08 put_menu_cursor__FPUsUsPC10_mh_ivec2_
-801c0350 Put_status_equip_status_block__FP4_PLWP6_EQUIPUsP10_mh_ivec2_
-801c0660 Put_status_equip_element_block__FP4_PLWP6_EQUIPUsP10_mh_ivec2_
-801c28b8 Put_status_invork_skill_sep__FP4_PLW10_mh_ivec2_Sc
-801c387c Put_equip_dtl_syo_item1__FP6_EQUIPP6_EQUIPbbUc10_mh_ivec2_Us
-801c3db8 Put_equip_dtl_basis_sword_ken1__FP4_PLWP12_EQUIP_INDEXUsP10_mh_ivec2_Uc
-801c476c Put_equip_dtl_basis_sword_ken2__FP4_PLWP12_EQUIP_INDEXUsP10_mh_ivec2_Uc
-801c487c Put_equip_dtl_basis_sword_colorX__FP4_PLWP12_EQUIP_INDEXUsUsP10_mh_ivec2_Uc
-801c4f4c Put_equip_dtl_basis_bowgun_gan1__FP4_PLWP12_EQUIP_INDEXUsUcP10_mh_ivec2_
-801c5424 Put_equip_dtl_basis_bowgun_gan2__FP4_PLWP12_EQUIP_INDEXUsUcP10_mh_ivec2_
-801c5f8c Put_equip_dtl_basis_bowgun_gan_lv__FP4_PLWP12_EQUIP_INDEXUsUcP10_mh_ivec2_
-801d4724 Set_equip_column_arrangement__FP4_PLWP12_EQUIP_INDEXP6_EQUIP
-801dfc7c put_frame_dialog__FssssUlUl
-801e07d4 put_message__FPScsUl
-801e0d78 put_message_sys__FPScUlUlUl
-801e0e20 put_message_sys_ok_button__Fv
-801e23c4 GetMenuFontColor__Fbbbb
-801e2430 GetMenuFontColorRed__Fbbbb
-801e2480 GetMenuIconColor__Fbbbb
-801e4664 yure_move__Fv
-801f3bd4 multi_box_rem_exist_ck__FP18_multi_result_work
-801f3dcc multi_box_cursor_item_get__FP18_multi_result_work
-801f97fc quest_init__FUc
-8020cbd8 get_pop_dat_ptr__Fv
-802182e0 LbCheckKujiraEvent__Fv
-8023a4b4 get_change_hair_color__FUcPUlPUsPsPs
-8023a510 get_change_inner_color__FUcPUlPUsPsPs
-80244460 get_talk_npc_data_ptr__Fv
-80245dd4 lb_npc_Get_motion_no__FP7_LB_NPC
-8024618c lb_npc_area_ck__FP7_LB_NPCUc
-8025a1f0 LbStr__FUcUs
-8025ea40 LbPutAnaPageArrow__FUsUsssUsP10_mh_ivec2_bb
-802878cc bgm_stop_all__Fv
-80287afc get_charmake_param__FUcPv
-80287d34 set_charmake_r_no__FUcUc
-8028800c charmake_init__Fv
-8028903c charmake_move__Fv
-8028a780 set_demo_equip_data__FP4_PLW
-8028a7f4 setVector3__FPQ34nw4r4math4VEC3fff
-8028a804 vec_to_mh_vec3__FPQ34nw4r4math4VEC3P3Vec
-8028a874 rotMatrixX__FUlPQ34nw4r4math5MTX34
-8028a954 rotMatrixY__FUlPQ34nw4r4math5MTX34
-8028aa34 rotMatrixZ__FUlPQ34nw4r4math5MTX34
-8028ab14 rotLocalMatX__FUlPQ34nw4r4math5MTX34
-8028abac rotLocalMatY__FUlPQ34nw4r4math5MTX34
-8028ac44 rotLocalMatZ__FUlPQ34nw4r4math5MTX34
-8028aef4 scaleMat34W__FPQ34nw4r4math5MTX34PQ34nw4r4math4VEC3
-8028af94 setScaleMat34W__FPQ34nw4r4math5MTX34PQ34nw4r4math4VEC3
-8028b0c4 cpSetRotMatrix__FP10_CP_VECTORPQ34nw4r4math5MTX34
-8028b3b8 cpSetRotMatrixZXY__FP10_CP_VECTORPQ34nw4r4math5MTX34
-8028b5d8 atan2ang__Fff
-8028b678 calcVecAng2__FPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3
-8028b6dc calcVecAng3__FPQ34nw4r4math4VEC3
-8028b788 calcVecAngX__FPQ34nw4r4math4VEC3
-8028b944 calcVecAngXY__FPQ34nw4r4math4VEC3PUlPUl
-8028bbbc calcDistanceSqXZ__FPQ34nw4r4math4VEC3PQ34nw4r4math4VEC3
-8028bc54 rotVecX__FPQ34nw4r4math4VEC3Ul
-8028bd04 rotVecY__FPQ34nw4r4math4VEC3Ul
-8028bdb8 rotVecZ__FPQ34nw4r4math4VEC3Ul
-8028be68 rotVecXYZ__FPQ34nw4r4math4VEC3P10_CP_VECTOR
-8028bfd0 rotVecZXY__FPQ34nw4r4math4VEC3P10_CP_VECTOR
-8028c138 getDirVec__FP10_CP_VECTOR
-8028c3a8 mulVecMat__FPQ34nw4r4math4VEC3PQ34nw4r4math5MTX34
-8028c3e4 mulVecMatAddTrans__FPQ34nw4r4math4VEC3PQ34nw4r4math5MTX34
-8028c5b4 copyMat33__FPQ34nw4r4math5MTX34PQ34nw4r4math5MTX34
-8028d250 getKeyData__FPff
-8028d344 getKeyData3__FPffPfPfPf
-8028de2c draw_line_2d__FP14_DRAW_POINT_2DP14_DRAW_POINT_2D
-8028df94 draw_rect_2d_tex__FP17_DRAW_RECT_2D_TEXPQ34nw4r3g3d6ResTexPQ34nw4r3g3d7ResPltt
-8028e274 drawshape_init__FUcUs
-8028e2c0 drawshape_set_vertex_array__FPC10_mh_ivec2_
-8028e2dc drawshape_set_vertex_rect__Fssss
-8028e344 drawshape_set_vertex_rect__Fffff
-8028e390 drawshape_set_flat_color__FUl
-8028e40c drawshape_set_texture_array__FUsPC11_mh_tex_uv_
-8028e57c drawshape_set_texture_rect__FUsPC11_mh_tex_uv_PC11_mh_tex_uv_
-8028e9b0 drawshape_set_scale__FPC8_MH_VEC2PC8_MH_VEC2
-8028f91c drawshape_exec__Fv
-802904d8 itemicon_tex_load__Fv
-802906d8 gpframe_tex_load__Fv
-802908e4 menu_tex_load__Fv
-802911d4 village_tex_load__Fv
-80291768 set_arena_idx_switch__FUc
-8029179c filter_reset__Fv
-80291904 setFilterPrio__FUc
-80294294 GlareFilter_on__Fv
-80294990 fade_set__Fll
-80294a30 fade_reset__Fl
-80294b78 get_fade_stat__Fl
-80295204 flfntSetSize__Fll
-80295228 flfntGetSizeX__Fv
-8029524c flfntGetSizeY__Fv
-80295270 flfntSetPos__Fll
-80295294 flfntGetPosX__Fv
-802952b8 flfntGetPosY__Fv
-802952dc flfntSetColor__FUl
-80295348 flfntPrintf__FPce
-802953f8 flfntFontPuts__FPc
-80295af0 flfntFlush__Fv
-80295ef8 font_print__FPSce
-8029617c font_locate__Fss
-80296198 font_set_size__Fss
-802961a4 font_print_ex__FsssPSce
-80296338 font_flush__Fv
-8029633c msg_str_gen__FPcPc
-8029846c file_loading_ck__FPcPl
-802984e8 load_file_req__FPcUllUllPUl
-802986c8 load_file__FPcUll
-8029a150 get_rcSwitch_on__Fl
-8029a1a8 get_rcSwitch_rept__Fl
-8029a6d8 get_ControlType__Fl
-8029acfc set_menu_key_ad_flag__FUcb
-8029b790 initKPAD__Fv
-8029b7c4 shutdownKPAD__Fv
-8029b7f8 setWpadCallback__Fv
-8029da7c quest_snd_wk_init__Fv
-8029e0a8 get_chacha_kamen_bank__Fv
-8029e0b0 get_chacha_dance1_bank__Fv
-8029e0b8 get_chacha_dance2_bank__Fv
-8029ec90 title_snd_init__Fv
-8029f020 srt_ready_ck__Fl
-8029f144 system_se_load__Fv
-8029ff30 get_em_se_bank__FUc
-802a04f0 title_se_load__Fv
-802a05b0 demo_bgm_load__FUc
-802a0a74 quest_bgm_load__FUcUc
-802a0db4 movie_bgm_load__Fv
-802a0e34 title_bgm_load__Fv
-802a145c set_SE_volume__FUc
-802a14a8 set_BGM_volume__FUc
-802a175c setSoftresetFlag__Fb
-802a1a48 prim_init_all__Fv
-802a24a8 move__6MHcharFUs
-802a259c move2__6MHcharFPQ34nw4r4math5MTX34Us
-802a278c setScaleAll__6MHcharFf
-802a28c4 get_joint_wpos__6MHcharFUlPQ34nw4r4math4VEC3
-802a2a98 get_joint_num__6MHcharFv
-802a2aa8 frame_init__6MHcharFlUsfUlf
-802a4ab4 setMatColor__6MHcharFUl12_GXChannelID8_GXColorb
-802a4d18 getMatColor__6MHcharFUl12_GXChannelIDP8_GXColor
-802a4da8 setAmbColor__6MHcharFUl12_GXChannelID8_GXColorb
-802a4ee4 getTevKColor__6MHcharFUl14_GXTevKColorIDP8_GXColor
-802a4f64 setTevKColor__6MHcharFUl14_GXTevKColorIDP8_GXColor
-802a518c setMatAlphaBlendMode__6MHcharFUl12_GXBlendMode14_GXBlendFactor14_GXBlendFactor10_GXLogicOp
-802a524c setVisibility__6MHcharFUlb
-802a5e48 Tsk_Change__FPvs
-802a5f1c GameModeExec__Fv
-802a6070 VsGameModeExec__Fv
-802a60c4 TestModeExec__Fv
-802a60cc ArenaSelExec__Fv
-802aafdc push_g3d_wk__FP9_g3d_work
-802acd00 RESmemAlloc__FUl
-802acda8 RESmemFree__FPv
-802acfcc pull_res_mem__FPcUll
-802ad1c4 push_res_mem__Fl
-802ad270 getResMemAdrs__Fl
-802ad464 ckResourceName__FPc
-802ad6f4 nwAddResource__FPcPv
-802ada00 nwDelResource__Fl
-802ade40 nwWorkInitialize__Fv
-802ae0c0 nwMoveStart__Fv
-802ae124 nwMoveEnd__Fv
-802af1d4 set_blendmode__FUcUcUc
-802af2e8 set_zmode__FbUcb
-802b1e60 se_req_pos_ps__FP5_se_wllPQ34nw4r4math4VEC3
-802b207c se_req_frame_set__FP5_se_wllll
-802b25d8 se_req_frame_set_sp__FP5_se_wlllll
-802b2994 se_req_frame_set_aifs__FP5_se_wllll
-802b2ae8 se_req_frame_set_npc__FP5_se_wP7_LB_NPClll
-802b2c40 SE_Code_Make__Flsls
-802b30f8 utiagebom_SE_req__FPQ34nw4r4math4VEC3
-802b4050 paralyzeTrap_SE_req__FUcUcPQ34nw4r4math4VEC3
-802b4400 gun_kakusan_hitSE_req__FP4_PLWPQ34nw4r4math4VEC3Uc
-802b4c8c sysSE_req__Fl
-802b5468 titleSE_req__Fl
-802b5fe8 bomb_tenka_se_req__FPQ34nw4r4math4VEC3
-802b6054 bomb_doukasen_se_req__FPQ34nw4r4math4VEC3
-802b6178 taru_put_se_req__FPQ34nw4r4math4VEC3l
-802b620c kemuri_hit_se_req__FPQ34nw4r4math4VEC3
-802b621c koyasi_hit_se_req__FPQ34nw4r4math4VEC3
-802b6298 ana_set_se_req__FPQ34nw4r4math4VEC3
-802b62a8 ana_eff_se_req__FPQ34nw4r4math4VEC3
-802b6344 em015_denki_eft_se_req__FP5_se_wPQ34nw4r4math4VEC3Uc
-802b63d0 em015_denkiball_se_req__FP5_se_wllPQ34nw4r4math4VEC3
-802b6c7c ainpc_boomerang_se_req__FP5_se_wPQ34nw4r4math4VEC3
-802b74b4 st_ice_se_req__FPQ34nw4r4math4VEC3
-802b74c4 st_ice_break_se_req__FPQ34nw4r4math4VEC3
-802b7bb0 ryugeki_shot_se_req__FP4_PLWPQ34nw4r4math4VEC3Uc
-802b7ca4 ryugeki_fire_se_req__FP4_PLWPQ34nw4r4math4VEC3UcUc
-802b7ea0 map_se_req__FUcPQ34nw4r4math4VEC3
-802b80ec shell_se_req2__FP5_se_wPQ34nw4r4math7CAPSULEUcUl
-802b8708 shell_se_req__FP5_se_wPQ34nw4r4math4VEC3UcUl
-802bc314 ran_suu__Fl
-802bc3c8 system_w_clr__Fv
-802bc3f0 all_reset__Fv
-802bc6cc PlayMode_ck__Fv
-802bc6ec GameMode_set__FUc
-802bc704 PlayMode_set__FUc
-802bcc48 work_mem_alloc__FUl
-802bccb4 work_mem_free__FPv
-802bcf94 get_move_work_adrs__FUc
-802bcfd0 get_move_work_max__FUc
-802bd008 set_move_work_max__FUcl
-802bd020 create_move_work__Fl
-802bdac0 TPLtexLoad__FPvP9_tex_info
-802be15c loading_disp_set__FUcUc
-802befd0 hbm_disable__Fv
-802befe4 hbm_enable__Fv
-802bfbc4 get_str_tbl_ptr__Fv
-802bfbd0 get_str_tbl__Fl
-802bfd6c subTransSetPrio__FUcUllPUl
-802bfed0 subTransSet__FUllPUl
-802c57d4 get_qResult_work__Fv
-802c57e0 get_vsUser_work__Fl
-802c5810 clear_FqResult_work__Fv
-802c5824 clear_qResult_work__Fv
-802c7368 gallery_open__FUc
-802c73e4 gallery_def_set__Fv
-802c8100 set_mydata2vs__FUcUc
-802c8534 ck_mydata_vs__FP13_vs_user_dataP13_vs_user_data
-802c85f4 wpad_memory_access_init__FUcUc
-802c8638 write_wpad_memory__FUcUc
-802c8a10 read_wpad_memory__FP13_vs_user_dataUc
-802c9050 wii_sysmsg_gen__FlPcl
-802c9268 disp_beta__FP3VecP4Vec28_GXColor
-802ca79c set_option_mode__Fv
-802ca97c ck_option_cfg__FUc
-802cab20 set_option_cfg__FUcUc
-802caba8 get_arena_cfg__FUcUc
-802cac20 get_option_cfg__FUc
-802cadc4 set_def_option__Fv
-802db278 ai_area_ck__FP8_AINPC_W
-802db4b4 ai_get_motion_no__FP8_AINPC_W
-802db668 get_joint_wpos_ai__FP8_AINPC_WUlPQ34nw4r4math4VEC3
-802e01b8 ai_skill_ck__FP8_AINPC_WUc
-802e0a28 ai_taru_move_ck__FP8_AINPC_W
-802e0a48 ai_taru_range_ck__FP8_AINPC_W
-802e12ac ai_torch_ck__FP8_AINPC_W
-802e1564 ai_demo_stop_ck__Fv
-802e2c6c get_eq_data_ptr__Fv
-802e3408 EnableChangeColor__FP6_EQUIP
-802e36fc GetEquipName__FUcUs
-802e3d0c Get_pl_type__FP6_EQUIPP6_EQUIP
-802e3f24 Gunner_opt_ok_ck__FP6_EQUIP
-802e4e8c Get_equip_rare__FP6_EQUIP
-80335634 set_max_player__Fl
-80335adc init_player_work__Fv
-80335df4 player_control_move__Fv
-80336394 player_init_data_load__Fv
-803363ac player_move_start_ck__Fv
-80336420 player_move_start__Fl
-80336538 player_control_release__Fv
-803366e0 parts_mdl_release_all__FP4_PLW
-80337afc set_com_motion_type__FUc
-803380a8 Pl_chr_set_attr__FP4_PLWUsllUl
-80338420 Pl_chr_setX__FP4_PLWUsll
-803385c8 Get_motion_no__FP4_PLW
-803385d4 Pl_frame_check__FP4_PLWUlff
-80338648 pl_get_joint_wpos__FP4_PLWUlPQ34nw4r4math4VEC3
-8033dba4 Pl_master_ck__FP4_PLW
-8033dc3c Pl_act_ck__FP4_PLWUcUs
-803400d0 Pl_Skill_ck__FP4_PLWUs
-80341c10 Pl_cat_skill_ck__FP4_PLWUs
-803436cc Pl_critical_get__FP4_PLW
-80344b30 Pl_decide_mot_get__FPUsPUs
-803470f0 Pl_attack_set_sub__FP4_PLWP9_HIT_DATAP6_HIT_WUs
-8034844c Pl_suimen_ck__FP4_PLW
-80348f1c Pl_condition_ck__FP4_PLWUl
-80348f34 Pl_dm_condition_ck__FP4_PLWUl
-803498d8 Get_Shell_rate_adj__FP4_PLWUc
-80349984 Get_Shell_bure_type__FP4_PLWUc
-8034a4ac Pl_bari_ck__FP4_PLWl
-8034d314 Pl_get_gunner_pos__FP4_PLWPQ34nw4r4math4VEC3l
-8034d524 Pl_get_gunner_vec__FP4_PLWP10_CP_VECTOR
-8034d6b0 Pl_zanzo_set__FP4_PLWlUc
-8034ead0 Pl_atk_act_flag_ck__FP4_PLWUc
-80361f60 pull_shell_work__FUl
-8036205c push_shell_work__FP8_SHELL_W
-80362174 pull_shell_chara_heap_num__FPP6MHcharUl
-803622e0 push_shell_chara_heap_num__FPP6MHcharUl
-8036265c res_eft_create_shell__FUlUl
-8036270c res_shell_model_create__FP6MHcharUlUl
-80362744 shell_check_master_beflag__FP8_SHELL_W
-803627bc shell_set_prim__FP8_SHELL_WPvUc
-803628bc shell_attack_set__FP8_SHELL_WP9_HIT_DATAPP14_HIT_SIZE_DATAlUcUc
-80362a8c shell_hit_cont__FP8_SHELL_W
-80362a98 shell_erase_hit__FP8_SHELL_W
-80362aa4 shell_erase_body__FP8_SHELL_W
-80362ab0 shell_master_set__FP8_SHELL_WPvUc
-80362af0 shell_draw_set__FP8_SHELL_WP6MHchar
-80362bcc shell_draw_set2__FP8_SHELL_WP6MHcharPQ34nw4r4math5MTX34
-80362cac shell_draw_set_eff__FP8_SHELL_WPQ34nw4r2ef6Effect
-80362d28 shell_rate_add__FP8_SHELL_W
-80362d4c shell_rate_add_g__FP8_SHELL_W
-80362d8c set_shell_scr_id__FP8_SHELL_WUcUc
-80362d98 get_shell_in_water__FP8_SHELL_W
-80362f5c get_shell_serial_sw__FP8_SHELL_W
-8036316c serial_set__FP8_SHELL_WUcUc
-80363250 serial_st_change_sw__FP8_SHELL_WUc
-803635f8 serial_st_check_sw__FP8_SHELL_WUc
-80363700 serial_erase__FP8_SHELL_W
-80363928 get_niku_info_sw__FP8_SHELL_W
-80363b38 niku_set__FP8_SHELL_WUcUc
-80363bb0 niku_st_change_sw__FP8_SHELL_WUc
-8036408c niku_erase__FP8_SHELL_W
-8036ce5c set_stream_main_vol_flag__FUcUc
-8036ce68 set_str_bgm_main_vol__Ff
-8036ce70 set_str_se_main_vol__Ff
-8036cfec StreamStopAll__Fv
-8036d220 PlayStream__FUlUl
-8036d3c0 GetStreamStatus__FUl
-80375db4 get_current_view_mtx__Fv
-80375e2c get_camera_pos__Fv
-80375f54 get_camera_direction__Fv
-80376698 set_quake_sub__FUcPQ34nw4r4math4VEC3
-803774f0 light_init__Fv
-8037a620 light_move__Fv
-8037a66c set_amblight__FUc8_GXColor
-8037a878 make_dir_light2__FlPQ34nw4r4math4VEC38_GXColorl
-8037b2e8 get_stg_w__Fv
-8037b9f4 get_stg_weapon_work__FP4_PLWPl
-8037d328 get_now_mapno__Fv
-8037d338 get_now_areano__Fv
-8037d888 get_worldworld_pos__FPQ34nw4r4math4VEC3Uc
-8037dae4 get_stg_eft_col__FUcUc
-80385860 qn_get_motion_no__FP7_QNPC_W
-80389370 dl_acdata_to_ar_eqdata__FP14_arena_eq_dataUc
-8038cd6c event_demo_ck__Fv
-8038cda8 get_demo_no__Fv
-80390620 get_qnpc_talk_data_ptr__Fv
-80391fc0 lb_server_sel_trans__FPvUc
-8039e148 get_network_sub_error_msg__Fv
-8039ee78 getOnlineSupportCode__Fv
-803a02d8 MH3DispErrorString__FssPSc
-803a0484 enc_convt_utf8_utf16__FPUsPlPCUcPl
-803a0488 enc_convt_uni2sjis__FPUcPlPCUsPl
-803a4768 MH3GetSessionErrorCode__Fv
-803dd340 setTermsBuffer__12PatInterfaceFPScUl
-803dd350 setMaintenanceBuffer__12PatInterfaceFPScUl
-803dd374 setAnnounceBuffer__12PatInterfaceFPScUl
-803dd398 setNoChargeBuffer__12PatInterfaceFPScUl
-803dd404 setPatchMessageBuffer__12PatInterfaceFPScUl
-803f6aec reflectInit__18NetworkWiiMediatorFPFllllPvPv_vPv
-803f6b60 reflectStart__18NetworkWiiMediatorFv
-803f6b74 reflectStop__18NetworkWiiMediatorFv
-803f6b88 reflectFinal__18NetworkWiiMediatorFv
-803f6bd4 getOpeningProgress__18NetworkWiiMediatorFv
-803f6c94 getOpeningTermsVersion__18NetworkWiiMediatorFv
-803f6cac getAccountChargeSddlibTime__18NetworkWiiMediatorFv
-803f6de8 isOpeningMaintenanceTerms__18NetworkWiiMediatorFv
-803f6e00 isOpeningMaintenanceServer__18NetworkWiiMediatorFv
-803f6e30 isOpeningAnnounce__18NetworkWiiMediatorFv
-803f7110 getAccountBan__18NetworkWiiMediatorFPcUl
-803f7188 getAccountNeedToCharge__18NetworkWiiMediatorFPcUl
-803f7200 getAccountWarning__18NetworkWiiMediatorFPcUl
-803f7278 getAccountWaitQueue__18NetworkWiiMediatorFPcUl
-803f73a8 getReflectPage__18NetworkWiiMediatorFUc
-803f73bc agreeReflect__18NetworkWiiMediatorFv
-803f7f78 connectECServer__18NetworkWiiMediatorFv
-803f7f8c getECTicketList__18NetworkWiiMediatorFl
-803f7fa0 purchaseEC__18NetworkWiiMediatorFl
-803f7fb4 isECConfig__18NetworkWiiMediatorFv
-803f7fcc isECTicket__18NetworkWiiMediatorFv
-803f7ff8 getECBalance__18NetworkWiiMediatorFP12NetworkError
-803f8010 isECPCEnable__18NetworkWiiMediatorFv
-803f8028 setECPCPassword__18NetworkWiiMediatorFPc
-803f8040 launchECShoppingManual__18NetworkWiiMediatorFv
-803f80a4 getECPatch__18NetworkWiiMediatorFv
-8040b558 Movie_open__F10MovieIndex
-8040b810 Movie_draw_sub__Fv
-8040b8f4 Movie_close__Fv
-8040b934 Check_movie_finish__Fv
-8040b978 Movie_cut__Fv
-804147e8 createSystemFile_init__Fv
-804149b8 createSystemFile__Fv
-80414d6c game_save_wait__Fv
-80414e64 createDataFile_init__Flll
-80415184 createDataFile__FUc
-80416558 readDataFile_init__Fll
-80416868 readDataFile__Fv
-80416b50 setPlayerSave2Userdata__FUc
-804176f4 chg_nand_err2msgcode__Fv
-8041b0a8 GalleryDemo_task__FP4_tcb
-8041c01c get_kbd_setup_type__Fv
-8041c048 kbd_exit__Fv
-8041c0c4 kbd_init__FUc
-8041ccec set_kbd_param__FPcUl
-8041cda4 kbd_open__FUc
-8041d264 kbd_move__Fv
+80031f58 SetSystemVcnt(long)
+80032914 change_widemode_req(unsigned char)
+80032924 check_change_widemode_flag(void)
+8003292c change_widemode_req_default(void)
+80032954 set_now_brightness(float)
+800329c0 hbm_InitGX(void)
+80033134 get_ScreenSize(_MH_VEC2 *)
+800331d0 ck_WideMode(void)
+80033268 operator new(unsigned long)
+80033320 operator delete(void *)
+80034020 disp_beta_tex(Vec *, Vec2 *, _GXColor, _GXTexObj *)
+80034340 dbg_drawgraph_init(void)
+80034ca0 drawSpr2TF(unsigned char, fltSpr2TF *, unsigned char)
+80037170 push_eft_effect_heap_num(nw4r::ef::Effect **, long)
+80037504 res_eft_model_create(MHchar *, unsigned short, unsigned long)
+8003750c res_eft_model_create_light(MHchar *, unsigned short, unsigned long, long)
+80037604 res_eft_UV_model_create(MHchar *, unsigned short, unsigned long, long, _g3d_work **, long, unsigned char)
+80037638 res_eft_UV_model_create_name(MHchar *, char *, unsigned long, long, _g3d_work **, long, unsigned char)
+800377bc get_eft_res_name(unsigned short)
+800377cc res_eft_create(unsigned short, unsigned short, unsigned long)
+80037ecc SetRootMtxTrans(nw4r::ef::Effect *, nw4r::math::VEC3 *)
+8003814c effect_move(nw4r::ef::Effect *)
+800381fc change_color_eff(nw4r::ef::Effect *, nw4r::math::VEC3 *, _GXColor)
+8003828c change_paramscale_eff(nw4r::ef::Effect *, float)
+8003832c change_paramscale_eff_vec3(nw4r::ef::Effect *, nw4r::math::VEC3 *)
+80038de8 eftGetKeyRGB(unsigned char *, long, unsigned char *, unsigned char *, unsigned char *)
+80038f30 eftGetKeyAlpha(unsigned char *, long)
+8003aac4 eft001_set_pos(nw4r::math::VEC3 *, unsigned long, _CP_VECTOR *, unsigned char, float)
+8003bbe8 eft002_set(_PLW *, unsigned char, unsigned char, float)
+8003bcc0 eft002_set_shell(_SHELL_W *, unsigned char, float, long)
+8003ec14 eft004_set(unsigned char, nw4r::math::VEC3 *, float, unsigned long, unsigned char)
+8003ec90 eft004_set_pl(_PLW *, unsigned char, float, float, float, unsigned long)
+8003ede8 eft004_set_pl2(_PLW *, unsigned char, unsigned long, float, float, float, unsigned long)
+80041208 eft007_set(_PLW *, unsigned char, unsigned char, unsigned long, nw4r::math::VEC3 *, float)
+8004139c eft007_set_vec(_PLW *, unsigned char, unsigned char, unsigned long, nw4r::math::VEC3 *, float, _CP_VECTOR *)
+80043478 eft009_set_pos(unsigned char, nw4r::math::VEC3 *, _CP_VECTOR *, float, unsigned long)
+80045ef0 eft013_set(_PLW *, unsigned char)
+800463a0 eft013_set_dmeft_pl(_PLW *, unsigned char, float)
+800496d0 eft014_set_daihouden(_ENEMY_WORK *, float, nw4r::math::VEC3 *)
+8004a878 eft015_set(_SHELL_W *, unsigned char, nw4r::math::VEC3 *, nw4r::math::VEC3 *, _CP_VECTOR *, unsigned char)
+80051104 eft019_set(nw4r::math::VEC3 *, unsigned char, unsigned char)
+800516d0 eft019_set_core(nw4r::math::VEC3 *, unsigned char, unsigned char, float, float)
+8005171c eft019_set_vec(nw4r::math::VEC3 *, _CP_VECTOR *, unsigned char, unsigned char, float)
+80051788 eft019_set_brethend(nw4r::math::VEC3 *, _CP_VECTOR *, unsigned char, unsigned char, float)
+80051874 eft019_set_tyakudan(nw4r::math::VEC3 *, _CP_VECTOR *, unsigned char, unsigned char, float)
+800518dc eft019_set_mazule(unsigned char, nw4r::math::VEC3 *, unsigned char, _CP_VECTOR *, _PLW *)
+80051a68 eft019_set_subtype(unsigned char, unsigned char, nw4r::math::VEC3 *, unsigned char, _CP_VECTOR *, long, float)
+80051dd0 eft019_set_ring(nw4r::math::VEC3 *, unsigned char, _CP_VECTOR *)
+80051e20 eft019_set_smoke(nw4r::math::VEC3 *, unsigned char, unsigned char, long)
+80055b30 eft022_set(nw4r::math::VEC3 *, unsigned char)
+80057498 eft026_set(_PLW *, unsigned char, unsigned long, unsigned long)
+80059d68 eft028_set_koware(unsigned char, nw4r::math::VEC3 *, unsigned char, long)
+8005b198 eft029_set_scale(_PLW *, unsigned char, float)
+8005b3d4 eft029_set_kaihou(_PLW *, unsigned char)
+8006140c eft033_set(_PLW *, unsigned char, unsigned long, float)
+800614f4 eft033_set_ofs(_PLW *, unsigned char, unsigned long, nw4r::math::VEC3 *, float)
+800642a8 eft035_set(_ENEMY_WORK *, unsigned char, nw4r::math::VEC3 *, _CP_VECTOR *, unsigned char, float)
+80064400 eft035_set2(_ENEMY_WORK *, unsigned char, nw4r::math::VEC3 *, _CP_VECTOR *, unsigned char, float)
+80069c0c eft042_set2(_ENEMY_WORK *, unsigned char, nw4r::math::VEC3 *, _CP_VECTOR *)
+8006ce9c eft045_set(nw4r::math::VEC3 *, _CP_VECTOR *, unsigned char, _PLW *)
+80071b68 eft050_set(_PLW *, nw4r::math::VEC3 *, unsigned char)
+80072f74 eft053_get_shell_data(_PLW *, unsigned char, nw4r::math::VEC3 *, nw4r::math::VEC3 *, nw4r::math::VEC3 *)
+800734b8 eft053_get_model_ang(unsigned char, unsigned char)
+8008e31c em003_call_act_type_ck(_ENEMY_WORK *)
+8008e374 em003_atama_koware_act_ck(_ENEMY_WORK *)
+8008e480 em003_yobi_boss_em_ck(unsigned char)
+80139698 em030_condition_ck(_ENEMY_WORK *)
+801396b4 em030_homing_range_ck(_ENEMY_WORK *)
+801560f8 em_parts_damage_level_get(_ENEMY_WORK *, unsigned char)
+8015d8d8 get_enemy_data(_ENEMY_WORK *)
+80165dd0 em_work_die_ck(_ENEMY_WORK *)
+80165df8 em_die_ck(_ENEMY_WORK *)
+80165e40 em_area_ck(_ENEMY_WORK *)
+80165fd0 em_act_ck(_ENEMY_WORK *, unsigned char, unsigned char)
+80166a18 ana_em_ck_sub(_ENEMY_WORK *, unsigned char, nw4r::math::VEC3 *, float, unsigned char)
+80166c2c ana_em_ck(unsigned char, nw4r::math::VEC3 *, float, unsigned char)
+80166efc shibire_em_ck_sub(_ENEMY_WORK *, unsigned char, nw4r::math::VEC3 *, float, unsigned char)
+80167068 shibire_em_ck(unsigned char, nw4r::math::VEC3 *, float, unsigned char)
+80168d14 em_sleep_ck(_ENEMY_WORK *, unsigned char)
+80169aa0 em_get_mot_no(_ENEMY_WORK *)
+80169abc em_frame_check(_ENEMY_WORK *, unsigned short, float, float)
+80169ac8 em_after_frame_check(_ENEMY_WORK *, unsigned short, float, float)
+8016a344 em_water_check(_ENEMY_WORK *)
+8016a350 em_magma_check(_ENEMY_WORK *)
+80171798 get_joint_wmat_em(_ENEMY_WORK *, unsigned long, nw4r::math::MTX34 *)
+801717a0 get_joint_wpos_em(_ENEMY_WORK *, unsigned long, nw4r::math::VEC3 *)
+801717a8 get_em_scale(_ENEMY_WORK *)
+801717b8 get_em_chg_scale(_ENEMY_WORK *)
+8017f22c senko_set(nw4r::math::VEC3 *, float, unsigned char, short)
+8017f404 kemuri_set(nw4r::math::VEC3 *, float, unsigned char)
+80182d54 em_get_unique_work(unsigned short, _ENEMY_WORK **, _ENEMY_MINI_WORK **)
+80183484 em_ride_hit_check(nw4r::math::VEC3 *, unsigned char, _ENEMY_WORK **, unsigned long *, float *)
+80187c48 PutPageArrow(unsigned short *, short, short, unsigned short, _mh_ivec2_ const *, unsigned char)
+80187f08 get_rare_color(unsigned char)
+8018b96c chk_pointer(void)
+8019531c PitTrapSet(nw4r::math::VEC3 const *, unsigned char)
+8019ded8 pl_motion_set(void)
+801a0c38 get_gm_daynight(void)
+801a1008 hit_point_sphr(nw4r::math::VEC3 *, nw4r::math::VEC3 *, float)
+801a3b50 GetGroundHit(nw4r::math::VEC3 *, unsigned long, unsigned char)
+801a3b74 GetGroundHit2(nw4r::math::VEC3 *, unsigned long, unsigned char, unsigned char *)
+801a4184 hit_ground_comon(nw4r::math::VEC3 *, unsigned char, LandData *, float *, unsigned long, unsigned short, float *, float *, _HIT_TENJO_DATA *)
+801a8408 findInterSection(nw4r::math::VEC3 *, nw4r::math::VEC3 *, nw4r::math::VEC3 *, unsigned char, unsigned long, unsigned char, unsigned short, unsigned char *)
+801a8434 findInterSection2(nw4r::math::VEC3 *, nw4r::math::VEC3 *, nw4r::math::VEC3 *, unsigned char, unsigned long, unsigned char, unsigned short, unsigned char *, LandData *)
+801a8464 findInterSection3(nw4r::math::VEC3 *, nw4r::math::VEC3 *, nw4r::math::VEC3 *, unsigned char, unsigned long, unsigned char, unsigned short, unsigned char *, LandData *, unsigned char)
+801b1ca8 get_hit_id(void)
+801b2018 body_set(_BODY_W *, _BODY_DATA *, unsigned char, unsigned long, unsigned char)
+801b2188 hit_flag_set(_HIT_W *, unsigned long)
+801b21d8 hit_result_check(_HIT_W *)
+801b34a8 get_item_data_ptr(void)
+801b34b4 ItemName(unsigned short)
+801b34d8 ItemExp(unsigned short)
+801b354c GetItemData(unsigned short)
+801b4234 get_lsp_data_ptr(void)
+801b423c get_sub_lsp_data_ptr(void)
+801b4244 get_wide_offset(unsigned char)
+801b4308 get_lsp_data(unsigned short, _mh_ivec2_ *)
+801b45d4 draw_sprite(_SPR_DATA_ const &, _mh_ivec2_ const *)
+801b4728 draw_sprite_idx(unsigned short, _mh_ivec2_ const *)
+801b4834 draw_sprite_ary(unsigned short const *, _mh_ivec2_ const *)
+801b4da8 draw_sprite_anim_idx(unsigned short, unsigned short, _mh_ivec2_ const *)
+801b4e78 draw_sprite_anim_ary(unsigned short const *, unsigned short, _mh_ivec2_ const *)
+801b4f68 put_button_icon_tex(short, short, short, unsigned long, unsigned char, unsigned char, unsigned short)
+801b50c8 put_button_icon(short, short, short, unsigned long, unsigned char, unsigned char)
+801b5414 draw_itemicon_item_id(_SPR_DATA_ const &, unsigned short, _mh_ivec2_ const *)
+801b5668 put_itemicon_tex(short, short, short, unsigned long, unsigned char, unsigned short)
+801b5a78 draw_equipicon(_SPR_DATA_ const &, _EQUIP *, _mh_ivec2_ const *)
+801b5df4 draw_weaponicon_idx(unsigned short, unsigned char, unsigned long, _mh_ivec2_ const *)
+801b62a8 draw_monstericon_idx(unsigned short, unsigned char, _mh_ivec2_ const *)
+801b64d0 draw_number_idx(unsigned short, unsigned char, unsigned long, _mh_ivec2_ const *)
+801b7438 draw_font_order(_mh_ivec2_ const *, short, short, unsigned long, signed char *, unsigned long, _mh_ivec2_ const *)
+801b751c draw_font(_SPR_DATA_ const &, signed char *, unsigned long, _mh_ivec2_ const *)
+801b7600 draw_font_idx(unsigned short, signed char *, unsigned long, _mh_ivec2_ const *)
+801b7e68 color_mult(unsigned long, unsigned long)
+801b9640 put_frame_sub_tex(short, short, unsigned short, unsigned short, unsigned long, unsigned short, unsigned short, unsigned short)
+801b9cac get_menu_tbl_ptr(void)
+801b9cb8 get_menu_lsp_tbl(unsigned short)
+801bcd08 put_menu_cursor(unsigned short *, unsigned short, _mh_ivec2_ const *)
+801c0350 Put_status_equip_status_block(_PLW *, _EQUIP *, unsigned short, _mh_ivec2_ *)
+801c0660 Put_status_equip_element_block(_PLW *, _EQUIP *, unsigned short, _mh_ivec2_ *)
+801c28b8 Put_status_invork_skill_sep(_PLW *, _mh_ivec2_, signed char)
+801c387c Put_equip_dtl_syo_item1(_EQUIP *, _EQUIP *, bool, bool, unsigned char, _mh_ivec2_, unsigned short)
+801c3db8 Put_equip_dtl_basis_sword_ken1(_PLW *, _EQUIP_INDEX *, unsigned short, _mh_ivec2_ *, unsigned char)
+801c476c Put_equip_dtl_basis_sword_ken2(_PLW *, _EQUIP_INDEX *, unsigned short, _mh_ivec2_ *, unsigned char)
+801c487c Put_equip_dtl_basis_sword_colorX(_PLW *, _EQUIP_INDEX *, unsigned short, unsigned short, _mh_ivec2_ *, unsigned char)
+801c4f4c Put_equip_dtl_basis_bowgun_gan1(_PLW *, _EQUIP_INDEX *, unsigned short, unsigned char, _mh_ivec2_ *)
+801c5424 Put_equip_dtl_basis_bowgun_gan2(_PLW *, _EQUIP_INDEX *, unsigned short, unsigned char, _mh_ivec2_ *)
+801c5f8c Put_equip_dtl_basis_bowgun_gan_lv(_PLW *, _EQUIP_INDEX *, unsigned short, unsigned char, _mh_ivec2_ *)
+801d4724 Set_equip_column_arrangement(_PLW *, _EQUIP_INDEX *, _EQUIP *)
+801dfc7c put_frame_dialog(short, short, short, short, unsigned long, unsigned long)
+801e07d4 put_message(signed char *, short, unsigned long)
+801e0d78 put_message_sys(signed char *, unsigned long, unsigned long, unsigned long)
+801e0e20 put_message_sys_ok_button(void)
+801e23c4 GetMenuFontColor(bool, bool, bool, bool)
+801e2430 GetMenuFontColorRed(bool, bool, bool, bool)
+801e2480 GetMenuIconColor(bool, bool, bool, bool)
+801e4664 yure_move(void)
+801f3bd4 multi_box_rem_exist_ck(_multi_result_work *)
+801f3dcc multi_box_cursor_item_get(_multi_result_work *)
+801f97fc quest_init(unsigned char)
+8020cbd8 get_pop_dat_ptr(void)
+802182e0 LbCheckKujiraEvent(void)
+8023a4b4 get_change_hair_color(unsigned char, unsigned long *, unsigned short *, short *, short *)
+8023a510 get_change_inner_color(unsigned char, unsigned long *, unsigned short *, short *, short *)
+80244460 get_talk_npc_data_ptr(void)
+80245dd4 lb_npc_Get_motion_no(_LB_NPC *)
+8024618c lb_npc_area_ck(_LB_NPC *, unsigned char)
+8025a1f0 LbStr(unsigned char, unsigned short)
+8025ea40 LbPutAnaPageArrow(unsigned short, unsigned short, short, short, unsigned short, _mh_ivec2_ *, bool, bool)
+802878cc bgm_stop_all(void)
+80287afc get_charmake_param(unsigned char, void *)
+80287d34 set_charmake_r_no(unsigned char, unsigned char)
+8028800c charmake_init(void)
+8028903c charmake_move(void)
+8028a780 set_demo_equip_data(_PLW *)
+8028a7f4 setVector3(nw4r::math::VEC3 *, float, float, float)
+8028a804 vec_to_mh_vec3(nw4r::math::VEC3 *, Vec *)
+8028a874 rotMatrixX(unsigned long, nw4r::math::MTX34 *)
+8028a954 rotMatrixY(unsigned long, nw4r::math::MTX34 *)
+8028aa34 rotMatrixZ(unsigned long, nw4r::math::MTX34 *)
+8028ab14 rotLocalMatX(unsigned long, nw4r::math::MTX34 *)
+8028abac rotLocalMatY(unsigned long, nw4r::math::MTX34 *)
+8028ac44 rotLocalMatZ(unsigned long, nw4r::math::MTX34 *)
+8028aef4 scaleMat34W(nw4r::math::MTX34 *, nw4r::math::VEC3 *)
+8028af94 setScaleMat34W(nw4r::math::MTX34 *, nw4r::math::VEC3 *)
+8028b0c4 cpSetRotMatrix(_CP_VECTOR *, nw4r::math::MTX34 *)
+8028b3b8 cpSetRotMatrixZXY(_CP_VECTOR *, nw4r::math::MTX34 *)
+8028b5d8 atan2ang(float, float)
+8028b678 calcVecAng2(nw4r::math::VEC3 *, nw4r::math::VEC3 *)
+8028b6dc calcVecAng3(nw4r::math::VEC3 *)
+8028b788 calcVecAngX(nw4r::math::VEC3 *)
+8028b944 calcVecAngXY(nw4r::math::VEC3 *, unsigned long *, unsigned long *)
+8028bbbc calcDistanceSqXZ(nw4r::math::VEC3 *, nw4r::math::VEC3 *)
+8028bc54 rotVecX(nw4r::math::VEC3 *, unsigned long)
+8028bd04 rotVecY(nw4r::math::VEC3 *, unsigned long)
+8028bdb8 rotVecZ(nw4r::math::VEC3 *, unsigned long)
+8028be68 rotVecXYZ(nw4r::math::VEC3 *, _CP_VECTOR *)
+8028bfd0 rotVecZXY(nw4r::math::VEC3 *, _CP_VECTOR *)
+8028c138 getDirVec(_CP_VECTOR *)
+8028c3a8 mulVecMat(nw4r::math::VEC3 *, nw4r::math::MTX34 *)
+8028c3e4 mulVecMatAddTrans(nw4r::math::VEC3 *, nw4r::math::MTX34 *)
+8028c5b4 copyMat33(nw4r::math::MTX34 *, nw4r::math::MTX34 *)
+8028d250 getKeyData(float *, float)
+8028d344 getKeyData3(float *, float, float *, float *, float *)
+8028de2c draw_line_2d(_DRAW_POINT_2D *, _DRAW_POINT_2D *)
+8028df94 draw_rect_2d_tex(_DRAW_RECT_2D_TEX *, nw4r::g3d::ResTex *, nw4r::g3d::ResPltt *)
+8028e274 drawshape_init(unsigned char, unsigned short)
+8028e2c0 drawshape_set_vertex_array(_mh_ivec2_ const *)
+8028e2dc drawshape_set_vertex_rect(short, short, short, short)
+8028e344 drawshape_set_vertex_rect(float, float, float, float)
+8028e390 drawshape_set_flat_color(unsigned long)
+8028e40c drawshape_set_texture_array(unsigned short, _mh_tex_uv_ const *)
+8028e57c drawshape_set_texture_rect(unsigned short, _mh_tex_uv_ const *, _mh_tex_uv_ const *)
+8028e9b0 drawshape_set_scale(_MH_VEC2 const *, _MH_VEC2 const *)
+8028f91c drawshape_exec(void)
+802904d8 itemicon_tex_load(void)
+802906d8 gpframe_tex_load(void)
+802908e4 menu_tex_load(void)
+802911d4 village_tex_load(void)
+80291768 set_arena_idx_switch(unsigned char)
+8029179c filter_reset(void)
+80291904 setFilterPrio(unsigned char)
+80294294 GlareFilter_on(void)
+80294990 fade_set(long, long)
+80294a30 fade_reset(long)
+80294b78 get_fade_stat(long)
+80295204 flfntSetSize(long, long)
+80295228 flfntGetSizeX(void)
+8029524c flfntGetSizeY(void)
+80295270 flfntSetPos(long, long)
+80295294 flfntGetPosX(void)
+802952b8 flfntGetPosY(void)
+802952dc flfntSetColor(unsigned long)
+80295348 flfntPrintf(char *,...)
+802953f8 flfntFontPuts(char *)
+80295af0 flfntFlush(void)
+80295ef8 font_print(signed char *,...)
+8029617c font_locate(short, short)
+80296198 font_set_size(short, short)
+802961a4 font_print_ex(short, short, short, signed char *,...)
+80296338 font_flush(void)
+8029633c msg_str_gen(char *, char *)
+8029846c file_loading_ck(char *, long *)
+802984e8 load_file_req(char *, unsigned long, long, unsigned long, long, unsigned long *)
+802986c8 load_file(char *, unsigned long, long)
+8029a150 get_rcSwitch_on(long)
+8029a1a8 get_rcSwitch_rept(long)
+8029a6d8 get_ControlType(long)
+8029acfc set_menu_key_ad_flag(unsigned char, bool)
+8029b790 initKPAD(void)
+8029b7c4 shutdownKPAD(void)
+8029b7f8 setWpadCallback(void)
+8029da7c quest_snd_wk_init(void)
+8029e0a8 get_chacha_kamen_bank(void)
+8029e0b0 get_chacha_dance1_bank(void)
+8029e0b8 get_chacha_dance2_bank(void)
+8029ec90 title_snd_init(void)
+8029f020 srt_ready_ck(long)
+8029f144 system_se_load(void)
+8029ff30 get_em_se_bank(unsigned char)
+802a04f0 title_se_load(void)
+802a05b0 demo_bgm_load(unsigned char)
+802a0a74 quest_bgm_load(unsigned char, unsigned char)
+802a0db4 movie_bgm_load(void)
+802a0e34 title_bgm_load(void)
+802a145c set_SE_volume(unsigned char)
+802a14a8 set_BGM_volume(unsigned char)
+802a175c setSoftresetFlag(bool)
+802a1a48 prim_init_all(void)
+802a24a8 MHchar::move(unsigned short)
+802a259c MHchar::move2(nw4r::math::MTX34 *, unsigned short)
+802a278c MHchar::setScaleAll(float)
+802a28c4 MHchar::get_joint_wpos(unsigned long, nw4r::math::VEC3 *)
+802a2a98 MHchar::get_joint_num(void)
+802a2aa8 MHchar::frame_init(long, unsigned short, float, unsigned long, float)
+802a4ab4 MHchar::setMatColor(unsigned long, _GXChannelID, _GXColor, bool)
+802a4d18 MHchar::getMatColor(unsigned long, _GXChannelID, _GXColor *)
+802a4da8 MHchar::setAmbColor(unsigned long, _GXChannelID, _GXColor, bool)
+802a4ee4 MHchar::getTevKColor(unsigned long, _GXTevKColorID, _GXColor *)
+802a4f64 MHchar::setTevKColor(unsigned long, _GXTevKColorID, _GXColor *)
+802a518c MHchar::setMatAlphaBlendMode(unsigned long, _GXBlendMode, _GXBlendFactor, _GXBlendFactor, _GXLogicOp)
+802a524c MHchar::setVisibility(unsigned long, bool)
+802a5e48 Tsk_Change(void *, short)
+802a5f1c GameModeExec(void)
+802a6070 VsGameModeExec(void)
+802a60c4 TestModeExec(void)
+802a60cc ArenaSelExec(void)
+802aafdc push_g3d_wk(_g3d_work *)
+802acd00 RESmemAlloc(unsigned long)
+802acda8 RESmemFree(void *)
+802acfcc pull_res_mem(char *, unsigned long, long)
+802ad1c4 push_res_mem(long)
+802ad270 getResMemAdrs(long)
+802ad464 ckResourceName(char *)
+802ad6f4 nwAddResource(char *, void *)
+802ada00 nwDelResource(long)
+802ade40 nwWorkInitialize(void)
+802ae0c0 nwMoveStart(void)
+802ae124 nwMoveEnd(void)
+802af1d4 set_blendmode(unsigned char, unsigned char, unsigned char)
+802af2e8 set_zmode(bool, unsigned char, bool)
+802b1e60 se_req_pos_ps(_se_w *, long, long, nw4r::math::VEC3 *)
+802b207c se_req_frame_set(_se_w *, long, long, long, long)
+802b25d8 se_req_frame_set_sp(_se_w *, long, long, long, long, long)
+802b2994 se_req_frame_set_aifs(_se_w *, long, long, long, long)
+802b2ae8 se_req_frame_set_npc(_se_w *, _LB_NPC *, long, long, long)
+802b2c40 SE_Code_Make(long, short, long, short)
+802b30f8 utiagebom_SE_req(nw4r::math::VEC3 *)
+802b4050 paralyzeTrap_SE_req(unsigned char, unsigned char, nw4r::math::VEC3 *)
+802b4400 gun_kakusan_hitSE_req(_PLW *, nw4r::math::VEC3 *, unsigned char)
+802b4c8c sysSE_req(long)
+802b5468 titleSE_req(long)
+802b5fe8 bomb_tenka_se_req(nw4r::math::VEC3 *)
+802b6054 bomb_doukasen_se_req(nw4r::math::VEC3 *)
+802b6178 taru_put_se_req(nw4r::math::VEC3 *, long)
+802b620c kemuri_hit_se_req(nw4r::math::VEC3 *)
+802b621c koyasi_hit_se_req(nw4r::math::VEC3 *)
+802b6298 ana_set_se_req(nw4r::math::VEC3 *)
+802b62a8 ana_eff_se_req(nw4r::math::VEC3 *)
+802b6344 em015_denki_eft_se_req(_se_w *, nw4r::math::VEC3 *, unsigned char)
+802b63d0 em015_denkiball_se_req(_se_w *, long, long, nw4r::math::VEC3 *)
+802b6c7c ainpc_boomerang_se_req(_se_w *, nw4r::math::VEC3 *)
+802b74b4 st_ice_se_req(nw4r::math::VEC3 *)
+802b74c4 st_ice_break_se_req(nw4r::math::VEC3 *)
+802b7bb0 ryugeki_shot_se_req(_PLW *, nw4r::math::VEC3 *, unsigned char)
+802b7ca4 ryugeki_fire_se_req(_PLW *, nw4r::math::VEC3 *, unsigned char, unsigned char)
+802b7ea0 map_se_req(unsigned char, nw4r::math::VEC3 *)
+802b80ec shell_se_req2(_se_w *, nw4r::math::CAPSULE *, unsigned char, unsigned long)
+802b8708 shell_se_req(_se_w *, nw4r::math::VEC3 *, unsigned char, unsigned long)
+802bc314 ran_suu(long)
+802bc3c8 system_w_clr(void)
+802bc3f0 all_reset(void)
+802bc6cc PlayMode_ck(void)
+802bc6ec GameMode_set(unsigned char)
+802bc704 PlayMode_set(unsigned char)
+802bcc48 work_mem_alloc(unsigned long)
+802bccb4 work_mem_free(void *)
+802bcf94 get_move_work_adrs(unsigned char)
+802bcfd0 get_move_work_max(unsigned char)
+802bd008 set_move_work_max(unsigned char, long)
+802bd020 create_move_work(long)
+802bdac0 TPLtexLoad(void *, _tex_info *)
+802be15c loading_disp_set(unsigned char, unsigned char)
+802befd0 hbm_disable(void)
+802befe4 hbm_enable(void)
+802bfbc4 get_str_tbl_ptr(void)
+802bfbd0 get_str_tbl(long)
+802bfd6c subTransSetPrio(unsigned char, unsigned long, long, unsigned long *)
+802bfed0 subTransSet(unsigned long, long, unsigned long *)
+802c57d4 get_qResult_work(void)
+802c57e0 get_vsUser_work(long)
+802c5810 clear_FqResult_work(void)
+802c5824 clear_qResult_work(void)
+802c7368 gallery_open(unsigned char)
+802c73e4 gallery_def_set(void)
+802c8100 set_mydata2vs(unsigned char, unsigned char)
+802c8534 ck_mydata_vs(_vs_user_data *, _vs_user_data *)
+802c85f4 wpad_memory_access_init(unsigned char, unsigned char)
+802c8638 write_wpad_memory(unsigned char, unsigned char)
+802c8a10 read_wpad_memory(_vs_user_data *, unsigned char)
+802c9050 wii_sysmsg_gen(long, char *, long)
+802c9268 disp_beta(Vec *, Vec2 *, _GXColor)
+802ca79c set_option_mode(void)
+802ca97c ck_option_cfg(unsigned char)
+802cab20 set_option_cfg(unsigned char, unsigned char)
+802caba8 get_arena_cfg(unsigned char, unsigned char)
+802cac20 get_option_cfg(unsigned char)
+802cadc4 set_def_option(void)
+802db278 ai_area_ck(_AINPC_W *)
+802db4b4 ai_get_motion_no(_AINPC_W *)
+802db668 get_joint_wpos_ai(_AINPC_W *, unsigned long, nw4r::math::VEC3 *)
+802e01b8 ai_skill_ck(_AINPC_W *, unsigned char)
+802e0a28 ai_taru_move_ck(_AINPC_W *)
+802e0a48 ai_taru_range_ck(_AINPC_W *)
+802e12ac ai_torch_ck(_AINPC_W *)
+802e1564 ai_demo_stop_ck(void)
+802e2c6c get_eq_data_ptr(void)
+802e3408 EnableChangeColor(_EQUIP *)
+802e36fc GetEquipName(unsigned char, unsigned short)
+802e3d0c Get_pl_type(_EQUIP *, _EQUIP *)
+802e3f24 Gunner_opt_ok_ck(_EQUIP *)
+802e4e8c Get_equip_rare(_EQUIP *)
+80335634 set_max_player(long)
+80335adc init_player_work(void)
+80335df4 player_control_move(void)
+80336394 player_init_data_load(void)
+803363ac player_move_start_ck(void)
+80336420 player_move_start(long)
+80336538 player_control_release(void)
+803366e0 parts_mdl_release_all(_PLW *)
+80337afc set_com_motion_type(unsigned char)
+803380a8 Pl_chr_set_attr(_PLW *, unsigned short, long, long, unsigned long)
+80338420 Pl_chr_setX(_PLW *, unsigned short, long, long)
+803385c8 Get_motion_no(_PLW *)
+803385d4 Pl_frame_check(_PLW *, unsigned long, float, float)
+80338648 pl_get_joint_wpos(_PLW *, unsigned long, nw4r::math::VEC3 *)
+8033dba4 Pl_master_ck(_PLW *)
+8033dc3c Pl_act_ck(_PLW *, unsigned char, unsigned short)
+803400d0 Pl_Skill_ck(_PLW *, unsigned short)
+80341c10 Pl_cat_skill_ck(_PLW *, unsigned short)
+803436cc Pl_critical_get(_PLW *)
+80344b30 Pl_decide_mot_get(unsigned short *, unsigned short *)
+803470f0 Pl_attack_set_sub(_PLW *, _HIT_DATA *, _HIT_W *, unsigned short)
+8034844c Pl_suimen_ck(_PLW *)
+80348f1c Pl_condition_ck(_PLW *, unsigned long)
+80348f34 Pl_dm_condition_ck(_PLW *, unsigned long)
+803498d8 Get_Shell_rate_adj(_PLW *, unsigned char)
+80349984 Get_Shell_bure_type(_PLW *, unsigned char)
+8034a4ac Pl_bari_ck(_PLW *, long)
+8034d314 Pl_get_gunner_pos(_PLW *, nw4r::math::VEC3 *, long)
+8034d524 Pl_get_gunner_vec(_PLW *, _CP_VECTOR *)
+8034d6b0 Pl_zanzo_set(_PLW *, long, unsigned char)
+8034ead0 Pl_atk_act_flag_ck(_PLW *, unsigned char)
+80361f60 pull_shell_work(unsigned long)
+8036205c push_shell_work(_SHELL_W *)
+80362174 pull_shell_chara_heap_num(MHchar **, unsigned long)
+803622e0 push_shell_chara_heap_num(MHchar **, unsigned long)
+8036265c res_eft_create_shell(unsigned long, unsigned long)
+8036270c res_shell_model_create(MHchar *, unsigned long, unsigned long)
+80362744 shell_check_master_beflag(_SHELL_W *)
+803627bc shell_set_prim(_SHELL_W *, void *, unsigned char)
+803628bc shell_attack_set(_SHELL_W *, _HIT_DATA *, _HIT_SIZE_DATA **, long, unsigned char, unsigned char)
+80362a8c shell_hit_cont(_SHELL_W *)
+80362a98 shell_erase_hit(_SHELL_W *)
+80362aa4 shell_erase_body(_SHELL_W *)
+80362ab0 shell_master_set(_SHELL_W *, void *, unsigned char)
+80362af0 shell_draw_set(_SHELL_W *, MHchar *)
+80362bcc shell_draw_set2(_SHELL_W *, MHchar *, nw4r::math::MTX34 *)
+80362cac shell_draw_set_eff(_SHELL_W *, nw4r::ef::Effect *)
+80362d28 shell_rate_add(_SHELL_W *)
+80362d4c shell_rate_add_g(_SHELL_W *)
+80362d8c set_shell_scr_id(_SHELL_W *, unsigned char, unsigned char)
+80362d98 get_shell_in_water(_SHELL_W *)
+80362f5c get_shell_serial_sw(_SHELL_W *)
+8036316c serial_set(_SHELL_W *, unsigned char, unsigned char)
+80363250 serial_st_change_sw(_SHELL_W *, unsigned char)
+803635f8 serial_st_check_sw(_SHELL_W *, unsigned char)
+80363700 serial_erase(_SHELL_W *)
+80363928 get_niku_info_sw(_SHELL_W *)
+80363b38 niku_set(_SHELL_W *, unsigned char, unsigned char)
+80363bb0 niku_st_change_sw(_SHELL_W *, unsigned char)
+8036408c niku_erase(_SHELL_W *)
+8036ce5c set_stream_main_vol_flag(unsigned char, unsigned char)
+8036ce68 set_str_bgm_main_vol(float)
+8036ce70 set_str_se_main_vol(float)
+8036cfec StreamStopAll(void)
+8036d220 PlayStream(unsigned long, unsigned long)
+8036d3c0 GetStreamStatus(unsigned long)
+80375db4 get_current_view_mtx(void)
+80375e2c get_camera_pos(void)
+80375f54 get_camera_direction(void)
+80376698 set_quake_sub(unsigned char, nw4r::math::VEC3 *)
+803774f0 light_init(void)
+8037a620 light_move(void)
+8037a66c set_amblight(unsigned char, _GXColor)
+8037a878 make_dir_light2(long, nw4r::math::VEC3 *, _GXColor, long)
+8037b2e8 get_stg_w(void)
+8037b9f4 get_stg_weapon_work(_PLW *, long *)
+8037d328 get_now_mapno(void)
+8037d338 get_now_areano(void)
+8037d888 get_worldworld_pos(nw4r::math::VEC3 *, unsigned char)
+8037dae4 get_stg_eft_col(unsigned char, unsigned char)
+80385860 qn_get_motion_no(_QNPC_W *)
+80389370 dl_acdata_to_ar_eqdata(_arena_eq_data *, unsigned char)
+8038cd6c event_demo_ck(void)
+8038cda8 get_demo_no(void)
+80390620 get_qnpc_talk_data_ptr(void)
+80391fc0 lb_server_sel_trans(void *, unsigned char)
+8039e148 get_network_sub_error_msg(void)
+8039ee78 getOnlineSupportCode(void)
+803a02d8 MH3DispErrorString(short, short, signed char *)
+803a0484 enc_convt_utf8_utf16(unsigned short *, long *, unsigned char const *, long *)
+803a0488 enc_convt_uni2sjis(unsigned char *, long *, unsigned short const *, long *)
+803a4768 MH3GetSessionErrorCode(void)
+803dd340 PatInterface::setTermsBuffer(signed char *, unsigned long)
+803dd350 PatInterface::setMaintenanceBuffer(signed char *, unsigned long)
+803dd374 PatInterface::setAnnounceBuffer(signed char *, unsigned long)
+803dd398 PatInterface::setNoChargeBuffer(signed char *, unsigned long)
+803dd404 PatInterface::setPatchMessageBuffer(signed char *, unsigned long)
+803f6aec NetworkWiiMediator::reflectInit(void (*)(long, long, long, long, void *, void *), void *)
+803f6b60 NetworkWiiMediator::reflectStart(void)
+803f6b74 NetworkWiiMediator::reflectStop(void)
+803f6b88 NetworkWiiMediator::reflectFinal(void)
+803f6bd4 NetworkWiiMediator::getOpeningProgress(void)
+803f6c94 NetworkWiiMediator::getOpeningTermsVersion(void)
+803f6cac NetworkWiiMediator::getAccountChargeSddlibTime(void)
+803f6de8 NetworkWiiMediator::isOpeningMaintenanceTerms(void)
+803f6e00 NetworkWiiMediator::isOpeningMaintenanceServer(void)
+803f6e30 NetworkWiiMediator::isOpeningAnnounce(void)
+803f7110 NetworkWiiMediator::getAccountBan(char *, unsigned long)
+803f7188 NetworkWiiMediator::getAccountNeedToCharge(char *, unsigned long)
+803f7200 NetworkWiiMediator::getAccountWarning(char *, unsigned long)
+803f7278 NetworkWiiMediator::getAccountWaitQueue(char *, unsigned long)
+803f73a8 NetworkWiiMediator::getReflectPage(unsigned char)
+803f73bc NetworkWiiMediator::agreeReflect(void)
+803f7f78 NetworkWiiMediator::connectECServer(void)
+803f7f8c NetworkWiiMediator::getECTicketList(long)
+803f7fa0 NetworkWiiMediator::purchaseEC(long)
+803f7fb4 NetworkWiiMediator::isECConfig(void)
+803f7fcc NetworkWiiMediator::isECTicket(void)
+803f7ff8 NetworkWiiMediator::getECBalance(NetworkError *)
+803f8010 NetworkWiiMediator::isECPCEnable(void)
+803f8028 NetworkWiiMediator::setECPCPassword(char *)
+803f8040 NetworkWiiMediator::launchECShoppingManual(void)
+803f80a4 NetworkWiiMediator::getECPatch(void)
+8040b558 Movie_open(MovieIndex)
+8040b810 Movie_draw_sub(void)
+8040b8f4 Movie_close(void)
+8040b934 Check_movie_finish(void)
+8040b978 Movie_cut(void)
+804147e8 createSystemFile_init(void)
+804149b8 createSystemFile(void)
+80414d6c game_save_wait(void)
+80414e64 createDataFile_init(long, long, long)
+80415184 createDataFile(unsigned char)
+80416558 readDataFile_init(long, long)
+80416868 readDataFile(void)
+80416b50 setPlayerSave2Userdata(unsigned char)
+804176f4 chg_nand_err2msgcode(void)
+8041b0a8 GalleryDemo_task(_tcb *)
+8041c01c get_kbd_setup_type(void)
+8041c048 kbd_exit(void)
+8041c0c4 kbd_init(unsigned char)
+8041ccec set_kbd_param(char *, unsigned long)
+8041cda4 kbd_open(unsigned char)
+8041d264 kbd_move(void)
 8042206c OSRegisterVersion
 80422178 OSCreateAlarm
 804223d8 OSSetAlarm
@@ -3203,28 +3203,28 @@
 804c1394 KPADRead
 804c4170 TPLBind
 804c4284 TPLGet
-804f42d4 Panic__Q24nw4r2dbFPCciPCce
-804f4368 Warning__Q24nw4r2dbFPCciPCce
-804f4ab0 RetireEmitterAll__Q34nw4r2ef6EffectFv
-804f5084 ForeachParticleManager__Q34nw4r2ef6EffectFPFPvUl_vUlb
-804f51ec SetRootMtx__Q34nw4r2ef6EffectFRCQ34nw4r4math5MTX34
-804f56bc RetireEffect__Q34nw4r2ef12EffectSystemFPQ34nw4r2ef6Effect
-8051a260 GetResPltt__Q34nw4r3g3d7ResFileCFPCc
-8051a3d8 GetResTex__Q34nw4r3g3d7ResFileCFPCc
-8051d744 SetEffectMtx__Q34nw4r3g3d9ResTexSrtFUlPCQ34nw4r4math5MTX34
-8051d7c0 GetEffectMtx__Q34nw4r3g3d9ResTexSrtCFUlPQ34nw4r4math5MTX34
-80528864 PlayPolicy_Onetime__Q24nw4r3g3dFfff
-8052886c PlayPolicy_Loop__Q24nw4r3g3dFfff
-80532420 SetPosition__Q34nw4r3g3d6CameraFRCQ34nw4r4math4VEC3
-805324c4 SetPosture__Q34nw4r3g3d6CameraFRCQ44nw4r3g3d6Camera11PostureInfo
-80532798 SetPerspective__Q34nw4r3g3d6CameraFffff
-80535ad0 GetCamera__Q34nw4r3g3d7ScnRootFi
-80535b68 SetCurrentCamera__Q34nw4r3g3d7ScnRootFi
-80538f24 GetResTexSrt__Q44nw4r3g3d6ScnMdl15CopiedMatAccessFb
-805390d4 __ct__Q44nw4r3g3d6ScnMdl15CopiedMatAccessFPQ34nw4r3g3d6ScnMdlUl
-8053d3b4 FrSqrt__Q24nw4r4mathFf
-8053d3d8 SinFIdx__Q24nw4r4mathFf
-8053d440 CosFIdx__Q24nw4r4mathFf
+804f42d4 nw4r::db::Panic( (char const *, int, char const *,...))
+804f4368 nw4r::db::Warning( (char const *, int, char const *,...))
+804f4ab0 nw4r::ef::Effect::RetireEmitterAll( (void))
+804f5084 nw4r::ef::Effect::ForeachParticleManager( (void (*)(void *, unsigned long), unsigned long, bool))
+804f51ec nw4r::ef::Effect::SetRootMtx( (nw4r::math::MTX34 const &))
+804f56bc nw4r::ef::EffectSystem::RetireEffect( (nw4r::ef::Effect *))
+8051a260 nw4r::g3d::ResFile::GetResPltt( const(char const *))
+8051a3d8 nw4r::g3d::ResFile::GetResTex( const(char const *))
+8051d744 nw4r::g3d::ResTexSrt::SetEffectMtx( (unsigned long, nw4r::math::MTX34 const *))
+8051d7c0 nw4r::g3d::ResTexSrt::GetEffectMtx( const(unsigned long, nw4r::math::MTX34 *))
+80528864 nw4r::g3d::PlayPolicy_Onetime( (float, float, float))
+8052886c nw4r::g3d::PlayPolicy_Loop( (float, float, float))
+80532420 nw4r::g3d::Camera::SetPosition( (nw4r::math::VEC3 const &))
+805324c4 nw4r::g3d::Camera::SetPosture( (nw4r::g3d::Camera::PostureInfo const &))
+80532798 nw4r::g3d::Camera::SetPerspective( (float, float, float, float))
+80535ad0 nw4r::g3d::ScnRoot::GetCamera( (int))
+80535b68 nw4r::g3d::ScnRoot::SetCurrentCamera( (int))
+80538f24 nw4r::g3d::ScnMdl::CopiedMatAccess::GetResTexSrt( (bool))
+805390d4 nw4r::g3d::ScnMdl::CopiedMatAccess::__ct( (nw4r::g3d::ScnMdl *, unsigned long))
+8053d3b4 nw4r::math::FrSqrt( (float))
+8053d3d8 nw4r::math::SinFIdx( (float))
+8053d440 nw4r::math::CosFIdx( (float))
 80684b48 em001_prog_tbl
 80687548 em003_prog_tbl
 80688fe8 em004_prog_tbl
@@ -3362,150 +3362,150 @@
 808a05c8 arena_lsp_data_adrs
 808a05e0 net_err_msg_tbl_adrs
 808a05e8 net_ctrl_wk
-808a0628 mpInstance__12PatInterface
-808a0638 mpInstance__15sNetworkLibrary
-808a063c mpMediator__15sNetworkLibrary
+808a0628 PatInterface::mpInstance(void)
+808a0638 sNetworkLibrary::mpInstance(void)
+808a063c sNetworkLibrary::mpMediator(void)
 808a4880 _SDA_BASE_
 808a93c0 _SDA2_BASE_
 808d9628 __register_global_object
 808d9644 __destroy_global_chain
-808d9698 __register_atexit__FPFv_v
-808d96f4 hbm_data_load__Fv
-808d9910 hbm_create__Fv
-808d9efc hbm_start__Fv
-808d9f7c hbm_exec__Fv
-808da1ac hbm_draw__Fv
-808da374 IsHomeButtonMenu__Fv
-808da3b8 drawBanIcon__FUc
-808da440 hbm_start_blackout__Fv
-808da46c hbm_delete__Fv
+808d9698 __register_atexit(void (*)(void))
+808d96f4 hbm_data_load(void)
+808d9910 hbm_create(void)
+808d9efc hbm_start(void)
+808d9f7c hbm_exec(void)
+808da1ac hbm_draw(void)
+808da374 IsHomeButtonMenu(void)
+808da3b8 drawBanIcon(unsigned char)
+808da440 hbm_start_blackout(void)
+808da46c hbm_delete(void)
 808da490 _prolog
 808da52c _epilog
 808da5a4 _unresolved
-808da5a8 init__Q210homebutton15FrameControllerFifff
-808da5e0 initFrame__Q210homebutton15FrameControllerFv
-808da600 calc__Q210homebutton15FrameControllerFv
-808da750 __dt__Q210homebutton15FrameControllerFv
-808da790 __ct__Q210homebutton18GroupAnmControllerFv
-808da7ac __dt__Q210homebutton18GroupAnmControllerFv
-808da7ec do_calc__Q210homebutton18GroupAnmControllerFv
-808daa60 update__Q310homebutton3gui9ComponentFiffUlUlUlPv
-808dac68 isVisible__Q310homebutton3gui9ComponentFv
-808dac70 isPointed__Q310homebutton3gui9ComponentFi
-808dac7c onMove__Q310homebutton3gui9ComponentFff
-808dac80 onEvent__Q310homebutton3gui7ManagerFUlUlPv
-808daca0 onEvent__Q310homebutton3gui12EventHandlerFUlUlPv
-808daca4 getID__Q310homebutton3gui9ComponentFv
-808dacac setPointed__Q310homebutton3gui9ComponentFib
-808dacb8 onPoint__Q310homebutton3gui9ComponentFv
-808dacbc offPoint__Q310homebutton3gui9ComponentFv
-808dacc0 __dt__Q310homebutton3gui7ManagerFv
-808dad7c __dt__Q310homebutton3gui9InterfaceFv
-808dadbc init__Q310homebutton3gui7ManagerFv
-808dae24 init__Q310homebutton3gui9ComponentFv
-808dae50 addComponent__Q310homebutton3gui7ManagerFPQ310homebutton3gui9Component
-808daf14 setManager__Q310homebutton3gui9ComponentFPQ310homebutton3gui7Manager
-808daf1c delComponent__Q310homebutton3gui7ManagerFPQ310homebutton3gui9Component
-808dafbc getComponent__Q310homebutton3gui7ManagerFUl
-808dafe8 update__Q310homebutton3gui7ManagerFiffUlUlUlPv
-808db18c isTriggerTarger__Q310homebutton3gui9ComponentFv
-808db194 onTrig__Q310homebutton3gui9ComponentFUlR3Vec
-808db1c4 calc__Q310homebutton3gui7ManagerFv
-808db22c calc__Q310homebutton3gui9InterfaceFv
-808db230 draw__Q310homebutton3gui7ManagerFv
-808db298 draw__Q310homebutton3gui9InterfaceFv
-808db29c setAllComponentTriggerTarget__Q310homebutton3gui7ManagerFb
-808db314 setTriggerTarget__Q310homebutton3gui9ComponentFb
-808db31c __dt__Q310homebutton3gui11PaneManagerFv
-808db470 __dt__Q310homebutton3gui13PaneComponentFv
-808db4b0 __dt__Q310homebutton3gui9ComponentFv
-808db4f0 createLayoutScene__Q310homebutton3gui11PaneManagerFRCQ36nw4hbm3lyt6Layout
-808db514 addLayoutScene__Q310homebutton3gui11PaneManagerFRCQ36nw4hbm3lyt6Layout
+808da5a8 homebutton::FrameController::init( (int, float, float, float))
+808da5e0 homebutton::FrameController::initFrame( (void))
+808da600 homebutton::FrameController::calc( (void))
+808da750 homebutton::FrameController::__dt( (void))
+808da790 homebutton::GroupAnmController::__ct( (void))
+808da7ac homebutton::GroupAnmController::__dt( (void))
+808da7ec homebutton::GroupAnmController::do_calc( (void))
+808daa60 homebutton::gui::Component::update( (int, float, float, unsigned long, unsigned long, unsigned long, void *))
+808dac68 homebutton::gui::Component::isVisible( (void))
+808dac70 homebutton::gui::Component::isPointed( (int))
+808dac7c homebutton::gui::Component::onMove( (float, float))
+808dac80 homebutton::gui::Manager::onEvent( (unsigned long, unsigned long, void *))
+808daca0 homebutton::gui::EventHandler::onEvent( (unsigned long, unsigned long, void *))
+808daca4 homebutton::gui::Component::getID( (void))
+808dacac homebutton::gui::Component::setPointed( (int, bool))
+808dacb8 homebutton::gui::Component::onPoint( (void))
+808dacbc homebutton::gui::Component::offPoint( (void))
+808dacc0 homebutton::gui::Manager::__dt( (void))
+808dad7c homebutton::gui::Interface::__dt( (void))
+808dadbc homebutton::gui::Manager::init( (void))
+808dae24 homebutton::gui::Component::init( (void))
+808dae50 homebutton::gui::Manager::addComponent( (homebutton::gui::Component *))
+808daf14 homebutton::gui::Component::setManager( (homebutton::gui::Manager *))
+808daf1c homebutton::gui::Manager::delComponent( (homebutton::gui::Component *))
+808dafbc homebutton::gui::Manager::getComponent( (unsigned long))
+808dafe8 homebutton::gui::Manager::update( (int, float, float, unsigned long, unsigned long, unsigned long, void *))
+808db18c homebutton::gui::Component::isTriggerTarger( (void))
+808db194 homebutton::gui::Component::onTrig( (unsigned long, Vec &))
+808db1c4 homebutton::gui::Manager::calc( (void))
+808db22c homebutton::gui::Interface::calc( (void))
+808db230 homebutton::gui::Manager::draw( (void))
+808db298 homebutton::gui::Interface::draw( (void))
+808db29c homebutton::gui::Manager::setAllComponentTriggerTarget( (bool))
+808db314 homebutton::gui::Component::setTriggerTarget( (bool))
+808db31c homebutton::gui::PaneManager::__dt( (void))
+808db470 homebutton::gui::PaneComponent::__dt( (void))
+808db4b0 homebutton::gui::Component::__dt( (void))
+808db4f0 homebutton::gui::PaneManager::createLayoutScene( (nw4hbm::lyt::Layout const &))
+808db514 homebutton::gui::PaneManager::addLayoutScene( (nw4hbm::lyt::Layout const &))
 808db52c walkInChildren__Q310homebutton3gui11PaneManagerFRQ36nw4hbm2ut30LinkList<Q36nw4hbm3lyt4Pane,4>
-808db7bc setPane__Q310homebutton3gui13PaneComponentFPQ36nw4hbm3lyt4Pane
-808db7c4 GetRuntimeTypeInfo__Q36nw4hbm3lyt4PaneCFv
-808db7d0 delLayoutScene__Q310homebutton3gui11PaneManagerFRCQ36nw4hbm3lyt6Layout
+808db7bc homebutton::gui::PaneComponent::setPane( (nw4hbm::lyt::Pane *))
+808db7c4 nw4hbm::lyt::Pane::GetRuntimeTypeInfo( const(void))
+808db7d0 homebutton::gui::PaneManager::delLayoutScene( (nw4hbm::lyt::Layout const &))
 808db7e8 walkInChildrenDel__Q310homebutton3gui11PaneManagerFRQ36nw4hbm2ut30LinkList<Q36nw4hbm3lyt4Pane,4>
-808db904 getPaneComponentByPane__Q310homebutton3gui11PaneManagerFPQ36nw4hbm3lyt4Pane
-808db97c setAllBoundingBoxComponentTriggerTarget__Q310homebutton3gui11PaneManagerFb
-808dba4c contain__Q310homebutton3gui13PaneComponentFff
-808dbb78 getDrawInfo__Q310homebutton3gui11PaneManagerFv
-808dbb80 __dt__Q36nw4hbm2ut4RectFv
-808dbbc0 draw__Q310homebutton3gui13PaneComponentFv
-808dbe60 IsVisible__Q36nw4hbm3lyt4PaneCFv
-808dbe6c GetParent__Q36nw4hbm3lyt4PaneCFv
-808dbe74 isVisible__Q310homebutton3gui13PaneComponentFv
-808dbf48 draw__Q310homebutton3gui9InterfaceFRA3_A4_f
-808dbf4c create__Q310homebutton3gui9InterfaceFv
-808dbf50 update__Q310homebutton3gui9ComponentFiPC10KPADStatusffPv
-808dbf58 setDraggingButton__Q310homebutton3gui9ComponentFUl
-808dbf60 onDrag__Q310homebutton3gui9ComponentFff
-808dbf64 getPane__Q310homebutton3gui13PaneComponentFv
-808dbf6c setEventHandler__Q310homebutton3gui7ManagerFPQ310homebutton3gui12EventHandler
-808dbf98 setManager__Q310homebutton3gui12EventHandlerFPQ310homebutton3gui7Manager
-808dbfa0 update__Q310homebutton3gui7ManagerFiPC10KPADStatusffPv
-808dbfa8 setDrawInfo__Q310homebutton3gui11PaneManagerFPCQ36nw4hbm3lyt8DrawInfo
-808dbfb0 init__Q310homebutton3gui9InterfaceFv
-808dbfb4 wpadConnectCallback__Q210homebutton10ControllerFll
-808dc0c8 wpadExtensionCallback__Q210homebutton10ControllerFll
-808dc1d8 soundOnCallback__Q210homebutton10ControllerFP7OSAlarmP9OSContext
-808dc244 __ct__Q210homebutton10ControllerFiPQ210homebutton9RemoteSpk
-808dc300 __dt__Q210homebutton10ControllerFv
-808dc380 initCallback__Q210homebutton10ControllerFv
-808dc424 clearCallback__Q210homebutton10ControllerFv
-808dc498 setKpad__Q210homebutton10ControllerFPC11HBMKPadDatab
-808dc61c clrKpadButton__Q210homebutton10ControllerFv
-808dc630 setInValidPos__Q210homebutton10ControllerFv
-808dc644 getChan__Q210homebutton10ControllerCFv
-808dc64c connect__Q210homebutton10ControllerFv
-808dc65c disconnect__Q210homebutton10ControllerFv
-808dc660 setSpeakerVol__Q210homebutton10ControllerFf
-808dc668 getSpeakerVol__Q210homebutton10ControllerCFv
-808dc670 playSound__Q210homebutton10ControllerFi
-808dc70c isPlayingSound__Q210homebutton10ControllerCFv
-808dc71c isPlayingSoundId__Q210homebutton10ControllerCFi
-808dc77c initSound__Q210homebutton10ControllerFv
-808dc78c updateSound__Q210homebutton10ControllerFv
-808dc9c4 soundOff__Q210homebutton10ControllerFi
-808dca84 soundOn__Q210homebutton10ControllerFv
-808dcae0 isPlayReady__Q210homebutton10ControllerCFv
-808dcaf0 getController__Q210homebutton10ControllerFv
-808dcaf4 startMotor__Q210homebutton10ControllerFv
-808dcb58 stopMotor__Q210homebutton10ControllerFv
-808dcb88 getInfoAsync__Q210homebutton10ControllerFP8WPADInfo
-808dcc0c ControllerCallback__Q210homebutton10ControllerFll
-808dcc30 getBatteryFlag__Q210homebutton10ControllerCFv
-808dcc54 clrBatteryFlag__Q210homebutton10ControllerFv
-808dcc74 SetInstance__Q210homebutton9RemoteSpkFPQ210homebutton9RemoteSpk
-808dcc80 GetInstance__Q210homebutton9RemoteSpkFv
-808dcc8c GetPCMFromSeID__Q210homebutton9RemoteSpkFiRPsRi
-808dccec UpdateSpeaker__Q210homebutton9RemoteSpkFP7OSAlarmP9OSContext
-808dcf54 ClearPcm__Q210homebutton9RemoteSpkFv
-808dcf80 __ct__Q210homebutton9RemoteSpkFPv
-808dd03c __dt__Q210homebutton9RemoteSpkFv
-808dd0e0 Start__Q210homebutton9RemoteSpkFv
-808dd1b4 Stop__Q210homebutton9RemoteSpkFv
-808dd208 DelaySpeakerOnCallback__Q210homebutton9RemoteSpkFP7OSAlarmP9OSContext
-808dd238 SpeakerOnCallback__Q210homebutton9RemoteSpkFll
-808dd318 DelaySpeakerOffCallback__Q210homebutton9RemoteSpkFP7OSAlarmP9OSContext
-808dd348 SpeakerOffCallback__Q210homebutton9RemoteSpkFll
-808dd404 DelaySpeakerPlayCallback__Q210homebutton9RemoteSpkFP7OSAlarmP9OSContext
-808dd434 SpeakerPlayCallback__Q210homebutton9RemoteSpkFll
-808dd518 Connect__Q210homebutton9RemoteSpkFl
-808dd5a4 Disconnect__Q210homebutton9RemoteSpkFl
-808dd608 Play__Q210homebutton9RemoteSpkFliSc
-808dd6a0 isPlaying__Q210homebutton9RemoteSpkCFl
-808dd6bc isPlayingId__Q210homebutton9RemoteSpkCFli
-808dd6ec isPlayReady__Q210homebutton9RemoteSpkCFl
-808ddb80 PlaySeq__10homebuttonFi
-808ddcc4 InitAxSound__10homebuttonFPCvPvUl
-808ddea4 ShutdownAxSound__10homebuttonFv
-808ddf2c AxSoundMain__10homebuttonFv
-808ddf30 StopAllSeq__10homebuttonFv
-808de110 SetVolumeAllSeq__10homebuttonFf
-808de230 SetSoundMode__10homebuttonFUl
-808de234 HBMAllocMem__FUl
-808de244 HBMFreeMem__FPv
+808db904 homebutton::gui::PaneManager::getPaneComponentByPane( (nw4hbm::lyt::Pane *))
+808db97c homebutton::gui::PaneManager::setAllBoundingBoxComponentTriggerTarget( (bool))
+808dba4c homebutton::gui::PaneComponent::contain( (float, float))
+808dbb78 homebutton::gui::PaneManager::getDrawInfo( (void))
+808dbb80 nw4hbm::ut::Rect::__dt( (void))
+808dbbc0 homebutton::gui::PaneComponent::draw( (void))
+808dbe60 nw4hbm::lyt::Pane::IsVisible( const(void))
+808dbe6c nw4hbm::lyt::Pane::GetParent( const(void))
+808dbe74 homebutton::gui::PaneComponent::isVisible( (void))
+808dbf48 homebutton::gui::Interface::draw( (float (&)[3][4]))
+808dbf4c homebutton::gui::Interface::create( (void))
+808dbf50 homebutton::gui::Component::update( (int, KPADStatus const *, float, float, void *))
+808dbf58 homebutton::gui::Component::setDraggingButton( (unsigned long))
+808dbf60 homebutton::gui::Component::onDrag( (float, float))
+808dbf64 homebutton::gui::PaneComponent::getPane( (void))
+808dbf6c homebutton::gui::Manager::setEventHandler( (homebutton::gui::EventHandler *))
+808dbf98 homebutton::gui::EventHandler::setManager( (homebutton::gui::Manager *))
+808dbfa0 homebutton::gui::Manager::update( (int, KPADStatus const *, float, float, void *))
+808dbfa8 homebutton::gui::PaneManager::setDrawInfo( (nw4hbm::lyt::DrawInfo const *))
+808dbfb0 homebutton::gui::Interface::init( (void))
+808dbfb4 homebutton::Controller::wpadConnectCallback( (long, long))
+808dc0c8 homebutton::Controller::wpadExtensionCallback( (long, long))
+808dc1d8 homebutton::Controller::soundOnCallback( (OSAlarm *, OSContext *))
+808dc244 homebutton::Controller::__ct( (int, homebutton::RemoteSpk *))
+808dc300 homebutton::Controller::__dt( (void))
+808dc380 homebutton::Controller::initCallback( (void))
+808dc424 homebutton::Controller::clearCallback( (void))
+808dc498 homebutton::Controller::setKpad( (HBMKPadData const *, bool))
+808dc61c homebutton::Controller::clrKpadButton( (void))
+808dc630 homebutton::Controller::setInValidPos( (void))
+808dc644 homebutton::Controller::getChan( const(void))
+808dc64c homebutton::Controller::connect( (void))
+808dc65c homebutton::Controller::disconnect( (void))
+808dc660 homebutton::Controller::setSpeakerVol( (float))
+808dc668 homebutton::Controller::getSpeakerVol( const(void))
+808dc670 homebutton::Controller::playSound( (int))
+808dc70c homebutton::Controller::isPlayingSound( const(void))
+808dc71c homebutton::Controller::isPlayingSoundId( const(int))
+808dc77c homebutton::Controller::initSound( (void))
+808dc78c homebutton::Controller::updateSound( (void))
+808dc9c4 homebutton::Controller::soundOff( (int))
+808dca84 homebutton::Controller::soundOn( (void))
+808dcae0 homebutton::Controller::isPlayReady( const(void))
+808dcaf0 homebutton::Controller::getController( (void))
+808dcaf4 homebutton::Controller::startMotor( (void))
+808dcb58 homebutton::Controller::stopMotor( (void))
+808dcb88 homebutton::Controller::getInfoAsync( (WPADInfo *))
+808dcc0c homebutton::Controller::ControllerCallback( (long, long))
+808dcc30 homebutton::Controller::getBatteryFlag( const(void))
+808dcc54 homebutton::Controller::clrBatteryFlag( (void))
+808dcc74 homebutton::RemoteSpk::SetInstance( (homebutton::RemoteSpk *))
+808dcc80 homebutton::RemoteSpk::GetInstance( (void))
+808dcc8c homebutton::RemoteSpk::GetPCMFromSeID( (int, short *&, int &))
+808dccec homebutton::RemoteSpk::UpdateSpeaker( (OSAlarm *, OSContext *))
+808dcf54 homebutton::RemoteSpk::ClearPcm( (void))
+808dcf80 homebutton::RemoteSpk::__ct( (void *))
+808dd03c homebutton::RemoteSpk::__dt( (void))
+808dd0e0 homebutton::RemoteSpk::Start( (void))
+808dd1b4 homebutton::RemoteSpk::Stop( (void))
+808dd208 homebutton::RemoteSpk::DelaySpeakerOnCallback( (OSAlarm *, OSContext *))
+808dd238 homebutton::RemoteSpk::SpeakerOnCallback( (long, long))
+808dd318 homebutton::RemoteSpk::DelaySpeakerOffCallback( (OSAlarm *, OSContext *))
+808dd348 homebutton::RemoteSpk::SpeakerOffCallback( (long, long))
+808dd404 homebutton::RemoteSpk::DelaySpeakerPlayCallback( (OSAlarm *, OSContext *))
+808dd434 homebutton::RemoteSpk::SpeakerPlayCallback( (long, long))
+808dd518 homebutton::RemoteSpk::Connect( (long))
+808dd5a4 homebutton::RemoteSpk::Disconnect( (long))
+808dd608 homebutton::RemoteSpk::Play( (long, int, signed char))
+808dd6a0 homebutton::RemoteSpk::isPlaying( const(long))
+808dd6bc homebutton::RemoteSpk::isPlayingId( const(long, int))
+808dd6ec homebutton::RemoteSpk::isPlayReady( const(long))
+808ddb80 homebutton::PlaySeq(int)
+808ddcc4 homebutton::InitAxSound(void const *, void *, unsigned long)
+808ddea4 homebutton::ShutdownAxSound(void)
+808ddf2c homebutton::AxSoundMain(void)
+808ddf30 homebutton::StopAllSeq(void)
+808de110 homebutton::SetVolumeAllSeq(float)
+808de230 homebutton::SetSoundMode(unsigned long)
+808de234 HBMAllocMem(unsigned long)
+808de244 HBMFreeMem(void *)
 808de254 HBMCreate
 808de37c HBMDelete
 808de3ec HBMInit
@@ -3521,443 +3521,443 @@
 808de5c8 HBMCreateSound
 808de61c HBMDeleteSound
 808de620 HBMUpdateSound
-808de7fc __ct__Q210homebutton10HomeButtonFPC11HBMDataInfo
-808de908 __dt__Q210homebutton10HomeButtonFv
-808deb88 __dt__Q36nw4hbm3lyt19ArcResourceAccessorFv
-808debf4 createInstance__Q210homebutton10HomeButtonFPC11HBMDataInfo
-808dec40 deleteInstance__Q210homebutton10HomeButtonFv
-808dec84 getInstance__Q210homebutton10HomeButtonFv
-808dec90 create__Q210homebutton10HomeButtonFv
-808df4f0 set_config__Q210homebutton10HomeButtonFv
-808df648 set_text__Q210homebutton10HomeButtonFv
-808df6cc init__Q210homebutton10HomeButtonFv
-808dfb3c init_msg__Q210homebutton10HomeButtonFv
-808dfc54 init_volume__Q210homebutton10HomeButtonFv
-808dfe54 init_vib__Q210homebutton10HomeButtonFv
-808e0090 init_sound__Q210homebutton10HomeButtonFv
-808e01c0 init_battery__Q210homebutton10HomeButtonFPC17HBMControllerData
-808e0428 calc__Q210homebutton10HomeButtonFPC17HBMControllerData
-808e20f8 calc_fadeoutAnm__Q210homebutton10HomeButtonFv
-808e22a0 calc_battery__Q210homebutton10HomeButtonFi
-808e24a0 calc_letter__Q210homebutton10HomeButtonFv
-808e2580 draw__Q210homebutton10HomeButtonFv
-808e27e0 setSpeakerAlarm__Q210homebutton10HomeButtonFii
-808e2970 setSimpleSyncAlarm__Q210homebutton10HomeButtonFi
-808e29ec callSimpleSyncCallback__Q210homebutton10HomeButtonFll
-808e2a0c update__Q210homebutton10HomeButtonFPC17HBMControllerData
-808e3358 update_controller__Q210homebutton10HomeButtonFi
-808e3bf0 update_posController__Q210homebutton10HomeButtonFi
-808e3cb8 updateTrigPane__Q210homebutton10HomeButtonFv
-808e3f80 startPointEvent__Q210homebutton10HomeButtonFPCQ36nw4hbm3lyt4PanePv
-808e4db0 startLeftEvent__Q210homebutton10HomeButtonFPCQ36nw4hbm3lyt4Pane
-808e5870 startTrigEvent__Q210homebutton10HomeButtonFPCQ36nw4hbm3lyt4Pane
-808e6aac reset_btn__Q210homebutton10HomeButtonFv
-808e6d0c reset_control__Q210homebutton10HomeButtonFv
-808e6dcc reset_window__Q210homebutton10HomeButtonFv
-808e6ef4 reset_battery__Q210homebutton10HomeButtonFv
-808e6f84 reset_guiManager__Q210homebutton10HomeButtonFi
-808e703c isActive__Q210homebutton10HomeButtonCFv
-808e7050 isUpBarActive__Q210homebutton10HomeButtonCFv
-808e708c isDownBarActive__Q210homebutton10HomeButtonFv
-808e7288 getPaneNo__Q210homebutton10HomeButtonFPCQ36nw4hbm3lyt4Pane
-808e7338 findAnimator__Q210homebutton10HomeButtonFii
-808e7380 findGroupAnimator__Q210homebutton10HomeButtonFii
-808e73dc getSelectBtnNum__Q210homebutton10HomeButtonFv
-808e73f8 setForcusSE__Q210homebutton10HomeButtonFv
-808e7468 setAdjustFlag__Q210homebutton10HomeButtonFi
-808e758c setVolume__Q210homebutton10HomeButtonFi
-808e75e8 getVolume__Q210homebutton10HomeButtonFv
-808e764c setVibFlag__Q210homebutton10HomeButtonFb
-808e7654 getVibFlag__Q210homebutton10HomeButtonFv
-808e7680 onEvent__Q210homebutton22HomeButtonEventHandlerFUlUlPv
-808e7740 startBlackOut__Q210homebutton10HomeButtonFv
-808e7938 setBlackOutColor__Q210homebutton10HomeButtonFUcUcUc
-808e7948 setVIBlack__Q210homebutton10HomeButtonFi
-808e7950 getBlackOutColor__Q210homebutton10HomeButtonFv
-808e7988 init__Q310homebutton10HomeButton10BlackFaderFi
-808e79a4 calc__Q310homebutton10HomeButton10BlackFaderFv
-808e7a00 isDone__Q310homebutton10HomeButton10BlackFaderFv
-808e7a48 draw__Q310homebutton10HomeButton10BlackFaderFv
-808e7b40 update_sound__Q210homebutton10HomeButtonFv
-808e7b90 play_sound__Q210homebutton10HomeButtonFi
-808e7be8 fadeout_sound__Q210homebutton10HomeButtonFf
-808e7f0c __ct__Q36nw4hbm3lyt13AnimTransformFv
-808e7f78 __dt__Q36nw4hbm2ut12LinkListNodeFv
-808e7fb8 __dt__Q36nw4hbm3lyt13AnimTransformFv
-808e7ff8 GetFrameSize__Q36nw4hbm3lyt13AnimTransformCFv
-808e8004 IsLoopData__Q36nw4hbm3lyt13AnimTransformCFv
-808e801c __ct__Q36nw4hbm3lyt18AnimTransformBasicFv
-808e8054 __dt__Q36nw4hbm3lyt18AnimTransformBasicFv
-808e80e0 SetResource__Q36nw4hbm3lyt18AnimTransformBasicFPCQ46nw4hbm3lyt3res14AnimationBlockPQ36nw4hbm3lyt16ResourceAccessor
-808e8228 Bind__Q36nw4hbm3lyt18AnimTransformBasicFPQ36nw4hbm3lyt4Paneb
-808e8328 Bind__Q36nw4hbm3lyt18AnimTransformBasicFPQ36nw4hbm3lyt8Material
-808e83e4 Animate__Q36nw4hbm3lyt18AnimTransformBasicFUlPQ36nw4hbm3lyt4Pane
-808e85d4 Animate__Q36nw4hbm3lyt18AnimTransformBasicFUlPQ36nw4hbm3lyt8Material
+808de7fc homebutton::HomeButton::__ct( (HBMDataInfo const *))
+808de908 homebutton::HomeButton::__dt( (void))
+808deb88 nw4hbm::lyt::ArcResourceAccessor::__dt( (void))
+808debf4 homebutton::HomeButton::createInstance( (HBMDataInfo const *))
+808dec40 homebutton::HomeButton::deleteInstance( (void))
+808dec84 homebutton::HomeButton::getInstance( (void))
+808dec90 homebutton::HomeButton::create( (void))
+808df4f0 homebutton::HomeButton::set_config( (void))
+808df648 homebutton::HomeButton::set_text( (void))
+808df6cc homebutton::HomeButton::init( (void))
+808dfb3c homebutton::HomeButton::init_msg( (void))
+808dfc54 homebutton::HomeButton::init_volume( (void))
+808dfe54 homebutton::HomeButton::init_vib( (void))
+808e0090 homebutton::HomeButton::init_sound( (void))
+808e01c0 homebutton::HomeButton::init_battery( (HBMControllerData const *))
+808e0428 homebutton::HomeButton::calc( (HBMControllerData const *))
+808e20f8 homebutton::HomeButton::calc_fadeoutAnm( (void))
+808e22a0 homebutton::HomeButton::calc_battery( (int))
+808e24a0 homebutton::HomeButton::calc_letter( (void))
+808e2580 homebutton::HomeButton::draw( (void))
+808e27e0 homebutton::HomeButton::setSpeakerAlarm( (int, int))
+808e2970 homebutton::HomeButton::setSimpleSyncAlarm( (int))
+808e29ec homebutton::HomeButton::callSimpleSyncCallback( (long, long))
+808e2a0c homebutton::HomeButton::update( (HBMControllerData const *))
+808e3358 homebutton::HomeButton::update_controller( (int))
+808e3bf0 homebutton::HomeButton::update_posController( (int))
+808e3cb8 homebutton::HomeButton::updateTrigPane( (void))
+808e3f80 homebutton::HomeButton::startPointEvent( (nw4hbm::lyt::Pane const *, void *))
+808e4db0 homebutton::HomeButton::startLeftEvent( (nw4hbm::lyt::Pane const *))
+808e5870 homebutton::HomeButton::startTrigEvent( (nw4hbm::lyt::Pane const *))
+808e6aac homebutton::HomeButton::reset_btn( (void))
+808e6d0c homebutton::HomeButton::reset_control( (void))
+808e6dcc homebutton::HomeButton::reset_window( (void))
+808e6ef4 homebutton::HomeButton::reset_battery( (void))
+808e6f84 homebutton::HomeButton::reset_guiManager( (int))
+808e703c homebutton::HomeButton::isActive( const(void))
+808e7050 homebutton::HomeButton::isUpBarActive( const(void))
+808e708c homebutton::HomeButton::isDownBarActive( (void))
+808e7288 homebutton::HomeButton::getPaneNo( (nw4hbm::lyt::Pane const *))
+808e7338 homebutton::HomeButton::findAnimator( (int, int))
+808e7380 homebutton::HomeButton::findGroupAnimator( (int, int))
+808e73dc homebutton::HomeButton::getSelectBtnNum( (void))
+808e73f8 homebutton::HomeButton::setForcusSE( (void))
+808e7468 homebutton::HomeButton::setAdjustFlag( (int))
+808e758c homebutton::HomeButton::setVolume( (int))
+808e75e8 homebutton::HomeButton::getVolume( (void))
+808e764c homebutton::HomeButton::setVibFlag( (bool))
+808e7654 homebutton::HomeButton::getVibFlag( (void))
+808e7680 homebutton::HomeButtonEventHandler::onEvent( (unsigned long, unsigned long, void *))
+808e7740 homebutton::HomeButton::startBlackOut( (void))
+808e7938 homebutton::HomeButton::setBlackOutColor( (unsigned char, unsigned char, unsigned char))
+808e7948 homebutton::HomeButton::setVIBlack( (int))
+808e7950 homebutton::HomeButton::getBlackOutColor( (void))
+808e7988 homebutton::HomeButton::BlackFader::init( (int))
+808e79a4 homebutton::HomeButton::BlackFader::calc( (void))
+808e7a00 homebutton::HomeButton::BlackFader::isDone( (void))
+808e7a48 homebutton::HomeButton::BlackFader::draw( (void))
+808e7b40 homebutton::HomeButton::update_sound( (void))
+808e7b90 homebutton::HomeButton::play_sound( (int))
+808e7be8 homebutton::HomeButton::fadeout_sound( (float))
+808e7f0c nw4hbm::lyt::AnimTransform::__ct( (void))
+808e7f78 nw4hbm::ut::LinkListNode::__dt( (void))
+808e7fb8 nw4hbm::lyt::AnimTransform::__dt( (void))
+808e7ff8 nw4hbm::lyt::AnimTransform::GetFrameSize( const(void))
+808e8004 nw4hbm::lyt::AnimTransform::IsLoopData( const(void))
+808e801c nw4hbm::lyt::AnimTransformBasic::__ct( (void))
+808e8054 nw4hbm::lyt::AnimTransformBasic::__dt( (void))
+808e80e0 nw4hbm::lyt::AnimTransformBasic::SetResource( (nw4hbm::lyt::res::AnimationBlock const *, nw4hbm::lyt::ResourceAccessor *))
+808e8228 nw4hbm::lyt::AnimTransformBasic::Bind( (nw4hbm::lyt::Pane *, bool))
+808e8328 nw4hbm::lyt::AnimTransformBasic::Bind( (nw4hbm::lyt::Material *))
+808e83e4 nw4hbm::lyt::AnimTransformBasic::Animate( (unsigned long, nw4hbm::lyt::Pane *))
+808e85d4 nw4hbm::lyt::AnimTransformBasic::Animate( (unsigned long, nw4hbm::lyt::Material *))
 808e88c4 FindAnimationLink__Q36nw4hbm3lyt6detailFPQ36nw4hbm2ut40LinkList<Q36nw4hbm3lyt13AnimationLink,0>PQ36nw4hbm3lyt13AnimTransform
-808e8b1c __ct__Q36nw4hbm3lyt11FontRefLinkFv
-808e8b70 Set__Q36nw4hbm3lyt11FontRefLinkFPCcPQ36nw4hbm2ut4Font
+808e8b1c nw4hbm::lyt::FontRefLink::__ct( (void))
+808e8b70 nw4hbm::lyt::FontRefLink::Set( (char const *, nw4hbm::ut::Font *))
 808e8bb0 FindFont__Q36nw4hbm3lyt6detailFPQ36nw4hbm2ut38LinkList<Q36nw4hbm3lyt11FontRefLink,0>PCc
-808e8c20 __ct__Q36nw4hbm3lyt19ArcResourceAccessorFv
+808e8c20 nw4hbm::lyt::ArcResourceAccessor::__ct( (void))
 808e8c7c __dt__Q36nw4hbm2ut38LinkList<Q36nw4hbm3lyt11FontRefLink,0>Fv
-808e8cd4 Attach__Q36nw4hbm3lyt19ArcResourceAccessorFPvPCc
-808e8d50 Detach__Q36nw4hbm3lyt19ArcResourceAccessorFv
-808e8d64 GetResource__Q36nw4hbm3lyt19ArcResourceAccessorFUlPCcPUl
-808e8d84 Set__Q36nw4hbm3lyt15ArcResourceLinkFPvPCc
-808e8df0 GetArchiveDataStart__Q36nw4hbm3lyt15ArcResourceLinkCFv
-808e8df8 RegistFont__Q36nw4hbm3lyt19ArcResourceAccessorFPQ36nw4hbm3lyt11FontRefLink
-808e8e2c UnregistFont__Q36nw4hbm3lyt19ArcResourceAccessorFPQ36nw4hbm3lyt11FontRefLink
-808e8e34 GetFont__Q36nw4hbm3lyt19ArcResourceAccessorFPCc
-808e8ea4 __ct__Q36nw4hbm3lyt24MultiArcResourceAccessorFv
+808e8cd4 nw4hbm::lyt::ArcResourceAccessor::Attach( (void *, char const *))
+808e8d50 nw4hbm::lyt::ArcResourceAccessor::Detach( (void))
+808e8d64 nw4hbm::lyt::ArcResourceAccessor::GetResource( (unsigned long, char const *, unsigned long *))
+808e8d84 nw4hbm::lyt::ArcResourceLink::Set( (void *, char const *))
+808e8df0 nw4hbm::lyt::ArcResourceLink::GetArchiveDataStart( const(void))
+808e8df8 nw4hbm::lyt::ArcResourceAccessor::RegistFont( (nw4hbm::lyt::FontRefLink *))
+808e8e2c nw4hbm::lyt::ArcResourceAccessor::UnregistFont( (nw4hbm::lyt::FontRefLink *))
+808e8e34 nw4hbm::lyt::ArcResourceAccessor::GetFont( (char const *))
+808e8ea4 nw4hbm::lyt::MultiArcResourceAccessor::__ct( (void))
 808e8f14 __dt__Q36nw4hbm2ut42LinkList<Q36nw4hbm3lyt15ArcResourceLink,0>Fv
-808e8f6c __dt__Q36nw4hbm3lyt24MultiArcResourceAccessorFv
-808e8ffc Attach__Q36nw4hbm3lyt24MultiArcResourceAccessorFPQ36nw4hbm3lyt15ArcResourceLink
-808e9030 Detach__Q36nw4hbm3lyt24MultiArcResourceAccessorFPCv
-808e9094 Detach__Q36nw4hbm3lyt24MultiArcResourceAccessorFPQ36nw4hbm3lyt15ArcResourceLink
-808e909c DetachAll__Q36nw4hbm3lyt24MultiArcResourceAccessorFv
-808e90a4 GetResource__Q36nw4hbm3lyt24MultiArcResourceAccessorFUlPCcPUl
-808e911c RegistFont__Q36nw4hbm3lyt24MultiArcResourceAccessorFPQ36nw4hbm3lyt11FontRefLink
-808e9150 UnregistFont__Q36nw4hbm3lyt24MultiArcResourceAccessorFPQ36nw4hbm3lyt11FontRefLink
-808e9158 GetFont__Q36nw4hbm3lyt24MultiArcResourceAccessorFPCc
-808e91c8 __ct__Q36nw4hbm3lyt8BoundingFPCQ46nw4hbm3lyt3res8BoundingRCQ36nw4hbm3lyt11ResBlockSet
-808e9204 __dt__Q36nw4hbm3lyt8BoundingFv
-808e925c DrawSelf__Q36nw4hbm3lyt8BoundingFRCQ36nw4hbm3lyt8DrawInfo
-808e92cc __dt__Q36nw4hbm2ut5ColorFv
-808e930c GetRuntimeTypeInfo__Q36nw4hbm3lyt8BoundingCFv
-808e932c EqualsPaneName__Q36nw4hbm3lyt6detailFPCcPCc
-808e9358 EqualsPaneName__Q36nw4hbm3lyt6detailFPCUcPCUc
-808e9384 EqualsMaterialName__Q36nw4hbm3lyt6detailFPCcPCc
-808e93b0 TestFileHeader__Q36nw4hbm3lyt6detailFRCQ46nw4hbm3lyt3res16BinaryFileHeader
-808e93d8 TestFileHeader__Q36nw4hbm3lyt6detailFRCQ46nw4hbm3lyt3res16BinaryFileHeaderUl
-808e940c __ct__Q46nw4hbm3lyt6detail11TexCoordAryFv
-808e9420 Free__Q46nw4hbm3lyt6detail11TexCoordAryFv
-808e9470 Reserve__Q46nw4hbm3lyt6detail11TexCoordAryFUc
-808e94f8 SetSize__Q46nw4hbm3lyt6detail11TexCoordAryFUc
-808e95f0 GetCoord__Q46nw4hbm3lyt6detail11TexCoordAryCFUlPQ36nw4hbm4math4VEC2
-808e963c SetCoord__Q46nw4hbm3lyt6detail11TexCoordAryFUlPCQ36nw4hbm4math4VEC2
-808e96a4 Copy__Q46nw4hbm3lyt6detail11TexCoordAryFPCvUc
-808e9738 IsModulateVertexColor__Q36nw4hbm3lyt6detailFPQ36nw4hbm2ut5ColorUc
-808e97a0 MultipleAlpha__Q36nw4hbm3lyt6detailFQ36nw4hbm2ut5ColorUc
-808e97f4 MultipleAlpha__Q36nw4hbm3lyt6detailFPQ36nw4hbm2ut5ColorPCQ36nw4hbm2ut5ColorUc
-808e98a4 SetVertexFormat__Q36nw4hbm3lyt6detailFbUc
-808e9988 DrawQuad__Q36nw4hbm3lyt6detailFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm4math4VEC2RCQ36nw4hbm4math4VEC2RCQ36nw4hbm4math4VEC2PCQ36nw4hbm2ut5Color
-808e9aac DrawQuad__Q36nw4hbm3lyt6detailFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt4SizeUcPA4_CQ36nw4hbm4math4VEC2PCQ36nw4hbm2ut5Color
-808ea00c DrawQuad__Q36nw4hbm3lyt6detailFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt4SizeUcPA4_CQ36nw4hbm4math4VEC2PCQ36nw4hbm2ut5ColorUc
-808ea104 DrawLine__Q36nw4hbm3lyt6detailFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt4SizeQ36nw4hbm2ut5Color
-808ea2b4 InitGXTexObjFromTPL__Q36nw4hbm3lyt6detailFP9_GXTexObjP10TPLPaletteUl
-808ea3f4 __ct__Q36nw4hbm3lyt8DrawInfoFv
-808ea470 __dt__Q36nw4hbm3lyt8DrawInfoFv
-808ea4b0 __ct__Q36nw4hbm3lyt5GroupFv
+808e8f6c nw4hbm::lyt::MultiArcResourceAccessor::__dt( (void))
+808e8ffc nw4hbm::lyt::MultiArcResourceAccessor::Attach( (nw4hbm::lyt::ArcResourceLink *))
+808e9030 nw4hbm::lyt::MultiArcResourceAccessor::Detach( (void const *))
+808e9094 nw4hbm::lyt::MultiArcResourceAccessor::Detach( (nw4hbm::lyt::ArcResourceLink *))
+808e909c nw4hbm::lyt::MultiArcResourceAccessor::DetachAll( (void))
+808e90a4 nw4hbm::lyt::MultiArcResourceAccessor::GetResource( (unsigned long, char const *, unsigned long *))
+808e911c nw4hbm::lyt::MultiArcResourceAccessor::RegistFont( (nw4hbm::lyt::FontRefLink *))
+808e9150 nw4hbm::lyt::MultiArcResourceAccessor::UnregistFont( (nw4hbm::lyt::FontRefLink *))
+808e9158 nw4hbm::lyt::MultiArcResourceAccessor::GetFont( (char const *))
+808e91c8 nw4hbm::lyt::Bounding::__ct( (nw4hbm::lyt::res::Bounding const *, nw4hbm::lyt::ResBlockSet const &))
+808e9204 nw4hbm::lyt::Bounding::__dt( (void))
+808e925c nw4hbm::lyt::Bounding::DrawSelf( (nw4hbm::lyt::DrawInfo const &))
+808e92cc nw4hbm::ut::Color::__dt( (void))
+808e930c nw4hbm::lyt::Bounding::GetRuntimeTypeInfo( const(void))
+808e932c nw4hbm::lyt::detail::EqualsPaneName( (char const *, char const *))
+808e9358 nw4hbm::lyt::detail::EqualsPaneName( (unsigned char const *, unsigned char const *))
+808e9384 nw4hbm::lyt::detail::EqualsMaterialName( (char const *, char const *))
+808e93b0 nw4hbm::lyt::detail::TestFileHeader( (nw4hbm::lyt::res::BinaryFileHeader const &))
+808e93d8 nw4hbm::lyt::detail::TestFileHeader( (nw4hbm::lyt::res::BinaryFileHeader const &, unsigned long))
+808e940c nw4hbm::lyt::detail::TexCoordAry::__ct( (void))
+808e9420 nw4hbm::lyt::detail::TexCoordAry::Free( (void))
+808e9470 nw4hbm::lyt::detail::TexCoordAry::Reserve( (unsigned char))
+808e94f8 nw4hbm::lyt::detail::TexCoordAry::SetSize( (unsigned char))
+808e95f0 nw4hbm::lyt::detail::TexCoordAry::GetCoord( const(unsigned long, nw4hbm::math::VEC2 *))
+808e963c nw4hbm::lyt::detail::TexCoordAry::SetCoord( (unsigned long, nw4hbm::math::VEC2 const *))
+808e96a4 nw4hbm::lyt::detail::TexCoordAry::Copy( (void const *, unsigned char))
+808e9738 nw4hbm::lyt::detail::IsModulateVertexColor( (nw4hbm::ut::Color *, unsigned char))
+808e97a0 nw4hbm::lyt::detail::MultipleAlpha( (nw4hbm::ut::Color, unsigned char))
+808e97f4 nw4hbm::lyt::detail::MultipleAlpha( (nw4hbm::ut::Color *, nw4hbm::ut::Color const *, unsigned char))
+808e98a4 nw4hbm::lyt::detail::SetVertexFormat( (bool, unsigned char))
+808e9988 nw4hbm::lyt::detail::DrawQuad( (nw4hbm::math::VEC2 const &, nw4hbm::math::VEC2 const &, nw4hbm::math::VEC2 const &, nw4hbm::math::VEC2 const &, nw4hbm::ut::Color const *))
+808e9aac nw4hbm::lyt::detail::DrawQuad( (nw4hbm::math::VEC2 const &, nw4hbm::lyt::Size const &, unsigned char, nw4hbm::math::VEC2 const (*)[4], nw4hbm::ut::Color const *))
+808ea00c nw4hbm::lyt::detail::DrawQuad( (nw4hbm::math::VEC2 const &, nw4hbm::lyt::Size const &, unsigned char, nw4hbm::math::VEC2 const (*)[4], nw4hbm::ut::Color const *, unsigned char))
+808ea104 nw4hbm::lyt::detail::DrawLine( (nw4hbm::math::VEC2 const &, nw4hbm::lyt::Size const &, nw4hbm::ut::Color))
+808ea2b4 nw4hbm::lyt::detail::InitGXTexObjFromTPL( (_GXTexObj *, TPLPalette *, unsigned long))
+808ea3f4 nw4hbm::lyt::DrawInfo::__ct( (void))
+808ea470 nw4hbm::lyt::DrawInfo::__dt( (void))
+808ea4b0 nw4hbm::lyt::Group::__ct( (void))
 808ea528 __dt__Q36nw4hbm2ut41LinkList<Q46nw4hbm3lyt6detail8PaneLink,0>Fv
-808ea580 __ct__Q36nw4hbm3lyt5GroupFPCQ46nw4hbm3lyt3res5GroupPQ36nw4hbm3lyt4Pane
-808ea68c Init__Q36nw4hbm3lyt5GroupFv
-808ea698 __dt__Q36nw4hbm3lyt5GroupFv
-808ea740 AppendPane__Q36nw4hbm3lyt5GroupFPQ36nw4hbm3lyt4Pane
-808ea7b8 __dt__Q36nw4hbm3lyt14GroupContainerFv
-808ea880 AppendGroup__Q36nw4hbm3lyt14GroupContainerFPQ36nw4hbm3lyt5Group
-808ea8b4 FindGroupByName__Q36nw4hbm3lyt14GroupContainerFPCc
-808eaad0 __ct__Q36nw4hbm3lyt6LayoutFv
+808ea580 nw4hbm::lyt::Group::__ct( (nw4hbm::lyt::res::Group const *, nw4hbm::lyt::Pane *))
+808ea68c nw4hbm::lyt::Group::Init( (void))
+808ea698 nw4hbm::lyt::Group::__dt( (void))
+808ea740 nw4hbm::lyt::Group::AppendPane( (nw4hbm::lyt::Pane *))
+808ea7b8 nw4hbm::lyt::GroupContainer::__dt( (void))
+808ea880 nw4hbm::lyt::GroupContainer::AppendGroup( (nw4hbm::lyt::Group *))
+808ea8b4 nw4hbm::lyt::GroupContainer::FindGroupByName( (char const *))
+808eaad0 nw4hbm::lyt::Layout::__ct( (void))
 808eab58 __dt__Q36nw4hbm2ut40LinkList<Q36nw4hbm3lyt13AnimTransform,4>Fv
-808eabb0 __dt__Q36nw4hbm3lyt6LayoutFv
-808eacd8 Build__Q36nw4hbm3lyt6LayoutFPCvPQ36nw4hbm3lyt16ResourceAccessor
+808eabb0 nw4hbm::lyt::Layout::__dt( (void))
+808eacd8 nw4hbm::lyt::Layout::Build( (void const *, nw4hbm::lyt::ResourceAccessor *))
 808eafdc __dt__Q36nw4hbm2ut31LinkList<Q36nw4hbm3lyt5Group,4>Fv
-808eb034 CreateAnimTransform__Q36nw4hbm3lyt6LayoutFPCvPQ36nw4hbm3lyt16ResourceAccessor
-808eb1bc BindAnimation__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm3lyt13AnimTransform
-808eb1e0 UnbindAnimation__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm3lyt13AnimTransform
-808eb204 UnbindAllAnimation__Q36nw4hbm3lyt6LayoutFv
-808eb218 SetAnimationEnable__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm3lyt13AnimTransformb
-808eb23c CalculateMtx__Q36nw4hbm3lyt6LayoutFRCQ36nw4hbm3lyt8DrawInfo
-808eb25c Draw__Q36nw4hbm3lyt6LayoutFRCQ36nw4hbm3lyt8DrawInfo
-808eb27c Animate__Q36nw4hbm3lyt6LayoutFUl
-808eb29c GetLayoutRect__Q36nw4hbm3lyt6LayoutCFv
+808eb034 nw4hbm::lyt::Layout::CreateAnimTransform( (void const *, nw4hbm::lyt::ResourceAccessor *))
+808eb1bc nw4hbm::lyt::Layout::BindAnimation( (nw4hbm::lyt::AnimTransform *))
+808eb1e0 nw4hbm::lyt::Layout::UnbindAnimation( (nw4hbm::lyt::AnimTransform *))
+808eb204 nw4hbm::lyt::Layout::UnbindAllAnimation( (void))
+808eb218 nw4hbm::lyt::Layout::SetAnimationEnable( (nw4hbm::lyt::AnimTransform *, bool))
+808eb23c nw4hbm::lyt::Layout::CalculateMtx( (nw4hbm::lyt::DrawInfo const &))
+808eb25c nw4hbm::lyt::Layout::Draw( (nw4hbm::lyt::DrawInfo const &))
+808eb27c nw4hbm::lyt::Layout::Animate( (unsigned long))
+808eb29c nw4hbm::lyt::Layout::GetLayoutRect( const(void))
 808eb308 SetTagProcessor__Q36nw4hbm3lyt6LayoutFPQ36nw4hbm2ut19TagProcessorBase<w>
-808eb4ac BuildPaneObj__Q36nw4hbm3lyt6LayoutFlPCvRCQ36nw4hbm3lyt11ResBlockSet
-808eba38 __ct__Q36nw4hbm3lyt8MaterialFv
-808ebb30 __ct__Q36nw4hbm2ut5ColorFv
+808eb4ac nw4hbm::lyt::Layout::BuildPaneObj( (long, void const *, nw4hbm::lyt::ResBlockSet const &))
+808eba38 nw4hbm::lyt::Material::__ct( (void))
+808ebb30 nw4hbm::ut::Color::__ct( (void))
 808ebb7c __dt__Q36nw4hbm2ut40LinkList<Q36nw4hbm3lyt13AnimationLink,0>Fv
-808ebbd4 __ct__Q36nw4hbm3lyt8MaterialFPCQ46nw4hbm3lyt3res8MaterialRCQ36nw4hbm3lyt11ResBlockSet
-808ece20 Init__Q36nw4hbm3lyt8MaterialFv
-808ece94 __dt__Q36nw4hbm3lyt8MaterialFv
-808ecf44 InitBitGXNums__Q36nw4hbm3lyt8MaterialFPQ46nw4hbm3lyt6detail9BitGXNums
-808ecf54 ReserveGXMem__Q36nw4hbm3lyt8MaterialFUcUcUcUcbUcUcbbbb
-808ed6cc GetTexMapAry__Q36nw4hbm3lyt8MaterialCFv
-808ed6d4 GetTexMapAry__Q36nw4hbm3lyt8MaterialFv
-808ed6dc GetTexSRTAry__Q36nw4hbm3lyt8MaterialCFv
-808ed6f0 GetTexSRTAry__Q36nw4hbm3lyt8MaterialFv
-808ed704 GetTexCoordGenAry__Q36nw4hbm3lyt8MaterialCFv
-808ed724 GetTexCoordGenAry__Q36nw4hbm3lyt8MaterialFv
-808ed744 GetChanCtrlAry__Q36nw4hbm3lyt8MaterialCFv
-808ed76c GetChanCtrlAry__Q36nw4hbm3lyt8MaterialFv
-808ed794 GetMatColAry__Q36nw4hbm3lyt8MaterialCFv
-808ed7c4 GetMatColAry__Q36nw4hbm3lyt8MaterialFv
-808ed7f4 GetTevSwapAry__Q36nw4hbm3lyt8MaterialCFv
-808ed82c GetTevSwapAry__Q36nw4hbm3lyt8MaterialFv
-808ed864 GetAlphaComparePtr__Q36nw4hbm3lyt8MaterialCFv
-808ed8a4 GetAlphaComparePtr__Q36nw4hbm3lyt8MaterialFv
-808ed8e4 GetBlendModePtr__Q36nw4hbm3lyt8MaterialCFv
-808ed92c GetBlendModePtr__Q36nw4hbm3lyt8MaterialFv
-808ed974 GetIndirectStageAry__Q36nw4hbm3lyt8MaterialCFv
-808ed9c4 GetIndirectStageAry__Q36nw4hbm3lyt8MaterialFv
-808eda14 GetIndTexSRTAry__Q36nw4hbm3lyt8MaterialCFv
-808eda6c GetIndTexSRTAry__Q36nw4hbm3lyt8MaterialFv
-808edac4 GetTevStageAry__Q36nw4hbm3lyt8MaterialCFv
-808edb24 GetTevStageAry__Q36nw4hbm3lyt8MaterialFv
-808edb84 SetName__Q36nw4hbm3lyt8MaterialFPCc
-808edb90 SetTextureNum__Q36nw4hbm3lyt8MaterialFUc
-808edc20 SetTexCoordGenNum__Q36nw4hbm3lyt8MaterialFUc
-808edd74 SetTevStageNum__Q36nw4hbm3lyt8MaterialFUc
-808edfa8 SetIndStageNum__Q36nw4hbm3lyt8MaterialFUc
-808ee124 GetTexture__Q36nw4hbm3lyt8MaterialCFP9_GXTexObjUc
-808ee178 SetTexture__Q36nw4hbm3lyt8MaterialFUcP10TPLPalette
-808ee190 SetTextureNoWrap__Q36nw4hbm3lyt8MaterialFUcP10TPLPalette
-808ee214 SetTexture__Q36nw4hbm3lyt8MaterialFUcRC9_GXTexObj
-808ee268 SetTextureNoWrap__Q36nw4hbm3lyt8MaterialFUcRC9_GXTexObj
-808ee328 GetColorElement__Q36nw4hbm3lyt8MaterialCFUl
-808ee490 SetColorElement__Q36nw4hbm3lyt8MaterialFUls
-808ee66c SetupGX__Q36nw4hbm3lyt8MaterialFbUc
-808ef520 BindAnimation__Q36nw4hbm3lyt8MaterialFPQ36nw4hbm3lyt13AnimTransform
-808ef53c UnbindAnimation__Q36nw4hbm3lyt8MaterialFPQ36nw4hbm3lyt13AnimTransform
-808ef5bc UnbindAllAnimation__Q36nw4hbm3lyt8MaterialFv
-808ef5d0 Animate__Q36nw4hbm3lyt8MaterialFv
-808ef648 AddAnimationLink__Q36nw4hbm3lyt8MaterialFPQ36nw4hbm3lyt13AnimationLink
-808ef67c FindAnimationLink__Q36nw4hbm3lyt8MaterialFPQ36nw4hbm3lyt13AnimTransform
-808ef684 SetAnimationEnable__Q36nw4hbm3lyt8MaterialFPQ36nw4hbm3lyt13AnimTransformb
-808ef6d0 GetTextureSize__Q36nw4hbm3lyt6detailFPQ36nw4hbm3lyt8MaterialUc
-808ef7e0 __ct__Q46nw4hbm3lyt6detail8PaneBaseFv
-808ef83c __dt__Q46nw4hbm3lyt6detail8PaneBaseFv
-808ef87c __ct__Q36nw4hbm3lyt4PaneFv
+808ebbd4 nw4hbm::lyt::Material::__ct( (nw4hbm::lyt::res::Material const *, nw4hbm::lyt::ResBlockSet const &))
+808ece20 nw4hbm::lyt::Material::Init( (void))
+808ece94 nw4hbm::lyt::Material::__dt( (void))
+808ecf44 nw4hbm::lyt::Material::InitBitGXNums( (nw4hbm::lyt::detail::BitGXNums *))
+808ecf54 nw4hbm::lyt::Material::ReserveGXMem( (unsigned char, unsigned char, unsigned char, unsigned char, bool, unsigned char, unsigned char, bool, bool, bool, bool))
+808ed6cc nw4hbm::lyt::Material::GetTexMapAry( const(void))
+808ed6d4 nw4hbm::lyt::Material::GetTexMapAry( (void))
+808ed6dc nw4hbm::lyt::Material::GetTexSRTAry( const(void))
+808ed6f0 nw4hbm::lyt::Material::GetTexSRTAry( (void))
+808ed704 nw4hbm::lyt::Material::GetTexCoordGenAry( const(void))
+808ed724 nw4hbm::lyt::Material::GetTexCoordGenAry( (void))
+808ed744 nw4hbm::lyt::Material::GetChanCtrlAry( const(void))
+808ed76c nw4hbm::lyt::Material::GetChanCtrlAry( (void))
+808ed794 nw4hbm::lyt::Material::GetMatColAry( const(void))
+808ed7c4 nw4hbm::lyt::Material::GetMatColAry( (void))
+808ed7f4 nw4hbm::lyt::Material::GetTevSwapAry( const(void))
+808ed82c nw4hbm::lyt::Material::GetTevSwapAry( (void))
+808ed864 nw4hbm::lyt::Material::GetAlphaComparePtr( const(void))
+808ed8a4 nw4hbm::lyt::Material::GetAlphaComparePtr( (void))
+808ed8e4 nw4hbm::lyt::Material::GetBlendModePtr( const(void))
+808ed92c nw4hbm::lyt::Material::GetBlendModePtr( (void))
+808ed974 nw4hbm::lyt::Material::GetIndirectStageAry( const(void))
+808ed9c4 nw4hbm::lyt::Material::GetIndirectStageAry( (void))
+808eda14 nw4hbm::lyt::Material::GetIndTexSRTAry( const(void))
+808eda6c nw4hbm::lyt::Material::GetIndTexSRTAry( (void))
+808edac4 nw4hbm::lyt::Material::GetTevStageAry( const(void))
+808edb24 nw4hbm::lyt::Material::GetTevStageAry( (void))
+808edb84 nw4hbm::lyt::Material::SetName( (char const *))
+808edb90 nw4hbm::lyt::Material::SetTextureNum( (unsigned char))
+808edc20 nw4hbm::lyt::Material::SetTexCoordGenNum( (unsigned char))
+808edd74 nw4hbm::lyt::Material::SetTevStageNum( (unsigned char))
+808edfa8 nw4hbm::lyt::Material::SetIndStageNum( (unsigned char))
+808ee124 nw4hbm::lyt::Material::GetTexture( const(_GXTexObj *, unsigned char))
+808ee178 nw4hbm::lyt::Material::SetTexture( (unsigned char, TPLPalette *))
+808ee190 nw4hbm::lyt::Material::SetTextureNoWrap( (unsigned char, TPLPalette *))
+808ee214 nw4hbm::lyt::Material::SetTexture( (unsigned char, _GXTexObj const &))
+808ee268 nw4hbm::lyt::Material::SetTextureNoWrap( (unsigned char, _GXTexObj const &))
+808ee328 nw4hbm::lyt::Material::GetColorElement( const(unsigned long))
+808ee490 nw4hbm::lyt::Material::SetColorElement( (unsigned long, short))
+808ee66c nw4hbm::lyt::Material::SetupGX( (bool, unsigned char))
+808ef520 nw4hbm::lyt::Material::BindAnimation( (nw4hbm::lyt::AnimTransform *))
+808ef53c nw4hbm::lyt::Material::UnbindAnimation( (nw4hbm::lyt::AnimTransform *))
+808ef5bc nw4hbm::lyt::Material::UnbindAllAnimation( (void))
+808ef5d0 nw4hbm::lyt::Material::Animate( (void))
+808ef648 nw4hbm::lyt::Material::AddAnimationLink( (nw4hbm::lyt::AnimationLink *))
+808ef67c nw4hbm::lyt::Material::FindAnimationLink( (nw4hbm::lyt::AnimTransform *))
+808ef684 nw4hbm::lyt::Material::SetAnimationEnable( (nw4hbm::lyt::AnimTransform *, bool))
+808ef6d0 nw4hbm::lyt::detail::GetTextureSize( (nw4hbm::lyt::Material *, unsigned char))
+808ef7e0 nw4hbm::lyt::detail::PaneBase::__ct( (void))
+808ef83c nw4hbm::lyt::detail::PaneBase::__dt( (void))
+808ef87c nw4hbm::lyt::Pane::__ct( (void))
 808ef9b4 __dt__Q36nw4hbm2ut30LinkList<Q36nw4hbm3lyt4Pane,4>Fv
-808efa0c __ct__Q36nw4hbm3lyt4PaneFPCQ46nw4hbm3lyt3res4Pane
-808efb34 Init__Q36nw4hbm3lyt4PaneFv
-808efb48 __dt__Q36nw4hbm3lyt4PaneFv
-808efc7c SetName__Q36nw4hbm3lyt4PaneFPCc
-808efc88 SetUserData__Q36nw4hbm3lyt4PaneFPCc
-808efc94 AppendChild__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt4Pane
-808efce4 PrependChild__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt4Pane
-808efd34 InsertChild__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt4PanePQ36nw4hbm3lyt4Pane
+808efa0c nw4hbm::lyt::Pane::__ct( (nw4hbm::lyt::res::Pane const *))
+808efb34 nw4hbm::lyt::Pane::Init( (void))
+808efb48 nw4hbm::lyt::Pane::__dt( (void))
+808efc7c nw4hbm::lyt::Pane::SetName( (char const *))
+808efc88 nw4hbm::lyt::Pane::SetUserData( (char const *))
+808efc94 nw4hbm::lyt::Pane::AppendChild( (nw4hbm::lyt::Pane *))
+808efce4 nw4hbm::lyt::Pane::PrependChild( (nw4hbm::lyt::Pane *))
+808efd34 nw4hbm::lyt::Pane::InsertChild( (nw4hbm::lyt::Pane *, nw4hbm::lyt::Pane *))
 808efd84 InsertChild__Q36nw4hbm3lyt4PaneFQ46nw4hbm2ut30LinkList<Q36nw4hbm3lyt4Pane,4>8IteratorPQ36nw4hbm3lyt4Pane
-808efdd4 RemoveChild__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt4Pane
-808efe10 GetPaneRect__Q36nw4hbm3lyt4PaneCFRCQ36nw4hbm3lyt8DrawInfo
-808efee0 GetVtxColor__Q36nw4hbm3lyt4PaneCFUl
-808efeec SetVtxColor__Q36nw4hbm3lyt4PaneFUlQ36nw4hbm2ut5Color
-808efef0 GetColorElement__Q36nw4hbm3lyt4PaneCFUl
-808eff18 SetColorElement__Q36nw4hbm3lyt4PaneFUlUc
-808eff40 GetVtxColorElement__Q36nw4hbm3lyt4PaneCFUl
-808eff48 SetVtxColorElement__Q36nw4hbm3lyt4PaneFUlUc
-808eff4c FindPaneByName__Q36nw4hbm3lyt4PaneFPCcb
-808efff8 FindMaterialByName__Q36nw4hbm3lyt4PaneFPCcb
-808f00b0 CalculateMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
-808f03b0 CalculateMtxChild__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
-808f0418 Draw__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
-808f049c DrawSelf__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
-808f0518 Animate__Q36nw4hbm3lyt4PaneFUl
-808f05a4 AnimateSelf__Q36nw4hbm3lyt4PaneFUl
-808f0658 BindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
-808f0674 UnbindAnimation__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformb
-808f0704 UnbindAllAnimation__Q36nw4hbm3lyt4PaneFb
-808f071c UnbindAnimationSelf__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransform
-808f07bc AddAnimationLink__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimationLink
-808f07f0 FindAnimationLink__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransform
-808f0868 SetAnimationEnable__Q36nw4hbm3lyt4PaneFPQ36nw4hbm3lyt13AnimTransformbb
-808f0920 LoadMtx__Q36nw4hbm3lyt4PaneFRCQ36nw4hbm3lyt8DrawInfo
-808f0a28 GetVtxPos__Q36nw4hbm3lyt4PaneCFv
-808f0b28 GetMaterial__Q36nw4hbm3lyt4PaneCFv
-808f0b40 __ct__Q36nw4hbm3lyt7PictureFUc
-808f0c20 __ct__Q36nw4hbm3lyt7PictureFP10TPLPalette
-808f0d10 __ct__Q36nw4hbm3lyt7PictureFRC9_GXTexObj
-808f0e00 __ct__Q36nw4hbm3lyt7PictureFPCQ46nw4hbm3lyt3res7PictureRCQ36nw4hbm3lyt11ResBlockSet
-808f0f28 Init__Q36nw4hbm3lyt7PictureFUc
-808f0f3c __dt__Q36nw4hbm3lyt7PictureFv
-808f100c Append__Q36nw4hbm3lyt7PictureFP10TPLPalette
-808f1058 Append__Q36nw4hbm3lyt7PictureFRC9_GXTexObj
-808f11c8 ReserveTexCoord__Q36nw4hbm3lyt7PictureFUc
-808f11d0 GetTexCoordNum__Q36nw4hbm3lyt7PictureCFv
-808f11d8 SetTexCoordNum__Q36nw4hbm3lyt7PictureFUc
-808f11e0 GetTexCoord__Q36nw4hbm3lyt7PictureCFUlPQ36nw4hbm4math4VEC2
-808f11e8 SetTexCoord__Q36nw4hbm3lyt7PictureFUlPCQ36nw4hbm4math4VEC2
-808f11f0 GetVtxColor__Q36nw4hbm3lyt7PictureCFUl
-808f121c SetVtxColor__Q36nw4hbm3lyt7PictureFUlQ36nw4hbm2ut5Color
-808f1248 GetVtxColorElement__Q36nw4hbm3lyt7PictureCFUl
-808f1260 SetVtxColorElement__Q36nw4hbm3lyt7PictureFUlUc
-808f1278 DrawSelf__Q36nw4hbm3lyt7PictureFRCQ36nw4hbm3lyt8DrawInfo
-808f1354 GetRuntimeTypeInfo__Q36nw4hbm3lyt7PictureCFv
-808f1374 __dt__Q36nw4hbm3lyt16ResourceAccessorFv
-808f13b4 __ct__Q36nw4hbm3lyt16ResourceAccessorFv
-808f13c4 GetFont__Q36nw4hbm3lyt16ResourceAccessorFPCc
-808f1480 __ct__Q36nw4hbm3lyt7TextBoxFUs
-808f15a4 __ct__Q36nw4hbm3lyt7TextBoxFUsPCwPCQ36nw4hbm2ut4Font
-808f17e4 __ct__Q36nw4hbm3lyt7TextBoxFUsPCwUsPCQ36nw4hbm2ut4Font
-808f1a1c __ct__Q36nw4hbm3lyt7TextBoxFPCQ46nw4hbm3lyt3res7TextBoxRCQ36nw4hbm3lyt11ResBlockSet
-808f1cd0 Init__Q36nw4hbm3lyt7TextBoxFUs
-808f1db8 __dt__Q36nw4hbm3lyt7TextBoxFv
-808f1f48 GetVtxColor__Q36nw4hbm3lyt7TextBoxCFUl
-808f1f50 GetTextColor__Q36nw4hbm3lyt7TextBoxCFUl
-808f1f7c SetVtxColor__Q36nw4hbm3lyt7TextBoxFUlQ36nw4hbm2ut5Color
-808f1fc4 SetTextColor__Q36nw4hbm3lyt7TextBoxFUlQ36nw4hbm2ut5Color
-808f1ff0 GetVtxColorElement__Q36nw4hbm3lyt7TextBoxCFUl
-808f2008 SetVtxColorElement__Q36nw4hbm3lyt7TextBoxFUlUc
-808f2020 GetTextDrawRect__Q36nw4hbm3lyt7TextBoxCFRCQ36nw4hbm3lyt8DrawInfo
-808f2108 DrawSelf__Q36nw4hbm3lyt7TextBoxFRCQ36nw4hbm3lyt8DrawInfo
+808efdd4 nw4hbm::lyt::Pane::RemoveChild( (nw4hbm::lyt::Pane *))
+808efe10 nw4hbm::lyt::Pane::GetPaneRect( const(nw4hbm::lyt::DrawInfo const &))
+808efee0 nw4hbm::lyt::Pane::GetVtxColor( const(unsigned long))
+808efeec nw4hbm::lyt::Pane::SetVtxColor( (unsigned long, nw4hbm::ut::Color))
+808efef0 nw4hbm::lyt::Pane::GetColorElement( const(unsigned long))
+808eff18 nw4hbm::lyt::Pane::SetColorElement( (unsigned long, unsigned char))
+808eff40 nw4hbm::lyt::Pane::GetVtxColorElement( const(unsigned long))
+808eff48 nw4hbm::lyt::Pane::SetVtxColorElement( (unsigned long, unsigned char))
+808eff4c nw4hbm::lyt::Pane::FindPaneByName( (char const *, bool))
+808efff8 nw4hbm::lyt::Pane::FindMaterialByName( (char const *, bool))
+808f00b0 nw4hbm::lyt::Pane::CalculateMtx( (nw4hbm::lyt::DrawInfo const &))
+808f03b0 nw4hbm::lyt::Pane::CalculateMtxChild( (nw4hbm::lyt::DrawInfo const &))
+808f0418 nw4hbm::lyt::Pane::Draw( (nw4hbm::lyt::DrawInfo const &))
+808f049c nw4hbm::lyt::Pane::DrawSelf( (nw4hbm::lyt::DrawInfo const &))
+808f0518 nw4hbm::lyt::Pane::Animate( (unsigned long))
+808f05a4 nw4hbm::lyt::Pane::AnimateSelf( (unsigned long))
+808f0658 nw4hbm::lyt::Pane::BindAnimation( (nw4hbm::lyt::AnimTransform *, bool))
+808f0674 nw4hbm::lyt::Pane::UnbindAnimation( (nw4hbm::lyt::AnimTransform *, bool))
+808f0704 nw4hbm::lyt::Pane::UnbindAllAnimation( (bool))
+808f071c nw4hbm::lyt::Pane::UnbindAnimationSelf( (nw4hbm::lyt::AnimTransform *))
+808f07bc nw4hbm::lyt::Pane::AddAnimationLink( (nw4hbm::lyt::AnimationLink *))
+808f07f0 nw4hbm::lyt::Pane::FindAnimationLink( (nw4hbm::lyt::AnimTransform *))
+808f0868 nw4hbm::lyt::Pane::SetAnimationEnable( (nw4hbm::lyt::AnimTransform *, bool, bool))
+808f0920 nw4hbm::lyt::Pane::LoadMtx( (nw4hbm::lyt::DrawInfo const &))
+808f0a28 nw4hbm::lyt::Pane::GetVtxPos( const(void))
+808f0b28 nw4hbm::lyt::Pane::GetMaterial( const(void))
+808f0b40 nw4hbm::lyt::Picture::__ct( (unsigned char))
+808f0c20 nw4hbm::lyt::Picture::__ct( (TPLPalette *))
+808f0d10 nw4hbm::lyt::Picture::__ct( (_GXTexObj const &))
+808f0e00 nw4hbm::lyt::Picture::__ct( (nw4hbm::lyt::res::Picture const *, nw4hbm::lyt::ResBlockSet const &))
+808f0f28 nw4hbm::lyt::Picture::Init( (unsigned char))
+808f0f3c nw4hbm::lyt::Picture::__dt( (void))
+808f100c nw4hbm::lyt::Picture::Append( (TPLPalette *))
+808f1058 nw4hbm::lyt::Picture::Append( (_GXTexObj const &))
+808f11c8 nw4hbm::lyt::Picture::ReserveTexCoord( (unsigned char))
+808f11d0 nw4hbm::lyt::Picture::GetTexCoordNum( const(void))
+808f11d8 nw4hbm::lyt::Picture::SetTexCoordNum( (unsigned char))
+808f11e0 nw4hbm::lyt::Picture::GetTexCoord( const(unsigned long, nw4hbm::math::VEC2 *))
+808f11e8 nw4hbm::lyt::Picture::SetTexCoord( (unsigned long, nw4hbm::math::VEC2 const *))
+808f11f0 nw4hbm::lyt::Picture::GetVtxColor( const(unsigned long))
+808f121c nw4hbm::lyt::Picture::SetVtxColor( (unsigned long, nw4hbm::ut::Color))
+808f1248 nw4hbm::lyt::Picture::GetVtxColorElement( const(unsigned long))
+808f1260 nw4hbm::lyt::Picture::SetVtxColorElement( (unsigned long, unsigned char))
+808f1278 nw4hbm::lyt::Picture::DrawSelf( (nw4hbm::lyt::DrawInfo const &))
+808f1354 nw4hbm::lyt::Picture::GetRuntimeTypeInfo( const(void))
+808f1374 nw4hbm::lyt::ResourceAccessor::__dt( (void))
+808f13b4 nw4hbm::lyt::ResourceAccessor::__ct( (void))
+808f13c4 nw4hbm::lyt::ResourceAccessor::GetFont( (char const *))
+808f1480 nw4hbm::lyt::TextBox::__ct( (unsigned short))
+808f15a4 nw4hbm::lyt::TextBox::__ct( (unsigned short, wchar_t const *, nw4hbm::ut::Font const *))
+808f17e4 nw4hbm::lyt::TextBox::__ct( (unsigned short, wchar_t const *, unsigned short, nw4hbm::ut::Font const *))
+808f1a1c nw4hbm::lyt::TextBox::__ct( (nw4hbm::lyt::res::TextBox const *, nw4hbm::lyt::ResBlockSet const &))
+808f1cd0 nw4hbm::lyt::TextBox::Init( (unsigned short))
+808f1db8 nw4hbm::lyt::TextBox::__dt( (void))
+808f1f48 nw4hbm::lyt::TextBox::GetVtxColor( const(unsigned long))
+808f1f50 nw4hbm::lyt::TextBox::GetTextColor( const(unsigned long))
+808f1f7c nw4hbm::lyt::TextBox::SetVtxColor( (unsigned long, nw4hbm::ut::Color))
+808f1fc4 nw4hbm::lyt::TextBox::SetTextColor( (unsigned long, nw4hbm::ut::Color))
+808f1ff0 nw4hbm::lyt::TextBox::GetVtxColorElement( const(unsigned long))
+808f2008 nw4hbm::lyt::TextBox::SetVtxColorElement( (unsigned long, unsigned char))
+808f2020 nw4hbm::lyt::TextBox::GetTextDrawRect( const(nw4hbm::lyt::DrawInfo const &))
+808f2108 nw4hbm::lyt::TextBox::DrawSelf( (nw4hbm::lyt::DrawInfo const &))
 808f2670 CalcLineRectImpl<w>__25@unnamed@lyt_textBox_cpp@FPQ36nw4hbm2ut4RectPQ36nw4hbm2ut17TextWriterBase<w>PCwifPb_i
-808f2a9c GetCharStrmReader__Q36nw4hbm2ut4FontCFv
-808f2ad4 __dt__Q36nw4hbm2ut14CharStrmReaderFv
-808f2b14 __dt__Q46nw4hbm2ut10CharWriter12ColorMappingFv
-808f2b54 __dt__Q46nw4hbm2ut10CharWriter11VertexColorFv
-808f2b94 __dt__Q46nw4hbm2ut10CharWriter9TextColorFv
-808f2bd4 GetStringBufferLength__Q36nw4hbm3lyt7TextBoxCFv
-808f2bf8 AllocStringBuffer__Q36nw4hbm3lyt7TextBoxFUs
-808f2c74 FreeStringBuffer__Q36nw4hbm3lyt7TextBoxFv
-808f2cc0 SetString__Q36nw4hbm3lyt7TextBoxFPCwUs
-808f2d28 SetString__Q36nw4hbm3lyt7TextBoxFPCwUsUs
-808f2df0 GetFont__Q36nw4hbm3lyt7TextBoxCFv
-808f2df8 SetFont__Q36nw4hbm3lyt7TextBoxFPCQ36nw4hbm2ut4Font
-808f2f1c __dt__Q36nw4hbm2ut4FontFv
+808f2a9c nw4hbm::ut::Font::GetCharStrmReader( const(void))
+808f2ad4 nw4hbm::ut::CharStrmReader::__dt( (void))
+808f2b14 nw4hbm::ut::CharWriter::ColorMapping::__dt( (void))
+808f2b54 nw4hbm::ut::CharWriter::VertexColor::__dt( (void))
+808f2b94 nw4hbm::ut::CharWriter::TextColor::__dt( (void))
+808f2bd4 nw4hbm::lyt::TextBox::GetStringBufferLength( const(void))
+808f2bf8 nw4hbm::lyt::TextBox::AllocStringBuffer( (unsigned short))
+808f2c74 nw4hbm::lyt::TextBox::FreeStringBuffer( (void))
+808f2cc0 nw4hbm::lyt::TextBox::SetString( (wchar_t const *, unsigned short))
+808f2d28 nw4hbm::lyt::TextBox::SetString( (wchar_t const *, unsigned short, unsigned short))
+808f2df0 nw4hbm::lyt::TextBox::GetFont( const(void))
+808f2df8 nw4hbm::lyt::TextBox::SetFont( (nw4hbm::ut::Font const *))
+808f2f1c nw4hbm::ut::Font::__dt( (void))
 808f2f5c GetTextDrawRect__Q36nw4hbm3lyt7TextBoxCFPQ36nw4hbm2ut17TextWriterBase<w>
 808f3294 CalcStringRectImpl<w>__25@unnamed@lyt_textBox_cpp@FPQ36nw4hbm2ut4RectPQ36nw4hbm2ut17TextWriterBase<w>PCwif_v
-808f33fc GetTextMagH__Q36nw4hbm3lyt7TextBoxCFv
-808f345c GetTextMagV__Q36nw4hbm3lyt7TextBoxCFv
-808f34b4 GetRuntimeTypeInfo__Q36nw4hbm3lyt7TextBoxCFv
-808f34d4 __ct__Q36nw4hbm3lyt6WindowFPCQ46nw4hbm3lyt3res6WindowRCQ36nw4hbm3lyt11ResBlockSet
-808f36e4 __dt__Q46nw4hbm3lyt6Window7ContentFv
-808f3748 __dt__Q36nw4hbm3lyt6WindowFv
-808f388c FindMaterialByName__Q36nw4hbm3lyt6WindowFPCcb
-808f3988 FindAnimationLink__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransform
-808f3a2c SetAnimationEnable__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransformbb
-808f3ac0 GetVtxColor__Q36nw4hbm3lyt6WindowCFUl
-808f3aec SetVtxColor__Q36nw4hbm3lyt6WindowFUlQ36nw4hbm2ut5Color
-808f3b18 GetVtxColorElement__Q36nw4hbm3lyt6WindowCFUl
-808f3b30 SetVtxColorElement__Q36nw4hbm3lyt6WindowFUlUc
-808f3b48 DrawSelf__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm3lyt8DrawInfo
-808f3c88 AnimateSelf__Q36nw4hbm3lyt6WindowFUl
-808f3d18 UnbindAnimationSelf__Q36nw4hbm3lyt6WindowFPQ36nw4hbm3lyt13AnimTransform
-808f3da8 DrawContent__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2RCQ36nw4hbm3lyt15WindowFrameSizeUc
-808f3ebc DrawFrame__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2RCQ46nw4hbm3lyt6Window5FrameRCQ36nw4hbm3lyt15WindowFrameSizeUc
-808f4498 DrawFrame4__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Window5FrameRCQ36nw4hbm3lyt15WindowFrameSizeUc
-808f4b60 DrawFrame8__Q36nw4hbm3lyt6WindowFRCQ36nw4hbm4math4VEC2PCQ46nw4hbm3lyt6Window5FrameRCQ36nw4hbm3lyt15WindowFrameSizeUc
-808f5890 GetFrameSize__Q36nw4hbm3lyt6WindowFUcPCQ46nw4hbm3lyt6Window5Frame
-808f5990 GetFrameMaterial__Q36nw4hbm3lyt6WindowCFUl
-808f59b8 GetContentMaterial__Q36nw4hbm3lyt6WindowCFv
-808f59c8 GetRuntimeTypeInfo__Q36nw4hbm3lyt6WindowCFv
-808f59e8 SinFIdx__Q26nw4hbm4mathFf
-808f5a5c CosFIdx__Q26nw4hbm4mathFf
-808f5abc SinCosFIdx__Q26nw4hbm4mathFPfPff
-808f5b48 AtanFIdx__Q26nw4hbm4mathFf
-808f5ca0 Atan2FIdx__Q26nw4hbm4mathFff
-808f5e50 IsValidBinaryFile__Q26nw4hbm2utFPCQ36nw4hbm2ut16BinaryFileHeaderUlUsUs
-808f5ec4 IsReverseEndianBinaryFile__Q26nw4hbm2utFPCQ36nw4hbm2ut16BinaryFileHeader
-808f5ee8 GetNextBinaryBlockHeader__Q26nw4hbm2utFPQ36nw4hbm2ut16BinaryFileHeaderPQ36nw4hbm2ut17BinaryBlockHeader
-808f5fbc ReadNextCharUTF8__Q36nw4hbm2ut14CharStrmReaderFv
-808f6034 ReadNextCharUTF16__Q36nw4hbm2ut14CharStrmReaderFv
-808f6050 ReadNextCharCP1252__Q36nw4hbm2ut14CharStrmReaderFv
-808f606c ReadNextCharSJIS__Q36nw4hbm2ut14CharStrmReaderFv
-808f60cc __ct__Q36nw4hbm2ut10CharWriterFv
-808f62f8 __dt__Q36nw4hbm2ut10CharWriterFv
-808f6338 SetFont__Q36nw4hbm2ut10CharWriterFRCQ36nw4hbm2ut4Font
-808f6340 GetFont__Q36nw4hbm2ut10CharWriterCFv
-808f6348 SetupGX__Q36nw4hbm2ut10CharWriterFv
-808f6dc0 SetColorMapping__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5ColorQ36nw4hbm2ut5Color
-808f6e04 GetColorMappingMin__Q36nw4hbm2ut10CharWriterCFv
-808f6e28 GetColorMappingMax__Q36nw4hbm2ut10CharWriterCFv
-808f6e4c ResetColorMapping__Q36nw4hbm2ut10CharWriterFv
-808f6e84 ResetTextureCache__Q36nw4hbm2ut10CharWriterFv
-808f6ea0 SetAlpha__Q36nw4hbm2ut10CharWriterFUc
-808f6ff4 GetAlpha__Q36nw4hbm2ut10CharWriterCFv
-808f6ffc SetGradationMode__Q36nw4hbm2ut10CharWriterFQ46nw4hbm2ut10CharWriter13GradationMode
-808f714c GetGradationMode__Q36nw4hbm2ut10CharWriterCFv
-808f7154 SetTextColor__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5Color
-808f72b4 SetTextColor__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5ColorQ36nw4hbm2ut5Color
-808f7434 GetTextColor__Q36nw4hbm2ut10CharWriterCFv
-808f7458 GetGradationStartColor__Q36nw4hbm2ut10CharWriterCFv
-808f747c GetGradationEndColor__Q36nw4hbm2ut10CharWriterCFv
-808f74a0 SetScale__Q36nw4hbm2ut10CharWriterFff
-808f74ac SetScale__Q36nw4hbm2ut10CharWriterFf
-808f74b8 GetScaleH__Q36nw4hbm2ut10CharWriterCFv
-808f74c0 GetScaleV__Q36nw4hbm2ut10CharWriterCFv
-808f74c8 SetFontSize__Q36nw4hbm2ut10CharWriterFff
-808f7598 SetFontSize__Q36nw4hbm2ut10CharWriterFf
-808f7614 GetFontWidth__Q36nw4hbm2ut10CharWriterCFv
-808f7678 GetFontHeight__Q36nw4hbm2ut10CharWriterCFv
-808f76dc GetFontAscent__Q36nw4hbm2ut10CharWriterCFv
-808f7740 GetFontDescent__Q36nw4hbm2ut10CharWriterCFv
-808f77a4 EnableLinearFilter__Q36nw4hbm2ut10CharWriterFbb
-808f77c8 IsLinearFilterEnableAtSmall__Q36nw4hbm2ut10CharWriterCFv
-808f77dc IsLinearFilterEnableAtLarge__Q36nw4hbm2ut10CharWriterCFv
-808f77f0 IsWidthFixed__Q36nw4hbm2ut10CharWriterCFv
-808f77f8 EnableFixedWidth__Q36nw4hbm2ut10CharWriterFb
-808f7800 GetFixedWidth__Q36nw4hbm2ut10CharWriterCFv
-808f7808 SetFixedWidth__Q36nw4hbm2ut10CharWriterFf
-808f7810 Print__Q36nw4hbm2ut10CharWriterFUs
-808f794c DrawGlyph__Q36nw4hbm2ut10CharWriterFRCQ36nw4hbm2ut5Glyph
-808f79c4 SetCursor__Q36nw4hbm2ut10CharWriterFff
-808f79d0 SetCursor__Q36nw4hbm2ut10CharWriterFfff
-808f79e0 MoveCursor__Q36nw4hbm2ut10CharWriterFff
-808f79fc MoveCursor__Q36nw4hbm2ut10CharWriterFfff
-808f7a24 SetCursorX__Q36nw4hbm2ut10CharWriterFf
-808f7a2c SetCursorY__Q36nw4hbm2ut10CharWriterFf
-808f7a34 SetCursorZ__Q36nw4hbm2ut10CharWriterFf
-808f7a3c MoveCursorX__Q36nw4hbm2ut10CharWriterFf
-808f7a4c MoveCursorY__Q36nw4hbm2ut10CharWriterFf
-808f7a5c MoveCursorZ__Q36nw4hbm2ut10CharWriterFf
-808f7a6c GetCursorX__Q36nw4hbm2ut10CharWriterCFv
-808f7a74 GetCursorY__Q36nw4hbm2ut10CharWriterCFv
-808f7a7c GetCursorZ__Q36nw4hbm2ut10CharWriterCFv
-808f7a84 PrintGlyph__Q36nw4hbm2ut10CharWriterFfffRCQ36nw4hbm2ut5Glyph
-808f7d08 LoadTexture__Q36nw4hbm2ut10CharWriterFRCQ36nw4hbm2ut5Glyph11_GXTexMapID
-808f7e28 UpdateVertexColor__Q36nw4hbm2ut10CharWriterFv
-808f7f78 SetupVertexFormat__Q36nw4hbm2ut10CharWriterFv
-808f8004 SetupGXDefault__Q36nw4hbm2ut10CharWriterFv
-808f8204 SetupGXWithColorMapping__Q36nw4hbm2ut10CharWriterFQ36nw4hbm2ut5ColorQ36nw4hbm2ut5Color
-808f8564 SetupGXForI__Q36nw4hbm2ut10CharWriterFv
-808f87c0 SetupGXForRGBA__Q36nw4hbm2ut10CharWriterFv
-808f89c0 InitReaderFunc__Q36nw4hbm2ut4FontFQ36nw4hbm2ut12FontEncoding
-808f8a68 __dt__Q46nw4hbm2ut6detail12LinkListImplFv
-808f8aec Erase__Q46nw4hbm2ut6detail12LinkListImplFQ56nw4hbm2ut6detail12LinkListImpl8Iterator
-808f8b34 Erase__Q46nw4hbm2ut6detail12LinkListImplFQ56nw4hbm2ut6detail12LinkListImpl8IteratorQ56nw4hbm2ut6detail12LinkListImpl8Iterator
-808f8b7c Clear__Q46nw4hbm2ut6detail12LinkListImplFv
-808f8bc0 Reverse__Q46nw4hbm2ut6detail12LinkListImplFv
-808f8c28 Insert__Q46nw4hbm2ut6detail12LinkListImplFQ56nw4hbm2ut6detail12LinkListImpl8IteratorPQ36nw4hbm2ut12LinkListNode
-808f8c54 Erase__Q46nw4hbm2ut6detail12LinkListImplFPQ36nw4hbm2ut12LinkListNode
-808f8c84 List_Init__Q26nw4hbm2utFPQ36nw4hbm2ut4ListUs
-808f8c9c List_Append__Q26nw4hbm2utFPQ36nw4hbm2ut4ListPv
-808f8d0c List_Prepend__Q26nw4hbm2utFPQ36nw4hbm2ut4ListPv
-808f8d78 List_Insert__Q26nw4hbm2utFPQ36nw4hbm2ut4ListPvPv
-808f8e98 List_Remove__Q26nw4hbm2utFPQ36nw4hbm2ut4ListPv
-808f8f04 List_GetNext__Q26nw4hbm2utFPCQ36nw4hbm2ut4ListPCv
-808f8f24 List_GetPrev__Q26nw4hbm2utFPCQ36nw4hbm2ut4ListPCv
-808f8f40 List_GetNth__Q26nw4hbm2utFPCQ36nw4hbm2ut4ListUs
-808f8f8c __ct__Q36nw4hbm2ut7ResFontFv
-808f8fc8 __dt__Q36nw4hbm2ut7ResFontFv
-808f9020 SetResource__Q36nw4hbm2ut7ResFontFPv
-808f9164 RemoveResource__Q36nw4hbm2ut7ResFontFv
-808f9168 Rebuild__Q36nw4hbm2ut7ResFontFPQ36nw4hbm2ut16BinaryFileHeader
-808f9294 __ct__Q46nw4hbm2ut6detail11ResFontBaseFv
-808f92d8 __dt__Q46nw4hbm2ut6detail11ResFontBaseFv
-808f9318 SetResourceBuffer__Q46nw4hbm2ut6detail11ResFontBaseFPvPQ36nw4hbm2ut15FontInformation
-808f9324 RemoveResourceBuffer__Q46nw4hbm2ut6detail11ResFontBaseFv
-808f933c GetWidth__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f9348 GetHeight__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f9354 GetAscent__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f9360 GetDescent__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f9374 GetBaselinePos__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f9388 GetCellHeight__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f9398 GetCellWidth__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f93a8 GetMaxCharWidth__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f93b8 GetType__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f93c0 GetTextureFormat__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f93d0 GetLineFeed__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f93e0 GetDefaultCharWidths__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f93f8 SetDefaultCharWidths__Q46nw4hbm2ut6detail11ResFontBaseFRCQ36nw4hbm2ut10CharWidths
-808f9418 SetAlternateChar__Q46nw4hbm2ut6detail11ResFontBaseFUs
-808f94b0 SetLineFeed__Q46nw4hbm2ut6detail11ResFontBaseFi
-808f94bc GetCharWidth__Q46nw4hbm2ut6detail11ResFontBaseCFUs
-808f9508 GetCharWidths__Q46nw4hbm2ut6detail11ResFontBaseCFUs
-808f95f4 GetGlyph__Q46nw4hbm2ut6detail11ResFontBaseCFPQ36nw4hbm2ut5GlyphUs
-808f9698 GetEncoding__Q46nw4hbm2ut6detail11ResFontBaseCFv
-808f96a4 GetGlyphIndex__Q46nw4hbm2ut6detail11ResFontBaseCFUs
-808f9730 FindGlyphIndex__Q46nw4hbm2ut6detail11ResFontBaseCFUs
-808f9778 FindGlyphIndex__Q46nw4hbm2ut6detail11ResFontBaseCFPCQ36nw4hbm2ut11FontCodeMapUs
-808f984c GetCharWidthsFromIndex__Q46nw4hbm2ut6detail11ResFontBaseCFUs
-808f989c GetCharWidthsFromIndex__Q46nw4hbm2ut6detail11ResFontBaseCFPCQ36nw4hbm2ut9FontWidthUs
-808f98b8 GetGlyphFromIndex__Q46nw4hbm2ut6detail11ResFontBaseCFPQ36nw4hbm2ut5GlyphUs
+808f33fc nw4hbm::lyt::TextBox::GetTextMagH( const(void))
+808f345c nw4hbm::lyt::TextBox::GetTextMagV( const(void))
+808f34b4 nw4hbm::lyt::TextBox::GetRuntimeTypeInfo( const(void))
+808f34d4 nw4hbm::lyt::Window::__ct( (nw4hbm::lyt::res::Window const *, nw4hbm::lyt::ResBlockSet const &))
+808f36e4 nw4hbm::lyt::Window::Content::__dt( (void))
+808f3748 nw4hbm::lyt::Window::__dt( (void))
+808f388c nw4hbm::lyt::Window::FindMaterialByName( (char const *, bool))
+808f3988 nw4hbm::lyt::Window::FindAnimationLink( (nw4hbm::lyt::AnimTransform *))
+808f3a2c nw4hbm::lyt::Window::SetAnimationEnable( (nw4hbm::lyt::AnimTransform *, bool, bool))
+808f3ac0 nw4hbm::lyt::Window::GetVtxColor( const(unsigned long))
+808f3aec nw4hbm::lyt::Window::SetVtxColor( (unsigned long, nw4hbm::ut::Color))
+808f3b18 nw4hbm::lyt::Window::GetVtxColorElement( const(unsigned long))
+808f3b30 nw4hbm::lyt::Window::SetVtxColorElement( (unsigned long, unsigned char))
+808f3b48 nw4hbm::lyt::Window::DrawSelf( (nw4hbm::lyt::DrawInfo const &))
+808f3c88 nw4hbm::lyt::Window::AnimateSelf( (unsigned long))
+808f3d18 nw4hbm::lyt::Window::UnbindAnimationSelf( (nw4hbm::lyt::AnimTransform *))
+808f3da8 nw4hbm::lyt::Window::DrawContent( (nw4hbm::math::VEC2 const &, nw4hbm::lyt::WindowFrameSize const &, unsigned char))
+808f3ebc nw4hbm::lyt::Window::DrawFrame( (nw4hbm::math::VEC2 const &, nw4hbm::lyt::Window::Frame const &, nw4hbm::lyt::WindowFrameSize const &, unsigned char))
+808f4498 nw4hbm::lyt::Window::DrawFrame4( (nw4hbm::math::VEC2 const &, nw4hbm::lyt::Window::Frame const *, nw4hbm::lyt::WindowFrameSize const &, unsigned char))
+808f4b60 nw4hbm::lyt::Window::DrawFrame8( (nw4hbm::math::VEC2 const &, nw4hbm::lyt::Window::Frame const *, nw4hbm::lyt::WindowFrameSize const &, unsigned char))
+808f5890 nw4hbm::lyt::Window::GetFrameSize( (unsigned char, nw4hbm::lyt::Window::Frame const *))
+808f5990 nw4hbm::lyt::Window::GetFrameMaterial( const(unsigned long))
+808f59b8 nw4hbm::lyt::Window::GetContentMaterial( const(void))
+808f59c8 nw4hbm::lyt::Window::GetRuntimeTypeInfo( const(void))
+808f59e8 nw4hbm::math::SinFIdx( (float))
+808f5a5c nw4hbm::math::CosFIdx( (float))
+808f5abc nw4hbm::math::SinCosFIdx( (float *, float *, float))
+808f5b48 nw4hbm::math::AtanFIdx( (float))
+808f5ca0 nw4hbm::math::Atan2FIdx( (float, float))
+808f5e50 nw4hbm::ut::IsValidBinaryFile( (nw4hbm::ut::BinaryFileHeader const *, unsigned long, unsigned short, unsigned short))
+808f5ec4 nw4hbm::ut::IsReverseEndianBinaryFile( (nw4hbm::ut::BinaryFileHeader const *))
+808f5ee8 nw4hbm::ut::GetNextBinaryBlockHeader( (nw4hbm::ut::BinaryFileHeader *, nw4hbm::ut::BinaryBlockHeader *))
+808f5fbc nw4hbm::ut::CharStrmReader::ReadNextCharUTF8( (void))
+808f6034 nw4hbm::ut::CharStrmReader::ReadNextCharUTF16( (void))
+808f6050 nw4hbm::ut::CharStrmReader::ReadNextCharCP1252( (void))
+808f606c nw4hbm::ut::CharStrmReader::ReadNextCharSJIS( (void))
+808f60cc nw4hbm::ut::CharWriter::__ct( (void))
+808f62f8 nw4hbm::ut::CharWriter::__dt( (void))
+808f6338 nw4hbm::ut::CharWriter::SetFont( (nw4hbm::ut::Font const &))
+808f6340 nw4hbm::ut::CharWriter::GetFont( const(void))
+808f6348 nw4hbm::ut::CharWriter::SetupGX( (void))
+808f6dc0 nw4hbm::ut::CharWriter::SetColorMapping( (nw4hbm::ut::Color, nw4hbm::ut::Color))
+808f6e04 nw4hbm::ut::CharWriter::GetColorMappingMin( const(void))
+808f6e28 nw4hbm::ut::CharWriter::GetColorMappingMax( const(void))
+808f6e4c nw4hbm::ut::CharWriter::ResetColorMapping( (void))
+808f6e84 nw4hbm::ut::CharWriter::ResetTextureCache( (void))
+808f6ea0 nw4hbm::ut::CharWriter::SetAlpha( (unsigned char))
+808f6ff4 nw4hbm::ut::CharWriter::GetAlpha( const(void))
+808f6ffc nw4hbm::ut::CharWriter::SetGradationMode( (nw4hbm::ut::CharWriter::GradationMode))
+808f714c nw4hbm::ut::CharWriter::GetGradationMode( const(void))
+808f7154 nw4hbm::ut::CharWriter::SetTextColor( (nw4hbm::ut::Color))
+808f72b4 nw4hbm::ut::CharWriter::SetTextColor( (nw4hbm::ut::Color, nw4hbm::ut::Color))
+808f7434 nw4hbm::ut::CharWriter::GetTextColor( const(void))
+808f7458 nw4hbm::ut::CharWriter::GetGradationStartColor( const(void))
+808f747c nw4hbm::ut::CharWriter::GetGradationEndColor( const(void))
+808f74a0 nw4hbm::ut::CharWriter::SetScale( (float, float))
+808f74ac nw4hbm::ut::CharWriter::SetScale( (float))
+808f74b8 nw4hbm::ut::CharWriter::GetScaleH( const(void))
+808f74c0 nw4hbm::ut::CharWriter::GetScaleV( const(void))
+808f74c8 nw4hbm::ut::CharWriter::SetFontSize( (float, float))
+808f7598 nw4hbm::ut::CharWriter::SetFontSize( (float))
+808f7614 nw4hbm::ut::CharWriter::GetFontWidth( const(void))
+808f7678 nw4hbm::ut::CharWriter::GetFontHeight( const(void))
+808f76dc nw4hbm::ut::CharWriter::GetFontAscent( const(void))
+808f7740 nw4hbm::ut::CharWriter::GetFontDescent( const(void))
+808f77a4 nw4hbm::ut::CharWriter::EnableLinearFilter( (bool, bool))
+808f77c8 nw4hbm::ut::CharWriter::IsLinearFilterEnableAtSmall( const(void))
+808f77dc nw4hbm::ut::CharWriter::IsLinearFilterEnableAtLarge( const(void))
+808f77f0 nw4hbm::ut::CharWriter::IsWidthFixed( const(void))
+808f77f8 nw4hbm::ut::CharWriter::EnableFixedWidth( (bool))
+808f7800 nw4hbm::ut::CharWriter::GetFixedWidth( const(void))
+808f7808 nw4hbm::ut::CharWriter::SetFixedWidth( (float))
+808f7810 nw4hbm::ut::CharWriter::Print( (unsigned short))
+808f794c nw4hbm::ut::CharWriter::DrawGlyph( (nw4hbm::ut::Glyph const &))
+808f79c4 nw4hbm::ut::CharWriter::SetCursor( (float, float))
+808f79d0 nw4hbm::ut::CharWriter::SetCursor( (float, float, float))
+808f79e0 nw4hbm::ut::CharWriter::MoveCursor( (float, float))
+808f79fc nw4hbm::ut::CharWriter::MoveCursor( (float, float, float))
+808f7a24 nw4hbm::ut::CharWriter::SetCursorX( (float))
+808f7a2c nw4hbm::ut::CharWriter::SetCursorY( (float))
+808f7a34 nw4hbm::ut::CharWriter::SetCursorZ( (float))
+808f7a3c nw4hbm::ut::CharWriter::MoveCursorX( (float))
+808f7a4c nw4hbm::ut::CharWriter::MoveCursorY( (float))
+808f7a5c nw4hbm::ut::CharWriter::MoveCursorZ( (float))
+808f7a6c nw4hbm::ut::CharWriter::GetCursorX( const(void))
+808f7a74 nw4hbm::ut::CharWriter::GetCursorY( const(void))
+808f7a7c nw4hbm::ut::CharWriter::GetCursorZ( const(void))
+808f7a84 nw4hbm::ut::CharWriter::PrintGlyph( (float, float, float, nw4hbm::ut::Glyph const &))
+808f7d08 nw4hbm::ut::CharWriter::LoadTexture( (nw4hbm::ut::Glyph const &, _GXTexMapID))
+808f7e28 nw4hbm::ut::CharWriter::UpdateVertexColor( (void))
+808f7f78 nw4hbm::ut::CharWriter::SetupVertexFormat( (void))
+808f8004 nw4hbm::ut::CharWriter::SetupGXDefault( (void))
+808f8204 nw4hbm::ut::CharWriter::SetupGXWithColorMapping( (nw4hbm::ut::Color, nw4hbm::ut::Color))
+808f8564 nw4hbm::ut::CharWriter::SetupGXForI( (void))
+808f87c0 nw4hbm::ut::CharWriter::SetupGXForRGBA( (void))
+808f89c0 nw4hbm::ut::Font::InitReaderFunc( (nw4hbm::ut::FontEncoding))
+808f8a68 nw4hbm::ut::detail::LinkListImpl::__dt( (void))
+808f8aec nw4hbm::ut::detail::LinkListImpl::Erase( (nw4hbm::ut::detail::LinkListImpl::Iterator))
+808f8b34 nw4hbm::ut::detail::LinkListImpl::Erase( (nw4hbm::ut::detail::LinkListImpl::Iterator, nw4hbm::ut::detail::LinkListImpl::Iterator))
+808f8b7c nw4hbm::ut::detail::LinkListImpl::Clear( (void))
+808f8bc0 nw4hbm::ut::detail::LinkListImpl::Reverse( (void))
+808f8c28 nw4hbm::ut::detail::LinkListImpl::Insert( (nw4hbm::ut::detail::LinkListImpl::Iterator, nw4hbm::ut::LinkListNode *))
+808f8c54 nw4hbm::ut::detail::LinkListImpl::Erase( (nw4hbm::ut::LinkListNode *))
+808f8c84 nw4hbm::ut::List_Init( (nw4hbm::ut::List *, unsigned short))
+808f8c9c nw4hbm::ut::List_Append( (nw4hbm::ut::List *, void *))
+808f8d0c nw4hbm::ut::List_Prepend( (nw4hbm::ut::List *, void *))
+808f8d78 nw4hbm::ut::List_Insert( (nw4hbm::ut::List *, void *, void *))
+808f8e98 nw4hbm::ut::List_Remove( (nw4hbm::ut::List *, void *))
+808f8f04 nw4hbm::ut::List_GetNext( (nw4hbm::ut::List const *, void const *))
+808f8f24 nw4hbm::ut::List_GetPrev( (nw4hbm::ut::List const *, void const *))
+808f8f40 nw4hbm::ut::List_GetNth( (nw4hbm::ut::List const *, unsigned short))
+808f8f8c nw4hbm::ut::ResFont::__ct( (void))
+808f8fc8 nw4hbm::ut::ResFont::__dt( (void))
+808f9020 nw4hbm::ut::ResFont::SetResource( (void *))
+808f9164 nw4hbm::ut::ResFont::RemoveResource( (void))
+808f9168 nw4hbm::ut::ResFont::Rebuild( (nw4hbm::ut::BinaryFileHeader *))
+808f9294 nw4hbm::ut::detail::ResFontBase::__ct( (void))
+808f92d8 nw4hbm::ut::detail::ResFontBase::__dt( (void))
+808f9318 nw4hbm::ut::detail::ResFontBase::SetResourceBuffer( (void *, nw4hbm::ut::FontInformation *))
+808f9324 nw4hbm::ut::detail::ResFontBase::RemoveResourceBuffer( (void))
+808f933c nw4hbm::ut::detail::ResFontBase::GetWidth( const(void))
+808f9348 nw4hbm::ut::detail::ResFontBase::GetHeight( const(void))
+808f9354 nw4hbm::ut::detail::ResFontBase::GetAscent( const(void))
+808f9360 nw4hbm::ut::detail::ResFontBase::GetDescent( const(void))
+808f9374 nw4hbm::ut::detail::ResFontBase::GetBaselinePos( const(void))
+808f9388 nw4hbm::ut::detail::ResFontBase::GetCellHeight( const(void))
+808f9398 nw4hbm::ut::detail::ResFontBase::GetCellWidth( const(void))
+808f93a8 nw4hbm::ut::detail::ResFontBase::GetMaxCharWidth( const(void))
+808f93b8 nw4hbm::ut::detail::ResFontBase::GetType( const(void))
+808f93c0 nw4hbm::ut::detail::ResFontBase::GetTextureFormat( const(void))
+808f93d0 nw4hbm::ut::detail::ResFontBase::GetLineFeed( const(void))
+808f93e0 nw4hbm::ut::detail::ResFontBase::GetDefaultCharWidths( const(void))
+808f93f8 nw4hbm::ut::detail::ResFontBase::SetDefaultCharWidths( (nw4hbm::ut::CharWidths const &))
+808f9418 nw4hbm::ut::detail::ResFontBase::SetAlternateChar( (unsigned short))
+808f94b0 nw4hbm::ut::detail::ResFontBase::SetLineFeed( (int))
+808f94bc nw4hbm::ut::detail::ResFontBase::GetCharWidth( const(unsigned short))
+808f9508 nw4hbm::ut::detail::ResFontBase::GetCharWidths( const(unsigned short))
+808f95f4 nw4hbm::ut::detail::ResFontBase::GetGlyph( const(nw4hbm::ut::Glyph *, unsigned short))
+808f9698 nw4hbm::ut::detail::ResFontBase::GetEncoding( const(void))
+808f96a4 nw4hbm::ut::detail::ResFontBase::GetGlyphIndex( const(unsigned short))
+808f9730 nw4hbm::ut::detail::ResFontBase::FindGlyphIndex( const(unsigned short))
+808f9778 nw4hbm::ut::detail::ResFontBase::FindGlyphIndex( const(nw4hbm::ut::FontCodeMap const *, unsigned short))
+808f984c nw4hbm::ut::detail::ResFontBase::GetCharWidthsFromIndex( const(unsigned short))
+808f989c nw4hbm::ut::detail::ResFontBase::GetCharWidthsFromIndex( const(nw4hbm::ut::FontWidth const *, unsigned short))
+808f98b8 nw4hbm::ut::detail::ResFontBase::GetGlyphFromIndex( const(nw4hbm::ut::Glyph *, unsigned short))
 808f99bc __ct__Q36nw4hbm2ut19TagProcessorBase<c>Fv
 808f99cc __dt__Q36nw4hbm2ut19TagProcessorBase<c>Fv
 808f9a0c Process__Q36nw4hbm2ut19TagProcessorBase<c>FUsPQ36nw4hbm2ut15PrintContext<c>
@@ -4110,96 +4110,96 @@
 80905d2c _dtors
 80905d30 __destroy_global_chain_reference
 80905d34 _dtors$99
-80906130 scReConnectTime__Q210homebutton10HomeButton
-80906134 scReConnectTime2__Q210homebutton10HomeButton
-80906138 scPadDrawWaitTime__Q210homebutton10HomeButton
-8090613c scGetPadInfoTime__Q210homebutton10HomeButton
-80906140 scForcusSEWaitTime__Q210homebutton10HomeButton
-80906144 scOnPaneVibTime__Q210homebutton10HomeButton
-80906148 scOnPaneVibWaitTime__Q210homebutton10HomeButton
-8090614c scWaitStopMotorTime__Q210homebutton10HomeButton
-80906150 scWaitDisConnectTime__Q210homebutton10HomeButton
-809061c8 scSoundHeapSize_but2__Q210homebutton10HomeButton
-809061cc scSoundHeapSize_but3__Q210homebutton10HomeButton
-809061d0 scSoundThreadPrio__Q210homebutton10HomeButton
-809061d4 scDvdThreadPrio__Q210homebutton10HomeButton
-809066a0 __vt__Q210homebutton15FrameController
-809066d0 __RTTI__Q210homebutton15FrameController
-809066d8 __vt__Q210homebutton18GroupAnmController
-80906718 __RTTI__Q210homebutton18GroupAnmController
-80906740 __vt__Q310homebutton3gui13PaneComponent
-809067e0 __RTTI__Q310homebutton3gui13PaneComponent
-809067e8 __vt__Q310homebutton3gui11PaneManager
-80906880 __RTTI__Q310homebutton3gui11PaneManager
-80906888 __vt__Q310homebutton3gui7Manager
-809068f0 __RTTI__Q310homebutton3gui7Manager
-809068f8 __vt__Q310homebutton3gui9Component
-80906980 __RTTI__Q310homebutton3gui9Component
-80906988 __vt__Q310homebutton3gui9Interface
-809069c8 __RTTI__Q310homebutton3gui9Interface
-809069d0 __vt__Q210homebutton9RemoteSpk
-809069f8 __RTTI__Q210homebutton9RemoteSpk
+80906130 homebutton::HomeButton::scReConnectTime(void)
+80906134 homebutton::HomeButton::scReConnectTime2(void)
+80906138 homebutton::HomeButton::scPadDrawWaitTime(void)
+8090613c homebutton::HomeButton::scGetPadInfoTime(void)
+80906140 homebutton::HomeButton::scForcusSEWaitTime(void)
+80906144 homebutton::HomeButton::scOnPaneVibTime(void)
+80906148 homebutton::HomeButton::scOnPaneVibWaitTime(void)
+8090614c homebutton::HomeButton::scWaitStopMotorTime(void)
+80906150 homebutton::HomeButton::scWaitDisConnectTime(void)
+809061c8 homebutton::HomeButton::scSoundHeapSize_but2(void)
+809061cc homebutton::HomeButton::scSoundHeapSize_but3(void)
+809061d0 homebutton::HomeButton::scSoundThreadPrio(void)
+809061d4 homebutton::HomeButton::scDvdThreadPrio(void)
+809066a0 _Q210homebutton15FrameController virtual table
+809066d0 homebutton::FrameController::__RTTI(void)
+809066d8 _Q210homebutton18GroupAnmController virtual table
+80906718 homebutton::GroupAnmController::__RTTI(void)
+80906740 _Q310homebutton3gui13PaneComponent virtual table
+809067e0 homebutton::gui::PaneComponent::__RTTI(void)
+809067e8 _Q310homebutton3gui11PaneManager virtual table
+80906880 homebutton::gui::PaneManager::__RTTI(void)
+80906888 _Q310homebutton3gui7Manager virtual table
+809068f0 homebutton::gui::Manager::__RTTI(void)
+809068f8 _Q310homebutton3gui9Component virtual table
+80906980 homebutton::gui::Component::__RTTI(void)
+80906988 _Q310homebutton3gui9Interface virtual table
+809069c8 homebutton::gui::Interface::__RTTI(void)
+809069d0 _Q210homebutton9RemoteSpk virtual table
+809069f8 homebutton::RemoteSpk::__RTTI(void)
 80906d98 __HBMVersion
 80906d9c spAllocator
-80906de0 scCursorLytName__Q210homebutton10HomeButton
-80906df8 scCursorPaneName__Q210homebutton10HomeButton
-80906e04 scCursorRotPaneName__Q210homebutton10HomeButton
-80906e10 scCursorSRotPaneName__Q210homebutton10HomeButton
-80906e38 scBtnName__Q210homebutton10HomeButton
-80906e70 scTxtName__Q210homebutton10HomeButton
-80906ef0 scGrName__Q210homebutton10HomeButton
-80906f4c scAnimName__Q210homebutton10HomeButton
-80907090 scPairGroupAnimName__Q210homebutton10HomeButton
-809071a0 scPairGroupName__Q210homebutton10HomeButton
-809073b0 scGroupAnimName__Q210homebutton10HomeButton
-809075d8 scGroupName__Q210homebutton10HomeButton
-809076a0 scFuncPaneName__Q210homebutton10HomeButton
-80907738 scFuncTouchPaneName__Q210homebutton10HomeButton
-80907784 scFuncTextPaneName__Q210homebutton10HomeButton
-80907890 scBatteryPaneName__Q210homebutton10HomeButton
-809079b8 __vt__Q210homebutton22HomeButtonEventHandler
-809079f8 __RTTI__Q210homebutton22HomeButtonEventHandler
-80907a00 __vt__Q310homebutton3gui12EventHandler
-80907a30 __RTTI__Q310homebutton3gui12EventHandler
-80907a80 __vt__Q36nw4hbm3lyt18AnimTransformBasic
-80907ad0 __RTTI__Q36nw4hbm3lyt18AnimTransformBasic
-80907ad8 __vt__Q36nw4hbm3lyt13AnimTransform
-80907b18 __RTTI__Q36nw4hbm3lyt13AnimTransform
-80907b28 __vt__Q36nw4hbm3lyt24MultiArcResourceAccessor
-80907b70 __RTTI__Q36nw4hbm3lyt24MultiArcResourceAccessor
-80907b78 __vt__Q36nw4hbm3lyt19ArcResourceAccessor
-80907bc0 __RTTI__Q36nw4hbm3lyt19ArcResourceAccessor
-80907be8 __RTTI__Q36nw4hbm3lyt16ResourceAccessor
-80907bf0 __vt__Q36nw4hbm3lyt8Bounding
-80907c80 __RTTI__Q36nw4hbm3lyt8Bounding
-80907ca8 __RTTI__Q36nw4hbm3lyt4Pane
-80907cd0 __RTTI__Q46nw4hbm3lyt6detail8PaneBase
-80907cd8 __vt__Q36nw4hbm3lyt8DrawInfo
-80907d00 __RTTI__Q36nw4hbm3lyt8DrawInfo
-80907d08 __vt__Q36nw4hbm3lyt5Group
-80907d28 __RTTI__Q36nw4hbm3lyt5Group
-80907d30 __vt__Q36nw4hbm3lyt6Layout
-80907d78 __RTTI__Q36nw4hbm3lyt6Layout
-80907dc0 __vt__Q36nw4hbm3lyt8Material
-80907e00 __RTTI__Q36nw4hbm3lyt8Material
-80907e08 __vt__Q36nw4hbm3lyt4Pane
-80907e8c __vt__Q46nw4hbm3lyt6detail8PaneBase
-80907eb8 __vt__Q36nw4hbm3lyt7Picture
-80907f50 __RTTI__Q36nw4hbm3lyt7Picture
-80907f98 __vt__Q36nw4hbm3lyt16ResourceAccessor
-80907fd4 __vt__Q36nw4hbm3lyt7TextBox
-80908078 __RTTI__Q36nw4hbm3lyt7TextBox
-809080fc __vt__Q36nw4hbm3lyt6Window
-809081a0 __RTTI__Q36nw4hbm3lyt6Window
-80909330 __vt__Q36nw4hbm2ut7ResFont
-809093b0 __RTTI__Q36nw4hbm2ut7ResFont
-809093e8 __RTTI__Q46nw4hbm2ut6detail11ResFontBase
-80909408 __RTTI__Q36nw4hbm2ut4Font
-80909420 __vt__Q46nw4hbm2ut6detail11ResFontBase
-809094a8 __vt__Q36nw4hbm2ut4Font
-80909518 __vt__Q36nw4hbm2ut19TagProcessorBase<w>
+80906de0 homebutton::HomeButton::scCursorLytName(void)
+80906df8 homebutton::HomeButton::scCursorPaneName(void)
+80906e04 homebutton::HomeButton::scCursorRotPaneName(void)
+80906e10 homebutton::HomeButton::scCursorSRotPaneName(void)
+80906e38 homebutton::HomeButton::scBtnName(void)
+80906e70 homebutton::HomeButton::scTxtName(void)
+80906ef0 homebutton::HomeButton::scGrName(void)
+80906f4c homebutton::HomeButton::scAnimName(void)
+80907090 homebutton::HomeButton::scPairGroupAnimName(void)
+809071a0 homebutton::HomeButton::scPairGroupName(void)
+809073b0 homebutton::HomeButton::scGroupAnimName(void)
+809075d8 homebutton::HomeButton::scGroupName(void)
+809076a0 homebutton::HomeButton::scFuncPaneName(void)
+80907738 homebutton::HomeButton::scFuncTouchPaneName(void)
+80907784 homebutton::HomeButton::scFuncTextPaneName(void)
+80907890 homebutton::HomeButton::scBatteryPaneName(void)
+809079b8 _Q210homebutton22HomeButtonEventHandler virtual table
+809079f8 homebutton::HomeButtonEventHandler::__RTTI(void)
+80907a00 _Q310homebutton3gui12EventHandler virtual table
+80907a30 homebutton::gui::EventHandler::__RTTI(void)
+80907a80 _Q36nw4hbm3lyt18AnimTransformBasic virtual table
+80907ad0 nw4hbm::lyt::AnimTransformBasic::__RTTI(void)
+80907ad8 _Q36nw4hbm3lyt13AnimTransform virtual table
+80907b18 nw4hbm::lyt::AnimTransform::__RTTI(void)
+80907b28 _Q36nw4hbm3lyt24MultiArcResourceAccessor virtual table
+80907b70 nw4hbm::lyt::MultiArcResourceAccessor::__RTTI(void)
+80907b78 _Q36nw4hbm3lyt19ArcResourceAccessor virtual table
+80907bc0 nw4hbm::lyt::ArcResourceAccessor::__RTTI(void)
+80907be8 nw4hbm::lyt::ResourceAccessor::__RTTI(void)
+80907bf0 _Q36nw4hbm3lyt8Bounding virtual table
+80907c80 nw4hbm::lyt::Bounding::__RTTI(void)
+80907ca8 nw4hbm::lyt::Pane::__RTTI(void)
+80907cd0 nw4hbm::lyt::detail::PaneBase::__RTTI(void)
+80907cd8 _Q36nw4hbm3lyt8DrawInfo virtual table
+80907d00 nw4hbm::lyt::DrawInfo::__RTTI(void)
+80907d08 _Q36nw4hbm3lyt5Group virtual table
+80907d28 nw4hbm::lyt::Group::__RTTI(void)
+80907d30 _Q36nw4hbm3lyt6Layout virtual table
+80907d78 nw4hbm::lyt::Layout::__RTTI(void)
+80907dc0 _Q36nw4hbm3lyt8Material virtual table
+80907e00 nw4hbm::lyt::Material::__RTTI(void)
+80907e08 _Q36nw4hbm3lyt4Pane virtual table
+80907e8c _Q46nw4hbm3lyt6detail8PaneBase virtual table
+80907eb8 _Q36nw4hbm3lyt7Picture virtual table
+80907f50 nw4hbm::lyt::Picture::__RTTI(void)
+80907f98 _Q36nw4hbm3lyt16ResourceAccessor virtual table
+80907fd4 _Q36nw4hbm3lyt7TextBox virtual table
+80908078 nw4hbm::lyt::TextBox::__RTTI(void)
+809080fc _Q36nw4hbm3lyt6Window virtual table
+809081a0 nw4hbm::lyt::Window::__RTTI(void)
+80909330 _Q36nw4hbm2ut7ResFont virtual table
+809093b0 nw4hbm::ut::ResFont::__RTTI(void)
+809093e8 nw4hbm::ut::detail::ResFontBase::__RTTI(void)
+80909408 nw4hbm::ut::Font::__RTTI(void)
+80909420 _Q46nw4hbm2ut6detail11ResFontBase virtual table
+809094a8 _Q36nw4hbm2ut4Font virtual table
+80909518 _Q36nw4hbm2ut19TagProcessorBase virtual table<w>
 80909558 __RTTI__Q36nw4hbm2ut19TagProcessorBase<w>
-80909560 __vt__Q36nw4hbm2ut19TagProcessorBase<c>
+80909560 _Q36nw4hbm2ut19TagProcessorBase virtual table<c>
 80909598 __RTTI__Q36nw4hbm2ut19TagProcessorBase<c>
 809095a0 mFormatBufferSize__Q36nw4hbm2ut17TextWriterBase<c>
 809095a4 mFormatBufferSize__Q36nw4hbm2ut17TextWriterBase<w>
@@ -4215,21 +4215,21 @@
 809274b8 hbm_data_adrs
 809274d8 hbm_data_free_size
 809274e0 hbm_curpos
-8092a130 suIDCounter__Q310homebutton3gui11PaneManager
-8092a138 sBatteryFlag__Q210homebutton10Controller
-8092a140 sAlarm__Q210homebutton10Controller
-8092a200 sAlarmSoundOff__Q210homebutton10Controller
-8092a2c0 sThis__Q210homebutton10Controller
-8092a2d0 spInstance__Q210homebutton9RemoteSpk
-8092a2f0 spHomeButtonObj__Q210homebutton10HomeButton
-8092a2f8 sMutex__Q210homebutton10HomeButton
-8092a310 typeInfo__Q36nw4hbm3lyt8Bounding
-8092a340 mspAllocator__Q36nw4hbm3lyt6Layout
-8092a348 typeInfo__Q36nw4hbm3lyt4Pane
-8092a350 typeInfo__Q36nw4hbm3lyt7Picture
-8092a358 typeInfo__Q36nw4hbm3lyt7TextBox
-8092a360 typeInfo__Q36nw4hbm3lyt6Window
-8092a380 mLoadingTexture__Q36nw4hbm2ut10CharWriter
+8092a130 homebutton::gui::PaneManager::suIDCounter(void)
+8092a138 homebutton::Controller::sBatteryFlag(void)
+8092a140 homebutton::Controller::sAlarm(void)
+8092a200 homebutton::Controller::sAlarmSoundOff(void)
+8092a2c0 homebutton::Controller::sThis(void)
+8092a2d0 homebutton::RemoteSpk::spInstance(void)
+8092a2f0 homebutton::HomeButton::spHomeButtonObj(void)
+8092a2f8 homebutton::HomeButton::sMutex(void)
+8092a310 nw4hbm::lyt::Bounding::typeInfo(void)
+8092a340 nw4hbm::lyt::Layout::mspAllocator(void)
+8092a348 nw4hbm::lyt::Pane::typeInfo(void)
+8092a350 nw4hbm::lyt::Picture::typeInfo(void)
+8092a358 nw4hbm::lyt::TextBox::typeInfo(void)
+8092a360 nw4hbm::lyt::Window::typeInfo(void)
+8092a380 nw4hbm::ut::CharWriter::mLoadingTexture(void)
 8092a3a8 mFormatBuffer__Q36nw4hbm2ut17TextWriterBase<c>
 8092a3ac mDefaultTagProcessor__Q36nw4hbm2ut17TextWriterBase<c>
 8092a3b0 mFormatBuffer__Q36nw4hbm2ut17TextWriterBase<w>
@@ -4239,9 +4239,9 @@
 8092aa84 __HBMSYNVoice
 8092b068 __register_global_object
 8092b084 __destroy_global_chain
-8092b0d8 __register_atexit__FPFv_v
-8092b134 get_monster_disp_size__FUcUsPf
-8092b190 get_monster_size_border__FUcPPUs
+8092b0d8 __register_atexit(void (*)(void))
+8092b134 get_monster_disp_size(unsigned char, unsigned short, float *)
+8092b190 get_monster_size_border(unsigned char, unsigned short **)
 8092b1a8 _prolog
 8092b4c4 _epilog
 8092b564 _unresolved
@@ -4252,7 +4252,7 @@
 8092b570 __destroy_global_chain_reference
 8092b574 _dtors$99
 8094f380 lsp_data
-8098be90 @LOCAL@GetAnmPlayPolicy__Q24nw4r3g3dFQ34nw4r3g3d9AnmPolicy@policyTable
+8098be90 @LOCAL@nw4r::g3d::GetAnmPlayPolicy( (nw4r::g3d::AnmPolicy))@policyTable
 8098be98 Item_data
 8098fa68 item_str
 80990614 item_exp
@@ -5098,17 +5098,17 @@
 809e24e0 __global_destructor_chain
 809e3a10 __register_global_object
 809e3a2c __destroy_global_chain
-809e3a80 __register_atexit__FPFv_v
+809e3a80 __register_atexit(void (*)(void))
 809e3adc _prolog
 809e3f0c _epilog
 809e4138 _unresolved
-809e413c lb_npc_talk_se_req__FUsPQ34nw4r4math4VEC3
-809e4238 __as__Q34nw4r4math4VEC3FRCQ34nw4r4math4VEC3
-809e4268 __as__Q34nw4r4math5_VEC3FRCQ34nw4r4math5_VEC3
-809e4284 lb_npc_talk_proc__Fv
-809fb880 lb_npc_snd_sub__Fv
-809fbd4c __ct__14_npc_talk_se_wFv
-809fbd80 __ct__Q34nw4r4math4VEC3Fv
+809e413c lb_npc_talk_se_req(unsigned short, nw4r::math::VEC3 *)
+809e4238 nw4r::math::VEC3::operator=( (nw4r::math::VEC3 const &))
+809e4268 nw4r::math::_VEC3::operator=( (nw4r::math::_VEC3 const &))
+809e4284 lb_npc_talk_proc(void)
+809fb880 lb_npc_snd_sub(void)
+809fbd4c _npc_talk_se_w::__ct(void)
+809fbd80 nw4r::math::VEC3::__ct( (void))
 809fbd84 _ctors
 809fbd88 _ctors$99
 809fbd8c __destroy_global_chain_reference
@@ -5116,7 +5116,7 @@
 809fbd90 __destroy_global_chain_reference
 809fbd94 _dtors$99
 80a45480 lb_lsp_data
-80a9ad68 @LOCAL@GetAnmPlayPolicy__Q24nw4r3g3dFQ34nw4r3g3d9AnmPolicy@policyTable
+80a9ad68 @LOCAL@nw4r::g3d::GetAnmPlayPolicy( (nw4r::g3d::AnmPolicy))@policyTable
 80a9ad70 npcFixed001
 80a9ad88 npcEvent001
 80a9ae18 npcSmallTalk001
@@ -6091,48 +6091,48 @@
 80b17820 npcCommand072
 80b18a28 __register_global_object
 80b18a44 __destroy_global_chain
-80b18a98 __register_atexit__FPFv_v
-80b18c38 net_connect_init__FP14_net_ctrl_work
-80b18d0c net_connect_main__FP14_net_connect_w
-80b18de4 __as__8_net_sprFRC8_net_spr
-80b1988c net_connect_draw__Fv
-80b199a0 net_connect_buffer__Fv
-80b1c0a0 online_sub_ec_init__Fv
-80b1c0c8 online_sub_ec__Fv
-80b1cf3c online_sub_reflect_init__Fv
-80b1cf64 online_sub_reflect__Fv
-80b1d2f0 online_sub_patch_do_check__Fl
-80b1d314 net_connect_announce__Fv
-80b1d390 net_connect_maintenance__Fv
-80b1d48c net_connect_terms__Fv
+80b18a98 __register_atexit(void (*)(void))
+80b18c38 net_connect_init(_net_ctrl_work *)
+80b18d0c net_connect_main(_net_connect_w *)
+80b18de4 _net_spr::operator=(_net_spr const &)
+80b1988c net_connect_draw(void)
+80b199a0 net_connect_buffer(void)
+80b1c0a0 online_sub_ec_init(void)
+80b1c0c8 online_sub_ec(void)
+80b1cf3c online_sub_reflect_init(void)
+80b1cf64 online_sub_reflect(void)
+80b1d2f0 online_sub_patch_do_check(long)
+80b1d314 net_connect_announce(void)
+80b1d390 net_connect_maintenance(void)
+80b1d48c net_connect_terms(void)
 80b1db90 _prolog
 80b1dc74 _epilog
 80b1dcf4 _unresolved
-80b1dcf8 disp_net_connect_err__FUc
-80b1e24c disp_net_connect_plat__Fl
-80b1e360 disp_error_string__Fll
-80b1eaf8 getOpeningErrorCode__FP12NetworkError
-80b1eb68 getOpeningDNSErrorCode__FP12NetworkError
-80b1eb80 getOpeningSSLErrorCode__FP12NetworkError
-80b1ec4c getNetworkErrorCode__FP12NetworkError
-80b1ecac getNetworkTCPErrorCode__FP12NetworkError
-80b1ed28 set_open_error_code__FP12NetworkError
-80b1edd4 set_layer_error_code__FP12NetworkError
-80b1eee0 set_ec_error_code__FP12NetworkError
-80b1ef9c set_patch_error_code__FP12NetworkError
-80b1f070 check_dopatch_error__Fi
-80b1f0f8 set_pc_error_code__Fv
-80b1f104 getMediatorInstance__15sNetworkLibraryFv
-80b1f110 getInstance__15sNetworkLibraryFv
-80b1f11c getInstance__12PatInterfaceFv
-80b1f164 strchr__3stdFPci
+80b1dcf8 disp_net_connect_err(unsigned char)
+80b1e24c disp_net_connect_plat(long)
+80b1e360 disp_error_string(long, long)
+80b1eaf8 getOpeningErrorCode(NetworkError *)
+80b1eb68 getOpeningDNSErrorCode(NetworkError *)
+80b1eb80 getOpeningSSLErrorCode(NetworkError *)
+80b1ec4c getNetworkErrorCode(NetworkError *)
+80b1ecac getNetworkTCPErrorCode(NetworkError *)
+80b1ed28 set_open_error_code(NetworkError *)
+80b1edd4 set_layer_error_code(NetworkError *)
+80b1eee0 set_ec_error_code(NetworkError *)
+80b1ef9c set_patch_error_code(NetworkError *)
+80b1f070 check_dopatch_error(int)
+80b1f0f8 set_pc_error_code(void)
+80b1f104 sNetworkLibrary::getMediatorInstance(void)
+80b1f110 sNetworkLibrary::getInstance(void)
+80b1f11c PatInterface::getInstance(void)
+80b1f164 std::strchr(char *, int)
 80b1f168 _ctors
 80b1f168 _ctors$99
 80b1f16c __destroy_global_chain_reference
 80b1f16c _dtors
 80b1f170 __destroy_global_chain_reference
 80b1f174 _dtors$99
-80b215f8 @LOCAL@GetAnmPlayPolicy__Q24nw4r3g3dFQ34nw4r3g3d9AnmPolicy@policyTable
+80b215f8 @LOCAL@nw4r::g3d::GetAnmPlayPolicy( (nw4r::g3d::AnmPolicy))@policyTable
 80b21878 net_msg00_tbl
 80b21888 net_msg01_tbl
 80b21898 net_msg02_tbl

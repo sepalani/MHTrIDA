@@ -32,7 +32,10 @@ Here are the MHTri internal error codes, if you want the whole list with Nintend
 
 **Server [Port 8200]**
  * Error 11602: Connection failed / Wrong pass phrase? / Server is running?
+ * Error 11603: Connection reset before SSL/TLS negotiation
+ * Error 11604: Connection reset during SSL/TLS negotiation [SSL Handshake Failure]
  * Error 11609: Connection closed unexpectedly [TCP: RST, ACK]
  * Error 11611: Connection closed by server [TCP: FIN, ACK] + [TCP: RST, ACK]
  * Error 11612: Wrong data sent
- * Error 11619: Timeout
+ * Error 11613: Timeout while trying to connect
+ * Error 11619: Timeout while waiting for data

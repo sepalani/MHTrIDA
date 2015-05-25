@@ -16,6 +16,8 @@ We don't have to deal with it, thanks to the alternative servers. As far as I kn
  * 0x0056DF80, Offset from Data4 section: 0x00002A20 [NTSC-U]
  * 0x0056E940, Offset from Data4 section: 0x00002C00 [PAL]
 
+**EDIT:** It seems that **Dolphin Emulator** trust unknown certificates when the **Wii doesn't**. Good to know. So working on untrusted servers is doable via Dolphin Emulator.
+
 
 
 Capcom Servers

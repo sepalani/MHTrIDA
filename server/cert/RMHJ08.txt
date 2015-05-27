@@ -1,0 +1,65 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=Washington, O=Nintendo of America Inc., OU=NOA, CN=Nintendo Class 2 CA/emailAddress=ca@noa.nintendo.com
+        Validity
+            Not Before: Jun 15 19:34:33 2007 GMT
+            Not After : Dec 28 12:00:00 2049 GMT
+        Subject: C=US, ST=Washington, O=Nintendo of America Inc., OU=NOA, CN=Nintendo Class 2 CA/emailAddress=ca@noa.nintendo.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:b4:a8:0f:e3:80:02:a7:ad:fb:59:9d:e1:92:9d:
+                    19:7b:62:00:96:ce:13:2e:5b:83:c0:33:26:a6:39:
+                    34:ac:8e:e7:7f:69:7e:d4:c0:7c:b7:60:86:af:b6:
+                    45:06:36:e4:5d:ea:ed:15:54:36:1d:57:b6:9e:0e:
+                    07:43:62:10:ee:35:c2:41:34:38:d0:dd:52:ae:86:
+                    fd:0c:9d:29:fa:3e:b6:bb:d9:51:38:26:24:87:a2:
+                    20:37:4e:8e:bc:d1:04:5b:98:18:7e:a8:54:fd:d0:
+                    bf:a6:1b:48:0e:e6:19:b4:df:c4:3f:8a:19:ce:a0:
+                    14:23:b1:47:12:2c:1e:8c:a7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                CB:40:16:7C:B1:37:2B:26:5A:35:DE:BE:F1:5B:50:8A:8D:0C:D4:BD
+            X509v3 Authority Key Identifier: 
+                keyid:CB:40:16:7C:B1:37:2B:26:5A:35:DE:BE:F1:5B:50:8A:8D:0C:D4:BD
+                DirName:/C=US/ST=Washington/O=Nintendo of America Inc./OU=NOA/CN=Nintendo Class 2 CA/emailAddress=ca@noa.nintendo.com
+                serial:01
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+    Signature Algorithm: sha1WithRSAEncryption
+         9c:87:51:c1:e2:26:99:c6:97:01:3f:5e:89:d9:06:28:06:b5:
+         a6:c9:a4:6f:ea:fe:b2:a8:8a:19:08:2a:a9:d3:21:b9:ca:ff:
+         d0:10:e3:45:54:65:18:1e:ba:96:34:6d:db:0d:ae:7a:16:4b:
+         ad:4b:a3:3a:44:ae:78:73:24:70:ad:c7:4e:5a:63:71:56:6e:
+         45:5a:63:53:09:c2:cf:91:48:23:3f:43:c1:6c:9d:78:44:93:
+         66:40:d8:83:c3:98:e3:c9:83:9d:62:bc:38:84:46:83:45:26:
+         7c:27:74:25:3b:b3:03:66:d4:d6:19:fe:76:d8:d9:6a:99:1c:
+         60:e7
+-----BEGIN CERTIFICATE-----
+MIIDmDCCAwGgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBlTELMAkGA1UEBhMCVVMx
+EzARBgNVBAgTCldhc2hpbmd0b24xITAfBgNVBAoTGE5pbnRlbmRvIG9mIEFtZXJp
+Y2EgSW5jLjEMMAoGA1UECxMDTk9BMRwwGgYDVQQDExNOaW50ZW5kbyBDbGFzcyAy
+IENBMSIwIAYJKoZIhvcNAQkBFhNjYUBub2EubmludGVuZG8uY29tMB4XDTA3MDYx
+NTE5MzQzM1oXDTQ5MTIyODEyMDAwMFowgZUxCzAJBgNVBAYTAlVTMRMwEQYDVQQI
+EwpXYXNoaW5ndG9uMSEwHwYDVQQKExhOaW50ZW5kbyBvZiBBbWVyaWNhIEluYy4x
+DDAKBgNVBAsTA05PQTEcMBoGA1UEAxMTTmludGVuZG8gQ2xhc3MgMiBDQTEiMCAG
+CSqGSIb3DQEJARYTY2FAbm9hLm5pbnRlbmRvLmNvbTCBnzANBgkqhkiG9w0BAQEF
+AAOBjQAwgYkCgYEAtKgP44ACp637WZ3hkp0Ze2IAls4TLluDwDMmpjk0rI7nf2l+
+1MB8t2CGr7ZFBjbkXertFVQ2HVe2ng4HQ2IQ7jXCQTQ40N1Srob9DJ0p+j62u9lR
+OCYkh6IgN06OvNEEW5gYfqhU/dC/phtIDuYZtN/EP4oZzqAUI7FHEiwejKcCAwEA
+AaOB9TCB8jAdBgNVHQ4EFgQUy0AWfLE3KyZaNd6+8VtQio0M1L0wgcIGA1UdIwSB
+ujCBt4AUy0AWfLE3KyZaNd6+8VtQio0M1L2hgZukgZgwgZUxCzAJBgNVBAYTAlVT
+MRMwEQYDVQQIEwpXYXNoaW5ndG9uMSEwHwYDVQQKExhOaW50ZW5kbyBvZiBBbWVy
+aWNhIEluYy4xDDAKBgNVBAsTA05PQTEcMBoGA1UEAxMTTmludGVuZG8gQ2xhc3Mg
+MiBDQTEiMCAGCSqGSIb3DQEJARYTY2FAbm9hLm5pbnRlbmRvLmNvbYIBATAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAJyHUcHiJpnGlwE/XonZBigGtabJ
+pG/q/rKoihkIKqnTIbnK/9AQ40VUZRgeupY0bdsNrnoWS61LozpErnhzJHCtx05a
+Y3FWbkVaY1MJws+RSCM/Q8FsnXhEk2ZA2IPDmOPJg51ivDiERoNFJnwndCU7swNm
+1NYZ/nbY2WqZHGDn
+-----END CERTIFICATE-----

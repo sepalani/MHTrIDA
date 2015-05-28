@@ -18,6 +18,8 @@ We don't have to deal with it, thanks to the alternative servers. As far as I kn
 
 **EDIT:** It seems that **Dolphin Emulator** trust unknown certificates when the **Wii doesn't**. Good to know. So working on untrusted servers is doable via Dolphin Emulator.
 
+By the way, **each version** of the game uses the **same certificate**. The **DER format** is used with **x509v3 extensions**. Patching the game allows a given certificate to be trusted. Useless if you use Dolphin for the moment, may be useful for Wii users.
+
 
 
 Capcom Servers

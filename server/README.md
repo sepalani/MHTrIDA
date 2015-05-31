@@ -20,6 +20,8 @@ We don't have to deal with it, thanks to the alternative servers. As far as I kn
 
 By the way, **each version** of the game uses the **same certificate**. The **DER format** is used with **x509v3 extensions**. Patching the game allows a given certificate to be trusted. Useless if you use Dolphin for the moment, may be useful for Wii users.
 
+**OpenSSL** can be used to generate a valid certificate. An automated tool is planned for the custom certificate generation and game patching according to the game region.
+
 
 
 Capcom Servers

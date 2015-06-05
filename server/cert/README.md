@@ -22,3 +22,13 @@ Print details
    * ```openssl x509 -in input_file.der -inform DER -text -noout```
  * PEM encoded certificate:
    * ```openssl x509 -in input_file.pem -text -noout```
+
+
+
+Generate keys
+-------------
+Keys are needed to generate a certificate. Monster Hunter Tri use **1024-bit RSA keys**. OpenSSL can generate different kinds of key, `-des3` option (_can be removed for more convenience_) protects it with a password that will be required to be entered each time the certificate will be used.
+ * 1024-bit RSA key:
+   * ```openssl genrsa -des3 -out output_file.key 1024```
+ * 2048-bit RSA key:
+   * ```openssl genrsa -des3 -out output_file.key 2048```

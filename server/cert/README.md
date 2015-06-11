@@ -32,3 +32,18 @@ Keys are needed to generate a certificate. Monster Hunter Tri use **1024-bit RSA
    * ```openssl genrsa -des3 -out output_file.key 1024```
  * 2048-bit RSA key:
    * ```openssl genrsa -des3 -out output_file.key 2048```
+
+
+
+X.509 v3 Certificate Extension
+------------------------------
+This extension appends further information to the certificate. Here is an example of what a configuration file looks like:
+
+```
+extensions = x509v3
+
+[ x509v3 ]
+subjectKeyIdentifier   = hash
+authorityKeyIdentifier = keyid,issuer:always
+basicConstraints       = CA:true
+```

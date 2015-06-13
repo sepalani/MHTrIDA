@@ -40,10 +40,10 @@ Here are the MHTri internal error codes, if you want the whole list with Nintend
  * Error 11601: Can't get server IP from server's domain name
  * Error 11602: Connection failed / Wrong pass phrase? / Server is running?
  * Error 11603: Connection reset before SSL/TLS negotiation
- * Error 11604: Connection reset during SSL/TLS negotiation [SSL Handshake Failure: invalid CN]
- * Error 11605: Connection reset during SSL/TLS negotiation [SSL Handshake Failure: invalid Root CA]
- * Error 11606: Connection reset during SSL/TLS negotiation [SSL Handshake Failure: invalid Certificate Chain]
- * Error 11607: Connection reset during SSL/TLS negotiation [SSL Handshake Failure: invalid Date]
+ * Error 11604: SSL handshake failure [invalid CN]
+ * Error 11605: SSL handshake failure [invalid Root CA]
+ * Error 11606: SSL handshake failure [invalid Certificate Chain]
+ * Error 11607: SSL handshake failure [invalid Date]
  * Error 11609: Connection closed unexpectedly [TCP: RST, ACK]
  * Error 11611: Connection closed by server [TCP: FIN, ACK] + [TCP: RST, ACK]
  * Error 11612: Wrong data sent

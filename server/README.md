@@ -26,7 +26,7 @@ By the way, **each version** of the game uses the **same certificate**. The **DE
 
 Capcom Servers
 --------------
-I don't how many there are, and how long it will take to reverse them all. You can check the server development progression at this address: https://github.com/sepalani/MH3SP
+I don't know how many there are, and how long it will take to reverse them all. You can check the server development progression at this address: https://github.com/sepalani/MH3SP
 
 The first Capcom server listens on port 8200 and waits for a SSL connection. If the SSL connection succeeded, it loads up to 85%. Now, we need to figure out what the game wants from the server.
 

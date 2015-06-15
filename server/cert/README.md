@@ -47,3 +47,11 @@ subjectKeyIdentifier   = hash
 authorityKeyIdentifier = keyid,issuer:always
 basicConstraints       = CA:true
 ```
+
+
+
+Certificate Signing Request
+---------------------------
+The following command creates a certificate signing request with the **private key** given in parameter which will be used to sign it:
+
+```openssl req -new -key foobar.key -out foobar.csr```

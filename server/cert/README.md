@@ -55,3 +55,11 @@ Certificate Signing Request
 The following command creates a certificate signing request with the **private key** given in parameter which will be used to sign it:
 
 ```openssl req -new -key foobar.key -out foobar.csr```
+
+
+
+Certificate
+-----------
+Here is an example of command to create a certificate with a x509v3 extension:
+
+```openssl x509 -days 10000 -extfile ca.ext -signkey ca.key -in ca.csr -req -out ca.crt -set_serial 01```

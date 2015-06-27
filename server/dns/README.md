@@ -45,7 +45,7 @@ You can also try it there: https://ideone.com/VydBSP
 
 Capcom Domain Names
 -------------------
-Very interesting fact, that the main difference used to distinguish region is the domain name and a number. We could probably get the Capcom NTSC-U/PAL servers working together if they don't differ too much. It seems that the mh.capcom.co.jp isn't used so far.
+Very interesting fact, that the main difference used to distinguish region is the domain name and a number. We could probably get the Capcom NTSC-U/PAL servers working together if they don't differ too much. It seems that the mh.capcom.co.jp is used as Common Name within the game's certificate.
 
  * mh.capcom.co.jp
  * mmh-t1-opn02.mmh-service.capcom.co.jp [NTSC-J]

@@ -24,6 +24,12 @@ By the way, **each version** of the game uses the **same certificate**. The **DE
 
 
 
+Capcom Certificate
+------------------
+ * TODO
+
+
+
 Capcom Servers
 --------------
 I don't know how many there are, and how long it will take to reverse them all. You can check the server development progression at this address: https://github.com/sepalani/MH3SP

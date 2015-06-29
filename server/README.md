@@ -9,9 +9,9 @@ To be honest, we don't need to focus on it too much since current alternative se
 
 
 
-Server Certificate
-------------------
-We don't have to deal with it, thanks to the alternative servers. As far as I know, the only certificate in the game is the Nintendo one. In other word, the game doesn't check the Capcom certificate. However if you still want to mess with Nintendo certificate, you can find it in the Data4 section of the main.dol at these addresses depending of your region:
+Nintendo Certificate
+--------------------
+We don't have to deal with it, thanks to the alternative servers. ~~As far as I know, the only certificate in the game is the Nintendo one. In other word, the game doesn't check the Capcom certificate.~~ However if you still want to mess with Nintendo certificate, you can find it in the Data4 section of the main.dol at these addresses depending of your region:
  * 0x00639EA0, Offset from Data4 section: 0x00011400 [NTSC-J]
  * 0x0056DF80, Offset from Data4 section: 0x00002A20 [NTSC-U]
  * 0x0056E940, Offset from Data4 section: 0x00002C00 [PAL]
@@ -24,17 +24,19 @@ By the way, **each version** of the game uses the **same certificate**. The **DE
 
 
 
-Capcom Certificate
-------------------
- * TODO
-
-
-
 Capcom Servers
 --------------
 I don't know how many there are, and how long it will take to reverse them all. You can check the server development progression at this address: https://github.com/sepalani/MH3SP
 
 The first Capcom server listens on port 8200 and waits for a SSL connection. If the SSL connection succeeded, it loads up to 85%. Now, we need to figure out what the game wants from the server.
+
+
+
+Capcom Certificate
+------------------
+Using Dolphin I was able to find what certificate is send to the server. It seems created on the fly or to be somewhere I didn't see yet. Details of Capcom certificate:
+ * Common Name: mh.capcom.co.jp
+ * TODO...
 
 
 

@@ -25,13 +25,3 @@ When the game sends a request to the server, it stores the server response somew
  * Buffer Address: 0x80CD5318, Response Size: 0x80CD5310 [PAL]
  * Buffer Address: 0x80CD5318, Response Size: 0x80CD5310 [NTSC-U]
  * Buffer Address: 0x80CA9400, Response Size: 0x80CA93F8 [NTSC-J]
-
-
-Error Codes
------------
-After some testing, I was able to figure out the meaning of error codes related to this server.
- * Error 11602: Connection failed / Wrong pass phrase? / Server is running?
- * Error 11609: Connection closed unexpectedly [TCP: RST, ACK]
- * Error 11611: Connection closed by server [TCP: FIN, ACK] + [TCP: RST, ACK]
- * Error 11612: Wrong data sent
- * Error 11619: Timeout

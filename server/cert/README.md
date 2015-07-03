@@ -1,6 +1,6 @@
 # Certificates
 
-OpenSSL can manage SSL certificate creation and management.
+OpenSSL can handle SSL certificate creation and many more.
 
 
 
@@ -27,7 +27,7 @@ Print details
 
 Generate keys
 -------------
-Keys are needed to generate a certificate. Monster Hunter Tri use **1024-bit RSA keys**. OpenSSL can generate different kinds of key, `-des3` option (_can be removed for more convenience_) protects it with a password that will be required to be entered each time the certificate will be used.
+Keys are needed to generate a certificate. Monster Hunter Tri uses **1024-bit RSA keys**. OpenSSL can generate different kinds of key, `-des3` option (_can be removed for more convenience_) protects it with a password that will be required to be entered each time the certificate will be used.
  * 1024-bit RSA key:
    * ```openssl genrsa -des3 -out output_file.key 1024```
  * 2048-bit RSA key:
@@ -58,8 +58,12 @@ The following command creates a certificate signing request with the **private k
 
 
 
-Certificate
------------
-Here is an example of command to create a certificate with a x509v3 extension:
+CA Certificate
+--------------
+Here is an example of command to create a CA certificate with a x509v3 extension named **ca.ext**:
 
 ```openssl x509 -days 10000 -extfile ca.ext -signkey ca.key -in ca.csr -req -out ca.crt -set_serial 01```
+
+Certificate
+-----------
+ * TODO

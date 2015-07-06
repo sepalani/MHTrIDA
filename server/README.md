@@ -36,7 +36,7 @@ Capcom Certificate
 ------------------
 Using Dolphin I was able to find what certificate is send to the server. It seems created on the fly or to be somewhere I didn't see yet. Details of Capcom certificate:
  * Common Name: mh.capcom.co.jp
-   * TODO, [NTSC-J]
+   * 0x0063A360, Offset from Data4 section: 0x000118C0 [NTSC-J]
    * 0x005FF9B8, Offset from Data5 section: 0x000870B8 [NTSC-U]
    * 0x0060ADC8, Offset from Data5 section: 0x00091CE8 [PAL]
  * TODO...

@@ -133,16 +133,19 @@ Your quests can begin at different places. One single byte sets where you're goi
   * 0x01 - Night cycle
   * 0x?? - Quest location changer
 2. **Cycle address**
-  * 0x0003E48 | 0x009E48 | 0x00FE48 - **Cycle value** [uint8]
+  * 0x003E48 | 0x009E48 | 0x00FE48 - **Cycle value** [uint8]
 
 
 Arena Records
 -------------
 Arena records are stored in a very strange way. Indeed they do not use seconds but something similar to ticks. To convert this time in seconds, you need to divide this value by 30. Of course, online records are saved the exact same way and also save the teamate's name.
 
-1. Offline Arena Records (Solo)
+* **Record's time**
+  * 0x???? - Time [uint16] ```Time / 30 = Record's time in seconds```
+
+1. **Offline Arena Records (Solo)** [10 records]
+  * 0x00532A - First record
+2. **Offline Arena Records (Duo)** [10 records]
   * TODO
-2. Offline Arena Records (Duo)
-  * TODO
-3. Online Arena Records
+3. **Online Arena Records** [12 records]
   * TODO

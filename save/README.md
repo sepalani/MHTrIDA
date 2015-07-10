@@ -144,7 +144,7 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
   * 0x???? - Time [uint16] ```Time / 30 = Record's time in seconds```
 
 1. **Offline Arena Records (Solo)** [10 records]
-  * 0x00532A - First record
+  * 0x00532A | 0x00B32A | 0x01132A - First record
 2. **Offline Arena Records (Duo)** [10 records]
   * TODO
 3. **Online Arena Records** [12 records]

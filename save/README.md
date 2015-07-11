@@ -141,7 +141,7 @@ Arena Records
 Arena records are stored in a very strange way. Indeed they do not use seconds but something similar to ticks. To convert this time in seconds, you need to divide this value by 30. Of course, online records are saved the exact same way and also save the teamate's name.
 
 * **Record's time**
-  * 0x???? - Time [uint16] ```Time / 30 = Record's time in seconds```
+  * 0x???? - Time [uint32] ```Time / 30 = Record's time in seconds```
 
 1. **Offline Arena Records (Solo)** [10 records]
   * 0x00532A | 0x00B32A | 0x01132A - First record

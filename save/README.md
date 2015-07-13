@@ -148,4 +148,4 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
 2. **Offline Arena Records (Duo)** [10 records]
   * 0x005350 | 0x00B350 | 0x011350 - First record
 3. **Online Arena Records** [12 records]
-  * TODO
+  * 0x005378 | 0x00B378 | 0x011378 - First record

@@ -7,15 +7,18 @@ In the the Monster Hunter Tri save there are 3 kind of files.
 These data files are "files" where you can store hunters, all their properties and they also store common option settings for them. This post will more likely detail all the content found in these data files and sometimes how to exploit them.
 
 
+
 Checksum
 --------
 The game uses a checksum to check the save integrity. To compute the checksum you need to add each byte from the address 0x08 (which is the 9th byte) to the end of the file.
  * Checksum address: 0x04 [Size: 4 bytes (uint32)]
 
 
+
 File Options
 ------------
  * TODO
+
 
 
 Hunter Profiles
@@ -24,6 +27,7 @@ These profiles seem to be 0x6000 (24.576) bytes each. Supposing that the file op
  * Profile 1 address: 0x0048
  * Profile 2 address: 0x6048
  * Profile 3 address: 0xC048
+
 
 
 Hunter Pouches
@@ -42,6 +46,7 @@ In fact, even if there are two kind of pouch: the **Blademaster Pouch** and the 
   * 0x0001C4 | 0x0061C4 | 0x00C1C4 - Last slot
 
 
+
 Item Box
 --------
 Hunters' Item Box is composed of (x800) **Item Slots** which are a pairs of **Item ID** [uint16] and **Quantity** [int16].
@@ -52,9 +57,14 @@ Hunters' Item Box is composed of (x800) **Item Slots** which are a pairs of **It
   * 0x0001C8 | 0x0061C8 | 0x00C1C8 - First slot
   * 0x000E44 | 0x006E44 | 0x00CE44 - Last slot
 
+
+
 Equip Box
 ---------
- * TODO
+ 1. **Equipment Slot**
+  * 0x00 - TODO
+ 2. **Item Box**
+
 
 
 Fishery
@@ -95,6 +105,7 @@ Hunting Boats allow you to collect items by sending your fleets on different loc
   * 0x003FA3 | 0x009FA3 | 0x00FFA3 - Previous Prefered Destination [uint8]
 
 
+
 Farm
 ----
 The farms levels and the box contents can be found at those addresses for the 1st, 2nd and 3rd profiles respectively:
@@ -124,6 +135,7 @@ The farms levels and the box contents can be found at those addresses for the 1s
   * 0x0046B6 | 0x00A6B6 | 0x0106B6 - Reward [uint16]
 
 
+
 Day-Night Cycle/Quest Location
 ------------------------------
 Your quests can begin at different places. One single byte sets where you're going (in offline mode), the exact same byte that sets the **day-night cycle** which takes respectively the value 0 or 1. Unfortunately if the value is above 1 (which should normally never happen) you're going somewhere else allowing you to change the **quest location**.
@@ -134,6 +146,7 @@ Your quests can begin at different places. One single byte sets where you're goi
   * 0x?? - Quest location changer
 2. **Cycle address**
   * 0x003E48 | 0x009E48 | 0x00FE48 - **Cycle value** [uint8]
+
 
 
 Arena Records

@@ -155,22 +155,22 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
 
 * **Record's time**
   * 0x???? - Time [uint32] ```Time / 30 = Record's time in seconds```
+* **Flags**
+  * 0x005328 | 0x00B328 | 0x011328 - TODO
 
 1. **Offline Arena Records (Solo)** [10 records]
-  * 0x005328 | 0x00B328 | 0x011328 - First record
-  * TODO | TODO | TODO - The Great Jaggi Challenge
-  * TODO | TODO | TODO - The Qurupeco Challenge
-  * TODO | TODO | TODO - The Barroth Challenge
-  * TODO | TODO | TODO - The Royal Ludroth Challenge
-  * TODO | TODO | TODO - The Rathian Challenge
-  * TODO | TODO | TODO - The Lagiacrus Challenge
-  * TODO | TODO | TODO - The Uragaan Challenge
-  * TODO | TODO | TODO - Wyvern Team Takedown
-  * TODO | TODO | TODO - Water Arena Rumble
-  * TODO | TODO | TODO - Arena Free-For-All
+  * 0x00532C | 0x00B32C | 0x01132C - The Great Jaggi Challenge
+  * 0x005330 | 0x00B330 | 0x011330 - The Qurupeco Challenge
+  * 0x005334 | 0x00B334 | 0x011334 - The Barroth Challenge
+  * 0x005338 | 0x00B338 | 0x011338 - The Royal Ludroth Challenge
+  * 0x00533C | 0x00B33C | 0x01133C - The Rathian Challenge
+  * 0x005340 | 0x00B340 | 0x011340 - The Lagiacrus Challenge
+  * 0x005344 | 0x00B344 | 0x011344 - The Uragaan Challenge
+  * 0x005348 | 0x00B348 | 0x011348 - Wyvern Team Takedown
+  * 0x00534C | 0x00B34C | 0x01134C - Water Arena Rumble
+  * 0x005350 | 0x00B350 | 0x011350 - Arena Free-For-All
 2. **Offline Arena Records (Duo)** [10 records]
-  * 0x005350 | 0x00B350 | 0x011350 - First record
-  * TODO | TODO | TODO - The Great Jaggi Challenge
+  * 0x005354 | 0x00B354 | 0x011354 - The Great Jaggi Challenge
   * TODO | TODO | TODO - The Qurupeco Challenge
   * TODO | TODO | TODO - The Barroth Challenge
   * TODO | TODO | TODO - The Royal Ludroth Challenge
@@ -181,4 +181,4 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
   * TODO | TODO | TODO - Water Arena Rumble
   * TODO | TODO | TODO - Arena Free-For-All
 3. **Online Arena Records** [12 records]
-  * 0x005378 | 0x00B378 | 0x011378 - First record
+  * 0x00537C | 0x00B37C | 0x01137C - First record

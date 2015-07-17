@@ -171,14 +171,14 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
   * 0x005350 | 0x00B350 | 0x011350 - Arena Free-For-All
 2. **Offline Arena Records (Duo)** [10 records]
   * 0x005354 | 0x00B354 | 0x011354 - The Great Jaggi Challenge
-  * TODO | TODO | TODO - The Qurupeco Challenge
-  * TODO | TODO | TODO - The Barroth Challenge
-  * TODO | TODO | TODO - The Royal Ludroth Challenge
-  * TODO | TODO | TODO - The Rathian Challenge
-  * TODO | TODO | TODO - The Lagiacrus Challenge
-  * TODO | TODO | TODO - The Uragaan Challenge
-  * TODO | TODO | TODO - Wyvern Team Takedown
-  * TODO | TODO | TODO - Water Arena Rumble
-  * TODO | TODO | TODO - Arena Free-For-All
+  * 0x005358 | 0x00B358 | 0x011358 - The Qurupeco Challenge
+  * 0x00535C | 0x00B35C | 0x01135C - The Barroth Challenge
+  * 0x005360 | 0x00B360 | 0x011360 - The Royal Ludroth Challenge
+  * 0x005364 | 0x00B364 | 0x011364 - The Rathian Challenge
+  * 0x005368 | 0x00B368 | 0x011368 - The Lagiacrus Challenge
+  * 0x00536C | 0x00B36C | 0x01136C - The Uragaan Challenge
+  * 0x005370 | 0x00B370 | 0x011370 - Wyvern Team Takedown
+  * 0x005374 | 0x00B374 | 0x011374 - Water Arena Rumble
+  * 0x005378 | 0x00B378 | 0x011378 - Arena Free-For-All
 3. **Online Arena Records** [12 records]
   * 0x00537C | 0x00B37C | 0x01137C - First record

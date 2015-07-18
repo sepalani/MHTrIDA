@@ -182,3 +182,4 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
   * 0x005378 | 0x00B378 | 0x011378 - Arena Free-For-All
 3. **Online Arena Records** [12 records]
   * 0x00537C | 0x00B37C | 0x01137C - First record
+  * TODO

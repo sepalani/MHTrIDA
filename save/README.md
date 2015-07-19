@@ -182,4 +182,15 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
   * 0x005378 | 0x00B378 | 0x011378 - Arena Free-For-All
 3. **Online Arena Records** [12 records]
   * 0x00537C | 0x00B37C | 0x01137C - First record
-  * TODO
+  * TODO | TODO | TODO - Grudge Match: Qurupeco
+  * TODO | TODO | TODO - Grudge Match: Lagiacrus
+  * TODO | TODO | TODO - Grudge Match: Royal Ludroth
+  * TODO | TODO | TODO - Grudge Match: Rathian
+  * TODO | TODO | TODO - Grudge Match: Uragaan
+  * TODO | TODO | TODO - Grudge Match: Wyvern Trio
+  * TODO | TODO | TODO - Grudge Match: Bird and Brute
+  * TODO | TODO | TODO - Grudge Match: Sea Power
+  * TODO | TODO | TODO - Grudge Match: Brute Horns
+  * TODO | TODO | TODO - Grudge Match: Ice and Fire
+  * TODO | TODO | TODO - Grudge Match: The Two Flames
+  * TODO | TODO | TODO - Grudge Match: Land Lords

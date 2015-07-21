@@ -181,16 +181,15 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
   * 0x005374 | 0x00B374 | 0x011374 - Water Arena Rumble
   * 0x005378 | 0x00B378 | 0x011378 - Arena Free-For-All
 3. **Online Arena Records** [12 records]
-  * 0x00537C | 0x00B37C | 0x01137C - First record
-  * TODO | TODO | TODO - _Grudge Match: Qurupeco_
-  * TODO | TODO | TODO - _Grudge Match: Lagiacrus_
-  * TODO | TODO | TODO - _Grudge Match: Royal Ludroth_
-  * TODO | TODO | TODO - _Grudge Match: Rathian_
-  * TODO | TODO | TODO - _Grudge Match: Uragaan_
-  * TODO | TODO | TODO - _Grudge Match: Wyvern Trio_
-  * TODO | TODO | TODO - _Grudge Match: Bird and Brute_
-  * TODO | TODO | TODO - _Grudge Match: Sea Power_
-  * TODO | TODO | TODO - _Grudge Match: Brute Horns_
-  * TODO | TODO | TODO - _Grudge Match: Ice and Fire_
-  * TODO | TODO | TODO - _Grudge Match: The Two Flames_
-  * TODO | TODO | TODO - _Grudge Match: Land Lords_
+  * 0x00537C | 0x00B37C | 0x01137C - _Grudge Match: Qurupeco_
+  * 0x005380 | 0x00B380 | 0x011380 - _Grudge Match: Lagiacrus_
+  * 0x005384 | 0x00B384 | 0x011384 - _Grudge Match: Royal Ludroth_
+  * 0x005388 | 0x00B388 | 0x011388 - _Grudge Match: Rathian_
+  * 0x00538C | 0x00B38C | 0x01138C - _Grudge Match: Uragaan_
+  * 0x005390 | 0x00B390 | 0x011390 - _Grudge Match: Wyvern Trio_
+  * 0x005394 | 0x00B394 | 0x011394 - _Grudge Match: Bird and Brute_
+  * 0x005398 | 0x00B398 | 0x011398 - _Grudge Match: Sea Power_
+  * 0x00539C | 0x00B39C | 0x01139C - _Grudge Match: Brute Horns_
+  * 0x0053A0 | 0x00B3A0 | 0x0113A0 - _Grudge Match: Ice and Fire_
+  * 0x0053A4 | 0x00B3A4 | 0x0113A4 - _Grudge Match: The Two Flames_
+  * 0x0053A8 | 0x00B3A8 | 0x0113A8 - _Grudge Match: Land Lords_

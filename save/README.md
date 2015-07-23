@@ -173,7 +173,7 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
 * **Record's time**
   * 0x???? - Time [uint32] ```Time / 30 = Record's time in seconds```
 * **Flags**
-  * 0x005328 | 0x00B328 | 0x011328 - TODO
+  * 0x005328 | 0x00B328 | 0x011328 - Unlocked quest from left to right 
 
 1. **Offline Arena Records (Solo)** [10 records]
   * 0x00532C | 0x00B32C | 0x01132C - The Great Jaggi Challenge

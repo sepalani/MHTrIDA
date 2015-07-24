@@ -173,7 +173,19 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
 * **Record's time**
   * 0x???? - Time [uint32] ```Time / 30 = Record's time in seconds```
 * **Flags**
-  * 0x005328 | 0x00B328 | 0x011328 - Unlocked quest from left to right 
+  * 0x005328 | 0x00B328 | 0x011328 - Unlocked Offline Arena Quests [uint32]
+    * _(Bits from right to left)_
+    * The Great Jaggi Challenge
+    * The Qurupeco Challenge
+    * The Barroth Challenge
+    * The Royal Ludroth Challenge
+    * The Rathian Challenge
+    * The Lagiacrus Challenge
+    * The Uragaan Challenge
+    * Wyvern Team Takedown
+    * Water Arena Rumble
+    * Arena Free-For-All
+    * 22 unused bits _(all flags enabled = 0x03FF)_
 
 1. **Offline Arena Records (Solo)** [10 records]
   * 0x00532C | 0x00B32C | 0x01132C - The Great Jaggi Challenge

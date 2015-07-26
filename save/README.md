@@ -171,10 +171,13 @@ Arena Records
 Arena records are stored in a very strange way. Indeed they do not use seconds but something similar to ticks. To convert this time in seconds, you need to divide this value by 30. Of course, online records are saved the exact same way and also save the teamate's name.
 
 * **Record's time**
-  * 0x???? - Time [int32] ```Time / 30 = Record's time in seconds```
+  * 0x???????? - Time [int32]
+    * ```Time / 30 = Record's time in seconds```
+    * ```Time equals 0 = "WANTED" quest i.e. need to be done```
+    * ```Time value can be negative (ex: -33:-02)```
 * **Flags**
   * 0x005328 | 0x00B328 | 0x011328 - Unlocked Offline Arena Quests [uint32]
-    * _(Bits from right to left)_
+    * ```Bits from right to left```
     * The Great Jaggi Challenge
     * The Qurupeco Challenge
     * The Barroth Challenge
@@ -185,7 +188,7 @@ Arena records are stored in a very strange way. Indeed they do not use seconds b
     * Wyvern Team Takedown
     * Water Arena Rumble
     * Arena Free-For-All
-    * 22 unused bits _(all flags enabled = 0x03FF)_
+    * ```22 unused bits (all flags enabled = 0x03FF)```
 
 1. **Offline Arena Records (Solo)** [10 records]
   * 0x00532C | 0x00B32C | 0x01132C - The Great Jaggi Challenge

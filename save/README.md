@@ -84,6 +84,12 @@ Equip Box
 
 
 
+Equip Set
+---------
+ * TODO
+
+
+
 Fishery
 -------
 Hunting Boats allow you to collect items by sending your fleets on different locations. During the game you'll be able to manage 3 boats, the **Cap'n ship**, the **Black ship** and the **Red ship**.

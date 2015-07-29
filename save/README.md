@@ -84,8 +84,14 @@ Equip Box
 
 
 
-Equip Set
----------
+Equip Sets
+----------
+ * TODO
+
+
+
+Bowgun Sets
+-----------
  * TODO
 
 

@@ -59,8 +59,8 @@ Hunters' Item Box is composed of (x800) **Item Slots** which are a pairs of **It
 
 
 
-Equip Box
----------
+Equipment Box
+-------------
  1. **Equipment ID**
   * 0x00 - None
   * 0x01 - Head
@@ -80,12 +80,13 @@ Equip Box
   * 0x0F - Switch Axe
  2. **Equipment Slot**
   * 0x00 - TODO
- 3. **Item Box**
+ 3. **Equipment Box**
+  * TODO
 
 
 
-Equip Sets
-----------
+Equipment Sets
+--------------
  * TODO
 
 

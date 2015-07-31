@@ -179,6 +179,12 @@ Your quests can begin at different places. One single byte sets where you're goi
 
 
 
+Quest Completed
+---------------
+ * TODO
+
+
+
 Arena Records
 -------------
 Arena records are stored in a very strange way. Indeed they do not use seconds but something similar to ticks. To convert this time in seconds, you need to divide this value by 30. Of course, online records are saved the exact same way and also save the teamate's name.

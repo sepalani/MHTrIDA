@@ -93,7 +93,14 @@ Equipment Sets
 
 Bowgun Sets
 -----------
- * TODO
+Hunters can register bowgun sets to automatically equip appropriate bowgun parts. Slots are based on equipments position in Equipment Box.
+
+ 1. **Bowgun Sets Slot** [Size: 6 bytes]
+  * 0x00 - Part 1 [uint16]
+  * 0x02 - Part 2 (gunner only) [uint16]
+  * 0x04 - Part 3 (gunner only) [uint16]
+ 2. **Bowgun Sets** [Size: **Bowgun Sets Slot** (x20) | 0x78 (120) bytes]
+  * 0x003710 - First slot
 
 
 

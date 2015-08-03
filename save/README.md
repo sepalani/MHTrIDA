@@ -87,7 +87,20 @@ Equipment Box
 
 Equipment Sets
 --------------
- * TODO
+Hunters can register equipment sets to automatically equip appropriate equipment parts. Slots are based on equipments position in Equipment Box.
+
+ 1. **Equipment Sets Slot** [Size: 18 bytes]
+  * 0x00 - Weapon Part 1 [uint16]
+  * 0x02 - Weapon Part 2 (gunner only) [uint16]
+  * 0x04 - Weapon Part 3 (gunner only) [uint16]
+  * 0x06 - Chest Position [uint16]
+  * 0x08 - Arms Position [uint16]
+  * 0x0A - Waist Position [uint16]
+  * 0x0C - Legs Position [uint16]
+  * 0x0E - Cap Position [uint16]
+  * 0x10 - Talisman Position [uint16]
+ 2. **Equipment Sets**
+  * TODO
 
 
 

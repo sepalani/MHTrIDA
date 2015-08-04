@@ -30,6 +30,12 @@ These profiles seem to be 0x6000 (24.576) bytes each. Supposing that the file op
 
 
 
+Equipment Worn
+--------------
+ * TODO
+
+
+
 Hunter Pouches
 --------------
 In fact, even if there are two kind of pouch: the **Blademaster Pouch** and the **Gunner pouch**, the only difference between them is a matter of size. A pouch is made of **Item Slots** which are a pairs of **Item ID** [uint16] and **Quantity** [int16]. A gunner pouch is **one page** (x8 **Item Slot**) bigger than a blademaster pouch. However this pouch can only contains gunner class items (ammos).

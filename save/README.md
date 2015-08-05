@@ -21,6 +21,12 @@ File Options
 
 
 
+Hunter Stats
+------------
+ * TODO
+
+
+
 Hunter Profiles
 ---------------
 These profiles seem to be 0x6000 (24.576) bytes each. Supposing that the file options are 0x48 (78) bytes, then profiles are arranged like that:

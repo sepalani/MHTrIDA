@@ -21,18 +21,24 @@ File Options
 
 
 
-Hunter Stats
-------------
- * TODO
-
-
-
 Hunter Profiles
 ---------------
 These profiles seem to be 0x6000 (24.576) bytes each. Supposing that the file options are 0x48 (78) bytes, then profiles are arranged like that:
  * Profile 1 address: 0x0048
  * Profile 2 address: 0x6048
  * Profile 3 address: 0xC048
+
+
+
+Hunter Stats
+------------
+Here are various hunters' statistics and properties.
+
+1. **Gender Type** [Size: 1 byte]
+  * 0x00 - Male
+  * 0x01 - Female
+2. **Hunter Properties**
+ * 0x00048 | 0x006048 | 0x00C048 - **Gender Type**
 
 
 

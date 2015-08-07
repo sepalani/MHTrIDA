@@ -39,6 +39,7 @@ Here are various hunters' statistics and properties.
   * 0x01 - Female
 2. **Hunter Properties**
  * 0x00048 | 0x006048 | 0x00C048 - **Gender Type**
+ * 0x00060 | 0x006060 | 0x00C060 - Zennis
 
 
 

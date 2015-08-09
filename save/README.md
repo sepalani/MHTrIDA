@@ -40,6 +40,8 @@ Here are various hunters' statistics and properties.
 2. **Hunter Properties**
  * 0x00048 | 0x006048 | 0x00C048 - **Gender Type**
  * _(...)_
+ * 0x0004B | 0x00604B | 0x00C04B - Hunter's name 
+ * _(...)_
  * 0x00060 | 0x006060 | 0x00C060 - Zennis [uint32]
  * 0x00064 | 0x006064 | 0x00C064 - Time played [uint32]
 

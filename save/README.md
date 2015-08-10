@@ -17,7 +17,10 @@ The game uses a checksum to check the save integrity. To compute the checksum yo
 
 File Options
 ------------
- * TODO
+ * 0x00 - File used (0x00/0x01) [uint32]
+ * 0x04 - Checksum [uint32]
+ * 0x08 - File name [string]
+ * _(...)_
 
 
 

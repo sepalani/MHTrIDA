@@ -17,6 +17,7 @@ The game uses a checksum to check the save integrity. To compute the checksum yo
 
 File Options
 ------------
+Each data file is made with three hunter profiles and file options common to them.
  * 0x00 - File used (0x00/0x01) [uint32]
  * 0x04 - Checksum [uint32]
  * 0x08 - File name [string]

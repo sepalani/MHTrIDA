@@ -23,6 +23,9 @@ Each data file is made with three hunter profiles and file options common to the
  * 0x08 - File name [string]
  * _(...)_
  * 0x19 - Hunter selected (0x00~0x02) [uint8]
+ * 0x1A - Used Hunter slot 1? (0x00~0x01) [bool/uint8]
+ * 0x1B - Used Hunter slot 2? (0x00~0x01) [bool/uint8]
+ * 0x1C - Used Hunter slot 3? (0x00~0x01) [bool/uint8]
 
 
 

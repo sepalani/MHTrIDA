@@ -28,6 +28,7 @@ Each data file is made with three hunter profiles and file options common to the
  * 0x1C - Used Hunter slot 3? (0x00~0x01) [bool/uint8]
  * _(...)_
  * 0x2A - Quick Aim Controls (0x00~0x03) [uint8]
+ * 0x2B - Camera Angle [uint8]
 
 
 

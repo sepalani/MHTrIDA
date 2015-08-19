@@ -29,7 +29,9 @@ Each data file is made with three hunter profiles and file options common to the
  * _(...)_
  * 0x2A - Quick Aim Controls (0x00~0x03) [uint8]
  * 0x2B - Camera Angle [uint8]
- * 0x2C - Pointing Mode [uint8]
+ * 0x2C - Pointing Mode (0x00~0x01) [uint8]
+ * _(...)_
+ * 0x2E - Orientation (0x00~0x01) [uint8]
 
 
 

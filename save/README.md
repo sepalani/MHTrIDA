@@ -36,6 +36,7 @@ Each data file is made with three hunter profiles and file options common to the
  * 0x30 - Camera (0x00~0x03) [uint8]
  * 0x31 - Scope Controls (0x00~0x03) [uint8]
  * 0x32 - Swim Controls (0x00~0x01) [uint8]
+ * 0x33 - Quick Aim Camera (0x00~0x02) [uint8]
 
 
 

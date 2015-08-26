@@ -60,10 +60,28 @@ The following command creates a certificate signing request with the **private k
 
 CA Certificate
 --------------
-Here is an example of command to create a CA certificate with a x509v3 extension named **ca.ext**:
+Here is an example of command to create a **Certificate Authority certificate** with a x509v3 extension file named **ca.ext**. Extensions can be ommited, but **Monster Hunter 3 used them** so let's do it that way. 
 
 ```openssl x509 -days 10000 -extfile ca.ext -signkey ca.key -in ca.csr -req -out ca.crt -set_serial 01```
 
+ * ```-days 10000```, the certificate will be valid 10,000 days.
+ * ```-extfile ca.ext```, extension file will be used.
+ * ```-signkey ca.key```, the certificate will self-sign itself using this key.
+ * ```-in ca.csr -req -out ca.crt```, input is a certificate request, sign and output.
+ * ```-set_serial 01```, serial number to use. 01 was chosen because it will be the **Root CA certificate** (_the serial number really doesn't matter but it should be unique_).
+
+In other word, **this public certificate** will allow its users to trust any certificate using it as **Certificate Authority**. By the way, extensions might add further data to prevent others to impersonate this certificate like a hash and others properties. So, if the **Root CA certificate** has been modified, all others certificate **must be redone** as well because the appended data won't be valid anymore. Of course, this Root CA certificate **will replace the MHTri in-game certificate**.
+
+
+
 Certificate
 -----------
- * TODO
+The previous section stated how to generate a CA certificate, the following command generate a valid certificate trusted by the given CA.
+
+```openssl x509 -days 10000 -extfile server.ext -CA ca.crt -CAkey ca.key -in server.csr -req -out server.crt -set_serial 33```
+
+These parameters don't differ so much:
+ * ```-CA ca.crt```, set the CA certificate, **must be PEM format**
+ * ```-CAkey ca.key```, set the CA key, **must be PEM format**
+
+As exepected, certificates generated in this fashion **will be used by custom servers**.

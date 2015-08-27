@@ -1,26 +1,26 @@
 # Servers
-There are two kind of server in the game. The Nintendo ones, which are used during the login process and sometimes grab some statistics. And the Capcom ones, they're handling most part of the online play such as the Capcom ID selection, the gates, the city, etc.
+There are two kind of servers in the game. The Nintendo ones, which are used during the login process and sometimes grab some statistics. And the Capcom ones, they're handling most part of the online play such as the Capcom ID selection, the gates, the cities, etc.
 
 
 
 Nintendo Servers
 ----------------
-To be honest, we don't need to focus on it too much since current alternative servers handle this task properly. When the Capcom servers were originally shutdown, it was the Nintendo servers which sent the error code preventing us to go online, not Capcom. Now, all the Wii games get this return code and can't go online because of the Gamespy servers shutdown. Using an alternative server like Wiimmfi, returns the correct code and allows the game to connect to Capcom servers.
+To be honest, we don't need to focus on it too much since current alternative servers handle this task properly. When Capcom servers were originally shutdown, it was Nintendo servers which sent the error code preventing us to go online, not Capcom. Now, all Wii games get this return code and can't go online because of the Gamespy servers shutdown. Using an alternative server like Wiimmfi, returns the correct code and allows the game to connect to Capcom servers. [My fork of altwfc](https://github.com/sepalani/dwc_network_server_emulator) also supports this game if you want to setup local alternative Nintendo servers.
 
 
 
 Nintendo Certificate
 --------------------
-We don't have to deal with it, thanks to the alternative servers. ~~As far as I know, the only certificate in the game is the Nintendo one. In other word, the game doesn't check the Capcom certificate.~~ However if you still want to mess with Nintendo certificate, you can find it in the Data4 section of the main.dol at these addresses depending of your region:
+It was issued by Nintendo and is present in the game files. This certificate acts as a **Root CA certificate**, any generated certificate having it as a CA will automatically be trusted. **You need to replace it** with your own to make the game trust secure connections with custom servers (_i.e. Capcom and Nintendo ones_).
+
+**Note for Dolphin users:** The emulator doesn't verify the certificate, so this step can be skipped if wanted.
+
+You can find it in the Data4 section of the **main.dol** at these addresses depending of your region:
  * 0x00639EA0, Offset from Data4 section: 0x00011400 [NTSC-J]
  * 0x0056DF80, Offset from Data4 section: 0x00002A20 [NTSC-U]
  * 0x0056E940, Offset from Data4 section: 0x00002C00 [PAL]
 
-**EDIT:** It seems that **Dolphin Emulator** trust unknown certificates when the **Wii doesn't**. Good to know. So working on untrusted servers is doable via Dolphin Emulator.
-
-By the way, **each version** of the game uses the **same certificate**. The **DER format** is used with **x509v3 extensions**. Patching the game allows a given certificate to be trusted. Useless if you use Dolphin for the moment, may be useful for Wii users.
-
-**OpenSSL** can be used to generate a valid certificate. An automated tool is planned for the custom certificate generation and game patching according to the game region.
+By the way, **each version** of the game uses the **same certificate**. The **DER format** is used with **x509v3 extensions**. **OpenSSL** can be used to generate a valid certificate. Then, you can use [MHTriCertPatcher](https://github.com/sepalani/MH3SP/tree/master/cert) to replace the in-game certificate located in MHTri's main.dol with yours.
 
 
 
@@ -28,19 +28,18 @@ Capcom Servers
 --------------
 I don't know how many there are, and how long it will take to reverse them all. You can check the server development progression at this address: https://github.com/sepalani/MH3SP
 
-The first Capcom server listens on port 8200 and waits for a SSL connection. If the SSL connection succeeded, it loads up to 85%. Now, we need to figure out what the game wants from the server.
+The first Capcom server listens on port 8200 and waits for a SSL connection. When SSL connection succeeded, it loads up to 85%. Now, we need to figure out what the game wants from the server.
 
 
 
 Capcom Certificate
 ------------------
-Using Dolphin I was able to find what certificate is send to the server. It seems created on the fly or to be somewhere I didn't see yet. Details of Capcom certificate:
+They're are trusted by the in-game Root CA certificate. Of course, they use a different serial. They might change between servers but it has no importance because they'll be trusted by the game anyway. For the moment, the only one seen uses "_mh.capcom.co.jp_" as **Common Name**. This string is in the **main.dol** as well.
+
  * Common Name: mh.capcom.co.jp
    * 0x0063A360, Offset from Data4 section: 0x000118C0 [NTSC-J]
    * 0x005FF9B8, Offset from Data5 section: 0x000870B8 [NTSC-U]
    * 0x0060ADC8, Offset from Data5 section: 0x00091CE8 [PAL]
- * TODO...
-
 
 
 Error Codes

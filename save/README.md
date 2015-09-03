@@ -41,6 +41,8 @@ Each data file is made with three hunter profiles and file options common to the
  * 0x35 - Map display (0x00~0x01) [bool/uint8]
  * _(...)_
  * 0x37 - Zoomed map (0x00~0x01) [bool/uint8]
+ * _(...)_
+ * 0x39 - BGM Volume (0x00~0x07) [uint8]
 
 
 

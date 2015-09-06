@@ -5,7 +5,7 @@ There are two kind of servers in the game. The Nintendo ones, which are used dur
 
 Nintendo Servers
 ----------------
-To be honest, we don't need to focus on it too much since current alternative servers handle this task properly. When Capcom servers were originally shutdown, it was Nintendo servers which sent the error code preventing us to go online, not Capcom. Now, all Wii games get this return code and can't go online because of the Gamespy servers shutdown. Using an alternative server like Wiimmfi, returns the correct code and allows the game to connect to Capcom servers. [My fork of altwfc](https://github.com/sepalani/dwc_network_server_emulator) also supports this game if you want to setup local alternative Nintendo servers.
+To be honest, we don't need to focus on it too much since current alternative servers handle this task properly. When Capcom servers were originally shutdown, it was Nintendo servers which sent the error code preventing us to go online, not Capcom. Now, all Wii games get this return code and can't go online because of the Gamespy servers shutdown. Using an alternative server like Wiimmfi, returns the correct code and allows the game to connect to Capcom servers. [altwfc](https://github.com/polaris-/dwc_network_server_emulator) also supports this game if you want to setup local alternative Nintendo servers.
 
 
 

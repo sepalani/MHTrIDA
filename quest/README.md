@@ -20,4 +20,5 @@ Monsters
 Usually in each quest a monster has to be defeated. This list show monsters' ID used in the game.
 
  * Rathian
+ * Rathalos
  * TODO

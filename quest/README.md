@@ -21,4 +21,5 @@ Usually in each quest a monster has to be defeated. This list show monsters' ID 
 
  * Rathian
  * Rathalos
+ * Qurupeco
  * TODO

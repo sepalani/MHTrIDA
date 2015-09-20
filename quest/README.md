@@ -30,4 +30,5 @@ Usually in each quest a monster has to be defeated. This list show monsters' ID 
  * Uragaan
  * Jaggi
  * Jaggia
+ * Great Jaggi
  * TODO

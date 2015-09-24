@@ -34,4 +34,5 @@ Usually in each quest a monster has to be defeated. This list show monsters' ID 
  * Baggi
  * Great Baggi
  * Lagiacrus
+ * Royal Ludroth
  * TODO

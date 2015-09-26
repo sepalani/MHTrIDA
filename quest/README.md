@@ -36,4 +36,5 @@ Usually in each quest a monster has to be defeated. This list show monsters' ID 
  * Lagiacrus
  * Royal Ludroth
  * Ludroth
+ * Gobul
  * TODO

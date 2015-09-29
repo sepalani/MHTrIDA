@@ -39,4 +39,5 @@ Usually in each quest a monster has to be defeated. This list show monsters' ID 
  * Gobul
  * Agnaktor
  * Ceadeus
+ * Uroktor
  * TODO

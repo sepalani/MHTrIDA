@@ -22,4 +22,9 @@ SEL Files
 Functions
 ---------
  * __Error Codes__
+   * getOpeningErrorCode
+   * getOpeningDNSErrorCode
+   * getOpeningSSLErrorCode
+   * getNetworkErrorCode
+   * getNetworkTCPErrorCode
    * TODO

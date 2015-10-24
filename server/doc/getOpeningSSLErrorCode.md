@@ -16,10 +16,11 @@ Address
  * __RMHP08:__ 0x8097deb0
 
 
- 
+
 Description
 -----------
-The **getOpeningSSLErrorCode()** function return the appropriate SSL error code according to the NetworkError passed as parameter.
+The **getOpeningSSLErrorCode()** function returns the appropriate SSL error
+code according to the NetworkError passed as parameter.
 
 
 

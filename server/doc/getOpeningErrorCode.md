@@ -24,4 +24,7 @@ Description
 
 Return Value
 ------------
- * TODO
+Returns **getOpeningDNSErrorCode()**, **getOpeningSSLErrorCode()** error codes
+or one of these:
+ * 11612
+ * 11619

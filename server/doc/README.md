@@ -195,9 +195,9 @@ SEL Files
 Functions
 ---------
  * __Error Codes__
-   * getOpeningErrorCode
-   * getOpeningDNSErrorCode
-   * getOpeningSSLErrorCode
-   * getNetworkErrorCode
-   * getNetworkTCPErrorCode
+   * [getOpeningErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)
+   * [getOpeningDNSErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningDNSErrorCode.md)
+   * [getOpeningSSLErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningSSLErrorCode.md)
+   * [getNetworkErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkErrorCode.md)
+   * [getNetworkTCPErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkTCPErrorCode.md)
    * TODO

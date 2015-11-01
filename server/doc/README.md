@@ -187,8 +187,77 @@ r_addend:
 
 
 SEL Files
----------
+=========
  * TODO
+
+SECTIONS
+--------
+```
+[Section 0x00] Section 00
+    -> Empty
+Address: 0x00_00_00_00
+Size: 0x00_00_00_00
+
+[Section 0x01] Assembly
+    -> main.dol - Text0 Section
+Address: 0x80_00_40_00
+Size: 0x00_00_00_00
+
+[Section 0x02] Constructors
+    -> main.dol - Text1 Section
+Address: 0x80_03_F2_60
+Size: 0x00_00_00_00
+
+[Section 0x03] Desctructors
+    -> Empty?
+Address: 0x00_00_00_00
+Size: 0x00_00_00_00
+
+[Section 0x04] Constants
+    -> Empty?
+Address: 0x00_00_00_00
+Size: 0x00_00_00_00
+
+[Section 0x05] Object
+    -> main.dol - Data4 Section
+Address: 0x80_56_FC_40
+Size: 0x00_00_00_00
+
+[Section 0x06] BSS
+    -> main.dol - Data5 Section
+Address: 0x80_57_CF_E0
+Size: 0x00_00_00_00
+
+[Section 0x07] Section 07
+    ->
+Address: 0x80_65_A9_80
+Size: 0x00_00_00_00
+
+[Section 0x08] Section 08
+    -> main.dol - Data6 Section
+Address: 0x80_79_32_E0
+Size: 0x00_00_00_00
+
+[Section 0x09] Section 09
+    -> main.dol - Data7 Section
+Address: 0x80_79_7F_60
+Size: 0x00_00_00_00
+
+[Section 0x0A] Section 10
+    -> Empty?
+Address: 0x00_00_00_00
+Size: 0x00_00_00_00
+
+[Section 0x0B] Section 11
+    -> 
+Address: 0x80_79_6C_20
+Size: 0x00_00_00_00
+
+[Section 0x0C] Section 12
+    -> Hexspeak: "DEAD BABE"
+Address: 0x80_79_FC_A0
+Size: 0x00_00_00_00
+```
 
 
 

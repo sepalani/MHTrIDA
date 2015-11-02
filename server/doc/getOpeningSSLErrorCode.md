@@ -9,6 +9,7 @@ short getOpeningSSLErrorCode(NetworkError*);
 ```
 
 
+
 Address
 -------
  * __RMHJ08:__ 0x80b1eb80
@@ -26,7 +27,7 @@ code according to the NetworkError passed as parameter.
 
 Return Value
 ------------
-Return one the following error codes:
+Returns one the following error codes:
  * 11602
  * 11603
  * 11604

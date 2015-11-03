@@ -9,6 +9,7 @@ short getOpeningDNSErrorCode(NetworkError*);
 ```
 
 
+
 Address
 -------
  * __RMHJ08:__ 0x80b1eb68

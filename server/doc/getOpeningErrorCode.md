@@ -9,6 +9,7 @@ short getOpeningErrorCode(NetworkError*);
 ```
 
 
+
 Address
 -------
  * __RMHJ08:__ 0x80b1eaf8
@@ -20,6 +21,7 @@ Address
 Description
 -----------
  * TODO
+
 
 
 Return Value

@@ -27,6 +27,6 @@ code according to the NetworkError passed as parameter.
 
 Return Value
 ------------
-Return one the following error codes:
+Returns one the following error codes:
  * 11601
  * 11617

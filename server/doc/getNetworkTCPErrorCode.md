@@ -26,4 +26,9 @@ Description
 
 Return Value
 ------------
- * TODO
+Returns one the following error codes:
+ * 11612
+ * 11613
+ * 11614
+ * 11615
+ * 11616

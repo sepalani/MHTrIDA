@@ -20,7 +20,7 @@ Address
 
 Description
 -----------
- * TODO
+The **getNetworkTCPErrorCode()** function returns the appropriate TCP error code according to the NetworkError passed as parameter.
 
 
 

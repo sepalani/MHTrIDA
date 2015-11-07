@@ -20,7 +20,9 @@ Address
 
 Description
 -----------
- * TODO
+The **getOpeningErrorCode()** function returns the appropriate Opening error
+code according to the NetworkError passed as parameter. If necessary, it will
+call **getOpeningDNSErrorCode()** or **getOpeningSSLErrorCode()**.
 
 
 

@@ -20,7 +20,9 @@ Address
 
 Description
 -----------
- * TODO
+The **getNetworkErrorCode()** function returns the appropriate Network error
+code according to the NetworkError passed as parameter. If necessary, it will
+call **getOpeningDNSErrorCode()** or **getNetworkTCPErrorCode()**.
 
 
 

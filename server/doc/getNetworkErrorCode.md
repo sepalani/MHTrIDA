@@ -22,13 +22,13 @@ Description
 -----------
 The **getNetworkErrorCode()** function returns the appropriate Network error
 code according to the NetworkError passed as parameter. If necessary, it will
-call **getOpeningDNSErrorCode()** or **getNetworkTCPErrorCode()**.
+call [getOpeningDNSErrorCode()](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningDNSErrorCode.md) or [getNetworkTCPErrorCode()](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkTCPErrorCode.md).
 
 
 
 Return Value
 ------------
-Returns **getOpeningDNSErrorCode()**, **getNetworkTCPErrorCode()** error codes
+Returns [getOpeningDNSErrorCode()](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningDNSErrorCode.md), [getNetworkTCPErrorCode()](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkTCPErrorCode.md) error codes
 or one of these:
  * 11612
  * 11619

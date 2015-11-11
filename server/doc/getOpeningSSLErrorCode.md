@@ -41,3 +41,10 @@ Returns one the following error codes:
  * 11612
  * 11613
  * 11618
+
+
+
+Caller
+------
+ * [getOpeningErrorCode(NetworkError*)](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)
+ 

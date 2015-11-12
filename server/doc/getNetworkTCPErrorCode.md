@@ -20,7 +20,8 @@ Address
 
 Description
 -----------
-The **getNetworkTCPErrorCode()** function returns the appropriate TCP error code according to the NetworkError passed as parameter.
+The **getNetworkTCPErrorCode()** function returns the appropriate TCP error
+code according to the NetworkError passed as parameter.
 
 
 
@@ -32,3 +33,9 @@ Returns one the following error codes:
  * 11614
  * 11615
  * 11616
+
+
+
+Caller
+------
+ * [getNetworkErrorCode(NetworkError*)](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkErrorCode.md)

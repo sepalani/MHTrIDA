@@ -30,3 +30,10 @@ Return Value
 Returns one the following error codes:
  * 11601
  * 11617
+
+
+
+Caller
+------
+ * [getNetworkErrorCode(NetworkError*)](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkErrorCode.md)
+ * [getOpeningErrorCode(NetworkError*)](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)

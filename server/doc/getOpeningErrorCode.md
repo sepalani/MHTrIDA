@@ -32,3 +32,9 @@ Returns [getOpeningDNSErrorCode()](https://github.com/sepalani/MHTrIDA/blob/mast
 or one of these:
  * 11612
  * 11619
+
+
+
+Caller
+------
+ * set_open_error_code(NetworkError*)

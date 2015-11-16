@@ -26,4 +26,4 @@ Description
 
 Return Value
 ------------
- * TODO
+Returns **disp_error_string()** error codes.

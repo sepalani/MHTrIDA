@@ -269,4 +269,10 @@ Functions
    * [getOpeningSSLErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningSSLErrorCode.md)
    * [getNetworkErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkErrorCode.md)
    * [getNetworkTCPErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkTCPErrorCode.md)
+   * set_open_error_code
+   * set_layer_error_code
+   * set_ec_error_code
+   * set_patch_error_code
+   * check_dopatch_error
+   * set_pc_error_code
    * TODO

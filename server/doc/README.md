@@ -276,3 +276,8 @@ Functions
    * check_dopatch_error
    * set_pc_error_code
    * TODO
+ * __Display Functions__
+   * disp_net_connect_err
+   * disp_net_connect_plat
+   * disp_error_string
+   * TODO

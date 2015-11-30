@@ -269,15 +269,22 @@ Functions
    * [getOpeningSSLErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningSSLErrorCode.md)
    * [getNetworkErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkErrorCode.md)
    * [getNetworkTCPErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkTCPErrorCode.md)
-   * set_open_error_code
-   * set_layer_error_code
-   * set_ec_error_code
-   * set_patch_error_code
-   * check_dopatch_error
+   * [set_open_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_open_error_code.md)
+   * [set_layer_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_layer_error_code.md)
+   * [set_ec_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_ec_error_code.md)
+   * [set_patch_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_patch_error_code.md)
+   * [check_dopatch_error](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/check_dopatch_error.md)
    * set_pc_error_code
    * TODO
  * __Display Functions__
    * disp_net_connect_err
    * disp_net_connect_plat
-   * disp_error_string
+   * [disp_error_string](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_error_string.md)
    * TODO
+ * __[sNetworkLibrary](https://github.com/sepalani/MHTrIDA/tree/master/server/doc/sNetworkLibrary)__
+   * [getInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/getInstance.md)
+   * [getMediatorInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/getMediatorInstance.md)
+   * [mpInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/mpInstance.md)
+   * [mpMediator](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/mpMediator.md)
+ * __[NetworkWiiMediator](https://github.com/sepalani/MHTrIDA/tree/master/server/doc/NetworkWiiMediator)__
+   * TODO 

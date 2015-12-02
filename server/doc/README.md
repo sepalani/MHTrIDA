@@ -274,7 +274,7 @@ Functions
    * [set_ec_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_ec_error_code.md)
    * [set_patch_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_patch_error_code.md)
    * [check_dopatch_error](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/check_dopatch_error.md)
-   * set_pc_error_code
+   * [set_pc_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_pc_error_code.md)
    * TODO
  * __Display Functions__
    * disp_net_connect_err
@@ -287,4 +287,27 @@ Functions
    * [mpInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/mpInstance.md)
    * [mpMediator](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/mpMediator.md)
  * __[NetworkWiiMediator](https://github.com/sepalani/MHTrIDA/tree/master/server/doc/NetworkWiiMediator)__
-   * TODO 
+   * reflectInit
+   * reflectStart
+   * reflectStop
+   * reflectFinal
+   * [getOpeningProgress](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getOpeningProgress.md)
+   * [getOpeningTermsVersion](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getOpeningTermsVersion.md)
+   * isOpeningMaintenanceTerms
+   * isOpeningMaintenanceServer
+   * isOpeningAnnounce
+   * getAccountBan
+   * getAccountWarning
+   * getAccountWaitQueue
+   * getReflectPage
+   * agreeReflect
+   * connectECServer
+   * getECTicketList
+   * purchaseEC
+   * isECConfig
+   * isECTicket
+   * getECBalance
+   * isECPCEnable
+   * setECPCPassword
+   * launchECShoppingManual
+   * getECPatch(void)

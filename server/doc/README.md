@@ -293,12 +293,14 @@ Functions
    * reflectFinal
    * [getOpeningProgress](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getOpeningProgress.md)
    * [getOpeningTermsVersion](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getOpeningTermsVersion.md)
+   * getAccountChargeSddlibTime
    * isOpeningMaintenanceTerms
    * isOpeningMaintenanceServer
    * isOpeningAnnounce
-   * getAccountBan
-   * getAccountWarning
-   * getAccountWaitQueue
+   * [getAccountBan](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountBan.md)
+   * [getAccountNeedToCharge](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountNeedToCharge.md)
+   * [getAccountWarning](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountWarning.md)
+   * [getAccountWaitQueue](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountWaitQueue.md)
    * getReflectPage
    * agreeReflect
    * connectECServer

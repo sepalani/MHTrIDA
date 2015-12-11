@@ -5,7 +5,7 @@
 Synopsis
 --------
 ```C++
-int disp_net_connect_err(unsigned char);
+void disp_net_connect_err(unsigned char);
 ```
 
 
@@ -29,4 +29,4 @@ be converted into Shift-JIS or Unicode.
 
 Return Value
 ------------
- * TODO
+ * None

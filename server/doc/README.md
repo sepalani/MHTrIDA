@@ -277,8 +277,8 @@ Functions
    * [set_pc_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_pc_error_code.md)
    * TODO
  * __Display Functions__
-   * disp_net_connect_err
-   * disp_net_connect_plat
+   * [disp_net_connect_err](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_net_connect_err.md)
+   * [disp_net_connect_plat](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_net_connect_plat.md)
    * [disp_error_string](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_error_string.md)
    * TODO
  * __[sNetworkLibrary](https://github.com/sepalani/MHTrIDA/tree/master/server/doc/sNetworkLibrary)__

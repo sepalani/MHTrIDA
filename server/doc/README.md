@@ -276,6 +276,16 @@ Functions
    * [check_dopatch_error](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/check_dopatch_error.md)
    * [set_pc_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_pc_error_code.md)
    * TODO
+ * __Network Functions__
+   * net_connect_init
+   * net_connect_main
+   * _net_spr::operator=
+   * net_connect_draw
+   * net_connect_buffer
+   * net_connect_announce
+   * net_connect_maintenance
+   * net_connect_terms
+   * TODO
  * __Display Functions__
    * [disp_net_connect_err](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_net_connect_err.md)
    * [disp_net_connect_plat](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_net_connect_plat.md)

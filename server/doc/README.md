@@ -291,6 +291,14 @@ Functions
    * [disp_net_connect_plat](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_net_connect_plat.md)
    * [disp_error_string](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_error_string.md)
    * TODO
+ * __PatInterface__
+   * setTermsBuffer
+   * setMaintenanceBuffer
+   * setAnnounceBuffer
+   * setNoChargeBuffer
+   * setPatchMessageBuffer
+   * mpInstance 
+   * getInstance 
  * __[sNetworkLibrary](https://github.com/sepalani/MHTrIDA/tree/master/server/doc/sNetworkLibrary)__
    * [getInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/getInstance.md)
    * [getMediatorInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/getMediatorInstance.md)

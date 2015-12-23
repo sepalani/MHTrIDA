@@ -292,13 +292,13 @@ Functions
    * [disp_error_string](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_error_string.md)
    * TODO
  * __PatInterface__
-   * setTermsBuffer
-   * setMaintenanceBuffer
-   * setAnnounceBuffer
-   * setNoChargeBuffer
-   * setPatchMessageBuffer
-   * mpInstance 
-   * getInstance 
+   * [setTermsBuffer](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/PatInterface/setTermsBuffer.md)
+   * [setMaintenanceBuffer](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/PatInterface/setMaintenanceBuffer.md)
+   * [setAnnounceBuffer](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/PatInterface/setAnnounceBuffer.md)
+   * [setNoChargeBuffer](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/PatInterface/setNoChargeBuffer.md)
+   * [setPatchMessageBuffer](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/PatInterface/setPatchMessageBuffer.md)
+   * [mpInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/PatInterface/mpInstance.md)
+   * [getInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/PatInterface/getInstance.md)
  * __[sNetworkLibrary](https://github.com/sepalani/MHTrIDA/tree/master/server/doc/sNetworkLibrary)__
    * [getInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/getInstance.md)
    * [getMediatorInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/getMediatorInstance.md)

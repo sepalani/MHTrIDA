@@ -305,10 +305,10 @@ Functions
    * [mpInstance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/mpInstance.md)
    * [mpMediator](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/sNetworkLibrary/mpMediator.md)
  * __[NetworkWiiMediator](https://github.com/sepalani/MHTrIDA/tree/master/server/doc/NetworkWiiMediator)__
-   * reflectInit
-   * reflectStart
-   * reflectStop
-   * reflectFinal
+   * [reflectInit](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/reflectInit.md)
+   * [reflectStart](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/reflectStart.md)
+   * [reflectStop](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/reflectStop.md)
+   * [reflectFinal](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/reflectFinal.md)
    * [getOpeningProgress](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getOpeningProgress.md)
    * [getOpeningTermsVersion](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getOpeningTermsVersion.md)
    * getAccountChargeSddlibTime

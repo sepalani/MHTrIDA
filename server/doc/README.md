@@ -311,10 +311,10 @@ Functions
    * [reflectFinal](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/reflectFinal.md)
    * [getOpeningProgress](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getOpeningProgress.md)
    * [getOpeningTermsVersion](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getOpeningTermsVersion.md)
-   * getAccountChargeSddlibTime
-   * isOpeningMaintenanceTerms
-   * isOpeningMaintenanceServer
-   * isOpeningAnnounce
+   * [getAccountChargeSddlibTime](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountChargeSddlibTime.md)
+   * [isOpeningMaintenanceTerms](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/isOpeningMaintenanceTerms.md)
+   * [isOpeningMaintenanceServer](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/isOpeningMaintenanceServer.md)
+   * [isOpeningAnnounce](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/isOpeningAnnounce.md)
    * [getAccountBan](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountBan.md)
    * [getAccountNeedToCharge](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountNeedToCharge.md)
    * [getAccountWarning](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountWarning.md)

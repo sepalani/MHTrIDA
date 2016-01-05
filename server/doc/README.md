@@ -319,8 +319,8 @@ Functions
    * [getAccountNeedToCharge](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountNeedToCharge.md)
    * [getAccountWarning](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountWarning.md)
    * [getAccountWaitQueue](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountWaitQueue.md)
-   * getReflectPage
-   * agreeReflect
+   * [getReflectPage](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getReflectPage.md)
+   * [agreeReflect](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/agreeReflect.md)
    * connectECServer
    * getECTicketList
    * purchaseEC
@@ -330,4 +330,4 @@ Functions
    * isECPCEnable
    * setECPCPassword
    * launchECShoppingManual
-   * getECPatch(void)
+   * getECPatch

@@ -321,13 +321,13 @@ Functions
    * [getAccountWaitQueue](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getAccountWaitQueue.md)
    * [getReflectPage](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getReflectPage.md)
    * [agreeReflect](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/agreeReflect.md)
-   * connectECServer
-   * getECTicketList
-   * purchaseEC
-   * isECConfig
-   * isECTicket
-   * getECBalance
-   * isECPCEnable
-   * setECPCPassword
-   * launchECShoppingManual
-   * getECPatch
+   * [connectECServer](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/connectECServer.md) __(Japanese version only)__
+   * [getECTicketList](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getECTicketList.md) __(Japanese version only)__
+   * [purchaseEC](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/purchaseEC.md) __(Japanese version only)__
+   * [isECConfig](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/isECConfig.md) __(Japanese version only)__
+   * [isECTicket](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/isECTicket.md) __(Japanese version only)__
+   * [getECBalance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getECBalance.md) __(Japanese version only)__
+   * [isECPCEnable](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/isECPCEnable.md) __(Japanese version only)__
+   * [setECPCPassword](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/setECPCPassword.md) __(Japanese version only)__
+   * [launchECShoppingManual](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/launchECShoppingManual.md) __(Japanese version only)__
+   * [getECPatch](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/NetworkWiiMediator/getECPatch.md) __(Japanese version only)__

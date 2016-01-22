@@ -277,14 +277,19 @@ Functions
    * [set_pc_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_pc_error_code.md)
    * TODO
  * __Network Functions__
-   * net_connect_init
-   * net_connect_main
+   * [net_connect_init](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_init.md)
+   * [net_connect_main](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_main.md)
    * _net_spr::operator=
-   * net_connect_draw
-   * net_connect_buffer
-   * net_connect_announce
-   * net_connect_maintenance
-   * net_connect_terms
+   * [net_connect_draw](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_draw.md)
+   * [net_connect_buffer](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_buffer.md)
+   * [net_connect_announce](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_announce.md)
+   * [net_connect_maintenance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_maintenance.md)
+   * [net_connect_terms](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_terms.md)
+   * online_sub_ec_init
+   * online_sub_ec
+   * online_sub_reflect_init
+   * online_sub_reflect
+   * online_sub_patch_do_check
    * TODO
  * __Display Functions__
    * [disp_net_connect_err](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_net_connect_err.md)

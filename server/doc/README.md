@@ -285,11 +285,11 @@ Functions
    * [net_connect_announce](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_announce.md)
    * [net_connect_maintenance](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_maintenance.md)
    * [net_connect_terms](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_terms.md)
-   * online_sub_ec_init
-   * online_sub_ec
-   * online_sub_reflect_init
-   * online_sub_reflect
-   * online_sub_patch_do_check
+   * [online_sub_ec_init](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/online_sub_ec_init.md)
+   * [online_sub_ec](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/online_sub_ec.md)
+   * [online_sub_reflect_init](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/online_sub_reflect_init.md)
+   * [online_sub_reflect](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/online_sub_reflect.md)
+   * [online_sub_patch_do_check](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/online_sub_patch_do_check.md)
    * TODO
  * __Display Functions__
    * [disp_net_connect_err](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/disp_net_connect_err.md)

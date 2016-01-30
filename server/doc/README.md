@@ -279,7 +279,7 @@ Functions
  * __Network Functions__
    * [net_connect_init](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_init.md)
    * [net_connect_main](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_main.md)
-   * _net_spr::operator=
+   * [_net_spr::operator=](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/_net_spr::operator%3D.md)
    * [net_connect_draw](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_draw.md)
    * [net_connect_buffer](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_buffer.md)
    * [net_connect_announce](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_announce.md)

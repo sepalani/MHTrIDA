@@ -275,6 +275,7 @@ Functions
    * [set_patch_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_patch_error_code.md)
    * [check_dopatch_error](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/check_dopatch_error.md)
    * [set_pc_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_pc_error_code.md)
+   * [get_network_sub_error_msg](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/get_network_sub_error_msg.md)
    * TODO
  * __Network Functions__
    * [net_connect_init](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/net_connect_init.md)

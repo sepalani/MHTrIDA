@@ -263,6 +263,9 @@ Size: 0x00_00_00_00
 
 Functions
 ---------
+ * __Entry Points__
+   * main
+   * TODO
  * __Error Codes__
    * [getOpeningErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)
    * [getOpeningDNSErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningDNSErrorCode.md)

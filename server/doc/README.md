@@ -264,7 +264,10 @@ Size: 0x00_00_00_00
 Functions
 ---------
  * __Entry Points__
-   * main
+   * [main](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/main.md)
+   * [__init_hardware](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__init_hardware.md)
+   * [__init_registers](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__init_registers.md)
+   * [__game_start](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__game_start.md)
    * TODO
  * __Error Codes__
    * [getOpeningErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)

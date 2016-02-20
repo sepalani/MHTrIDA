@@ -84,4 +84,4 @@ These parameters don't differ so much:
  * ```-CA ca.crt```, set the CA certificate, **must be PEM format**
  * ```-CAkey ca.key```, set the CA key, **must be PEM format**
 
-As exepected, certificates generated in this fashion **will be used by custom servers**.
+As expected, certificates generated in this fashion **will be used by custom servers**.

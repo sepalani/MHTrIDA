@@ -270,6 +270,7 @@ Functions
    * [__game_start](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__game_start.md)
    * [subTransSet](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/subTransSet.md)
    * [subTransSetPrio](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/subTransSetPrio.md)
+   * [subTransSetStackSetup](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/subTransSetStackSetup.md)
    * TODO
  * __Error Codes__
    * [getOpeningErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)

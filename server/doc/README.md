@@ -272,6 +272,24 @@ Functions
    * [subTransSetPrio](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/subTransSetPrio.md)
    * [subTransSetStackSetup](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/subTransSetStackSetup.md)
    * TODO
+ * __Low-level Functions__  
+   * [__getHID0](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__getHID0.md)
+   * [__getHID2](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__getHID2.md)
+   * [__getL2CR](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__getL2CR.md)
+   * [__getMSR](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__getMSR.md)
+   * [__setDEC](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setDEC.md)
+   * [__setHID0](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setHID0.md)
+   * [__setHID2](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setHID2.md)
+   * [__setL2CR](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setL2CR.md)
+   * [__setMMCR0](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setMMCR0.md)
+   * [__setMMCR1](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setMMCR1.md)
+   * [__setMSR](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setMSR.md)
+   * [__setPMC1](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setPMC1.md)
+   * [__setPMC2](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setPMC2.md)
+   * [__setPMC3](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setPMC3.md)
+   * [__setPMC4](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setPMC4.md)
+   * [__setWPAR](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setWPAR.md)
+   * TODO
  * __Error Codes__
    * [getOpeningErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)
    * [getOpeningDNSErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningDNSErrorCode.md)

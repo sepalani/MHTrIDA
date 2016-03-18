@@ -289,6 +289,7 @@ Functions
    * [__setPMC3](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setPMC3.md)
    * [__setPMC4](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setPMC4.md)
    * [__setWPAR](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__setWPAR.md)
+   * [__lwz](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/__lwz.md)
    * TODO
  * __Error Codes__
    * [getOpeningErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)

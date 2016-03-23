@@ -137,6 +137,20 @@ This function is based on data located:
 
 
 ## [getOpeningDNSErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningDNSErrorCode.md)
+### Description
+This function is based on data located in the **NetworkError** structure passed as pointer parameter in **r3**:
+ * __RMHJ08:__ 0x0008 (r3)
+ * __RMHE08:__ 0x0008 (r3)
+ * __RMHP08:__ 0x0008 (r3)
+ 
+### Error Codes
+#### 11601
+ * TODO
+
+#### 11612 (NTSC-J only)
+ * TODO
+
+#### 11617 (NTSC-U & PAL only)
  * TODO
 
 

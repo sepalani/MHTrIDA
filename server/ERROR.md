@@ -145,13 +145,13 @@ This function is based on data located in the **NetworkError** structure passed 
  
 ### Error Codes
 #### 11601
- * TODO
+ * Occurs when data equals -305.
 
 #### 11612 (NTSC-J only)
- * TODO
+ * Occurs when data doesn't equal -305.
 
 #### 11617 (NTSC-U & PAL only)
- * TODO
+ * Occurs when data doesn't equal -305.
 
 
 ## [getOpeningSSLErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningSSLErrorCode.md)

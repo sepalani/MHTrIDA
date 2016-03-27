@@ -133,6 +133,23 @@ This function is based on data located:
 
 
 ## [getOpeningErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)
+### Description
+This function is based on data located in the **NetworkError** structure passed as pointer parameter in **r3**:
+ * __RMHJ08:__ 0x0004 (r3), 0x0008 (r3)
+ * __RMHE08:__ 0x0004 (r3), 0x0008 (r3)
+ * __RMHP08:__ 0x0004 (r3), 0x0008 (r3)
+
+### Error Codes
+#### 11612
+ * TODO
+
+#### 11617 (NTSC-J only)
+ * TODO
+
+#### 11619 (NTSC-U & PAL only)
+ * TODO
+
+#### 11699 (NTSC-U & PAL only)
  * TODO
 
 

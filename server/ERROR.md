@@ -141,7 +141,7 @@ This function is based on data located in the **NetworkError** structure passed 
 
 ### Error Codes
 #### 11612
- * TODO
+ * Occurs when **NetworkError** is null.
 
 #### 11617 (NTSC-J only)
  * TODO

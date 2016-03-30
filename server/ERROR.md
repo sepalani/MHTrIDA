@@ -238,7 +238,7 @@ This function is based on data located in the **NetworkError** structure passed 
  * TODO
 
 #### 11615
- * TODO
+ * Occurs when data2 equals -76.
 
 #### 11616
  * Occurs when data2 equals 0.

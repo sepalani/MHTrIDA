@@ -6,6 +6,10 @@ function. The main goal is to dectect functions which are able to impact
 error code value.
 
 
+## NetworkError structure
+ * TODO
+
+
 ## [MH3GetSessionErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/MH3GetSessionErrorCode.md)
 ### Description
 This function is based on data located:

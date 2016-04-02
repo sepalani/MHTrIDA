@@ -7,7 +7,10 @@ error code value.
 
 
 ## NetworkError structure
- * TODO
+### Description
+ * 0x0000 - _address?_
+ * 0x0004 - _percent?_
+ * 0x0008 - _error?_
 
 
 ## [MH3GetSessionErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/MH3GetSessionErrorCode.md)

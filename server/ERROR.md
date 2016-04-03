@@ -12,6 +12,17 @@ error code value.
  * 0x0004 - _percent?_
  * 0x0008 - _error?_
 
+### Used in
+ * [getOpeningErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)
+ * [getOpeningDNSErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningDNSErrorCode.md)
+ * [getOpeningSSLErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningSSLErrorCode.md)
+ * [getNetworkErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkErrorCode.md)
+ * [getNetworkTCPErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getNetworkTCPErrorCode.md)
+ * [set_open_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_open_error_code.md)
+ * [set_layer_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_layer_error_code.md)
+ * [set_ec_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_ec_error_code.md)
+ * [set_patch_error_code](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/set_patch_error_code.md)
+
 
 ## [MH3GetSessionErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/MH3GetSessionErrorCode.md)
 ### Description

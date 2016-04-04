@@ -192,6 +192,7 @@ This function is based on data located in the **NetworkError** structure passed 
 ## [getOpeningSSLErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningSSLErrorCode.md)
 ### Description
 This function is based on data located in the **NetworkError** structure passed as pointer parameter in **r3**:
+ * __Name:__ data1, data2
  * __RMHJ08:__ 0x0004 (r3), 0x0008 (r3)
  * __RMHE08:__ 0x0004 (r3), 0x0008 (r3)
  * __RMHP08:__ 0x0004 (r3), 0x0008 (r3)
@@ -225,7 +226,7 @@ This function is based on data located in the **NetworkError** structure passed 
  * TODO
 
 #### 11609
- * TODO
+ * Occurs when data2 equals -1
 
 #### 11610
  * TODO

@@ -27,6 +27,7 @@ error code value.
 ## [MH3GetSessionErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/MH3GetSessionErrorCode.md)
 ### Description
 This function is based on data located:
+ * __Name:__ data
  * __RMHJ08:__ -0x4298 (r13)
  * __RMHE08:__ -0x4128 (r13)
  * __RMHP08:__ -0x4038 (r13)
@@ -48,7 +49,7 @@ This function is based on data located:
  * TODO
 
 #### 11625
- * TODO
+ * Occurs when data equals -320.
 
 #### 11630
  * TODO

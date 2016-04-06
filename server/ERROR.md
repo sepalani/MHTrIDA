@@ -27,10 +27,10 @@ error code value.
 ## [MH3GetSessionErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/MH3GetSessionErrorCode.md)
 ### Description
 This function is based on data located:
- * __Name:__ data
- * __RMHJ08:__ -0x4298 (r13)
- * __RMHE08:__ -0x4128 (r13)
- * __RMHP08:__ -0x4038 (r13)
+ * __Name:__ data, data', data'1, data'2, data'3
+ * __RMHJ08:__ -0x4298 (r13), data + 320, 0x0000 (data'), 0x0004 (data'), 0x0008 (data')
+ * __RMHE08:__ -0x4128 (r13), data + 320, 0x0000 (data'), 0x0004 (data'), 0x0008 (data')
+ * __RMHP08:__ -0x4038 (r13), data + 320, 0x0000 (data'), 0x0004 (data'), 0x0008 (data')
 
 ### Error Codes
 #### 11620

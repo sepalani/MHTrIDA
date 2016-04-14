@@ -46,7 +46,7 @@ This function is based on data located:
  * TODO
 
 #### 11624
- * Occurs when data'1 equals 0x80020001.
+ * Occurs when data'1 equals 0x80020001 (i.e. -2147352575).
 
 #### 11625
  * Occurs when data equals -320 or data'1 equals 0x80000008.

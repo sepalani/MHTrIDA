@@ -34,7 +34,7 @@ This function is based on data located:
 
 ### Error Codes
 #### 11620
- * Occurs when data'1 equals 0x8000000A.
+ * Occurs when data'1 equals 0x8000000A (i.e. -2147483638).
 
 #### 11621
  * TODO

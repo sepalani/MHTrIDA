@@ -136,7 +136,7 @@ This function is based on data located:
  * TODO
 
 #### 11675
- * TODO
+ * Occurs when data'1 equals 0x80030040 (i.e. -2147286976).
 
 #### 11676
  * TODO

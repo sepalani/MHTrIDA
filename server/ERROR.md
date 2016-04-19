@@ -127,7 +127,7 @@ This function is based on data located:
  * TODO
 
 #### 11672
- * TODO
+ * Occurs when data'1 equals 0x8003003a (i.e. -2147286982).
 
 #### 11673
  * TODO

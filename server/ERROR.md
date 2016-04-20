@@ -118,7 +118,7 @@ This function is based on data located:
  * TODO
 
 #### 11669
- * Occurs when data'1 equals 0x8003003d (i.e. -2147286979).
+ * Occurs when data'1 equals 0x8003003a (i.e. -2147286982).
 
 #### 11670
  * TODO
@@ -127,10 +127,10 @@ This function is based on data located:
  * TODO
 
 #### 11672
- * Occurs when data'1 equals 0x8003003a (i.e. -2147286982).
+ * Occurs when data'1 equals 0x8003003d (i.e. -2147286979).
 
 #### 11673
- * TODO
+ * Occurs when data'1 equals 0x8003003e (i.e. -2147286978).
 
 #### 11674
  * TODO

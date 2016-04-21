@@ -133,7 +133,7 @@ This function is based on data located:
  * Occurs when data'1 equals 0x8003003e (i.e. -2147286978).
 
 #### 11674
- * TODO
+ * Occurs when data'1 equals 0x8003003f (i.e. -2147286977).
 
 #### 11675
  * Occurs when data'1 equals 0x80030040 (i.e. -2147286976).

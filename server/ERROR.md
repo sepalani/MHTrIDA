@@ -109,7 +109,7 @@ This function is based on data located:
  * TODO
 
 #### 11666
- * TODO
+ * Occurs when data'1 equals 0x80030037 (i.e. -2147286985).
 
 #### 11667
  * TODO

@@ -106,7 +106,7 @@ This function is based on data located:
  * Occurs when data'1 equals 0x80030035 (i.e. -2147286987).
 
 #### 11665
- * TODO
+ * Occurs when data'1 equals 0x80030036 (i.e. -2147286986).
 
 #### 11666
  * Occurs when data'1 equals 0x80030037 (i.e. -2147286985).

@@ -37,10 +37,10 @@ This function is based on data located:
  * Occurs when data'1 equals 0x8000000A (i.e. -2147483638).
 
 #### 11621
- * Occurs when data'1 equals 0x80050012 (i.e. -2147155950) and data'2 not equals 110.
+ * Occurs when data'1 equals 0x80050012 (i.e. -2147155950) and data'2 doesn't equal 110.
 
 #### 11622
- * TODO
+ * Occurs when data'1 equals 0x80050011 (i.e. -2147155951) and data'2 doesn't equal 110.
 
 #### 11623
  * TODO

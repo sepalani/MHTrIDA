@@ -43,7 +43,7 @@ This function is based on data located:
  * Occurs when data'1 equals 0x80050011 (i.e. -2147155951) and data'2 doesn't equal 110.
 
 #### 11623
- * TODO
+ * Occurs when data'1 equals 0x80050037 (i.e. -2147155913).
 
 #### 11624
  * Occurs when data'1 equals 0x80020001 (i.e. -2147352575).

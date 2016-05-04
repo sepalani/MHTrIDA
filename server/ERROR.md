@@ -148,7 +148,7 @@ This function is based on data located:
  * Occurs when data'1 equals 0x80030043 (i.e. -2147286973).
 
 #### 11679
- * TODO
+ * Occurs when data'1 equals 0x80030044 (i.e. -2147286972).
 
 
 ## [getOpeningErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)

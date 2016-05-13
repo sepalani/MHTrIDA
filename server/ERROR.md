@@ -79,7 +79,7 @@ This function is based on data located:
  * TODO
 
 #### 11643
- * TODO
+ * Occurs when data'1 equals 0x80030014 (i.e. -2147287020).
 
 #### 11644
  * Occurs when data'1 equals 0x80030015 (i.e. -2147287019).

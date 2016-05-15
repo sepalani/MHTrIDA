@@ -70,7 +70,7 @@ This function is based on data located:
  * Occurs when data'1 equals 0x80030038 (i.e. -2147286984).
 
 #### 11640
- * TODO
+ * Occurs when data'1 equals 0x80030011 (i.e. -2147287023).
 
 #### 11641
  * Occurs when data'1 equals 0x80030012 (i.e. -2147287022).

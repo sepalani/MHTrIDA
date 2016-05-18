@@ -61,7 +61,7 @@ This function is based on data located:
  * Occurs when data'1 equals 0x80030002 (i.e. -2147287038).
 
 #### 11633
- * TODO
+ * Occurs when data'1 equals 0x80030003 (i.e. -2147287037).
 
 #### 11634
  * Occurs when data'1 equals 0x80030004 (i.e. -2147287036).

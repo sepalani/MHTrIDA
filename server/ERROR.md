@@ -52,7 +52,7 @@ This function is based on data located:
  * Occurs when data equals -320 or data'1 equals 0x80000008 (i.e. -2147483640).
 
 #### 11630
- * TODO
+ * Occurs when data'1 equals 0x80030000 (i.e. -2147287040).
 
 #### 11631
  * Occurs when data'1 equals 0x80030001 (i.e. -2147287039).

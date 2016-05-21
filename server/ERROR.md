@@ -67,7 +67,7 @@ This function is based on data located:
  * Occurs when data'1 equals 0x80030004 (i.e. -2147287036).
 
 #### 11635
- * Occurs when data'1 equals 0x80030038 (i.e. -2147286984).
+ * Occurs when data'1 equals 0x80030005 (i.e. -2147287035).
 
 #### 11640
  * Occurs when data'1 equals 0x80030011 (i.e. -2147287023).

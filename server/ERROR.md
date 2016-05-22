@@ -150,6 +150,9 @@ This function is based on data located:
 #### 11679
  * Occurs when data'1 equals 0x80030044 (i.e. -2147286972).
 
+#### data'3
+ * Returns data'3 when it doesn't equal 0x80000000 (i.e. -2147483648).
+
 
 ## [getOpeningErrorCode](https://github.com/sepalani/MHTrIDA/blob/master/server/doc/getOpeningErrorCode.md)
 ### Description

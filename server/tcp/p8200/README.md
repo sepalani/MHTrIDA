@@ -25,3 +25,5 @@ When the game sends a request to the server, it stores the server response somew
  * Buffer Address: 0x80CD5318, Response Size: 0x80CD5310 [PAL]
  * Buffer Address: 0x80CD5318, Response Size: 0x80CD5310 [NTSC-U]
  * Buffer Address: 0x80CA9400, Response Size: 0x80CA93F8 [NTSC-J]
+
+The maximum buffer size seems to be 0x4000 bytes. Each time it receives data from the server, it decreases the buffer size with the size of the data received. It also move the buffer's pointer accordingly.

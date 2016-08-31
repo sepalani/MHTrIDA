@@ -30,6 +30,236 @@ network
 
 
 
+Misc/Network
+------------
+```C++
+%s     = %u
+%s   = %d
+%s  = %d
+%s  = %s
+%s %s
+%s = %d
+%s = %d and %s != %u and maxplayers = %d and numplayers < %d and %s = %d and %s = %u and %s
+%s = %u
+%s --> %02x:%02x:%02x:%02x:%02x:%02x
+%s can be called before NHTTPStartConnection()
+%s close() nBuffered %d should be 0
+%s contains ErrorCode: %s and ErrorMessage: %s
+%s error %d extracting %s
+%s error %d extracting ErrorMessage
+%s failed %d
+%s got %d
+%s got response:
+%s log format string exceeds %d: %s
+%s%03d
+%s%09d
+%s%c%c%c%c%s
+%s%d
+%s%d%d
+%s%dv%s
+%s%s
+%s%s %s%s
+%s%s of %016llX
+%s%s%s
+%s-%s-%s
+%s%s%s%s%s%s
+%s%s@%s
+%s.%s
+%s.available.gs.nintendowifi.net
+%s.gamestats.gs.nintendowifi.net
+%s.gamestats2.gs.nintendowifi.net
+%s.master.gs.nintendowifi.net
+%s.ms%d.gs.nintendowifi.net
+%s.natneg1.gs.nintendowifi.net
+%s.natneg2.gs.nintendowifi.net
+%s.natneg3.gs.nintendowifi.net
+%s/%s
+%s/ec.cfg
+%s/nocopy/%s
+%s: %d ticket size %u is not expected %u
+%s: couldn't decode base64 cert[%d]: %s
+%s: couldn't decode base64 ticket[%d]: %s
+%s: did not recognize LimitKind %s
+%s: ES_ImportContentData %u  so far %u  expected total %u
+%s: ES_ImportContentData returned %d
+%s: expected at least %u tickets, found %u
+%s: expected at least 2 ticket certs, found %u
+%s: expected Balance.Currency == POINTS, found %s
+%s: IoctlvAsync returned error %d
+%s: Not enough memory
+%s:%016llu
+%s:%d
+%s:%d Panic:
+%s:%d Warning:
+%s::%s: Object not valid.
+%s:illegal thread
+%s:recvAnsAgreement
+%s:recvAnsAgreementPage
+%s:recvAnsAgreementPageInfo
+%s:recvAnsAgreementPageNum
+%s:recvAnsAlert[%02Xx%02X]
+%s:recvAnsAnnounce ok
+%s:recvAnsAuthenticationToken ok
+%s:recvAnsBinaryData ok
+%s:recvAnsBinaryFoot ok
+%s:recvAnsBinaryHead ok
+%s:recvAnsBinaryUser ok
+%s:recvAnsBinaryVersion ok
+%s:recvAnsBlackAdd
+%s:recvAnsBlackDelete
+%s:recvAnsBlackList
+%s:recvAnsChargeInfo ok
+%s:recvAnsCircleBreak ok
+%s:recvAnsCircleCreate ok
+%s:recvAnsCircleDeleteKickList
+%s:recvAnsCircleHost ok
+%s:recvAnsCircleHostHandover ok
+%s:recvAnsCircleInfo ok
+%s:recvAnsCircleInfoNoticeSet ok
+%s:recvAnsCircleInfoSet ok
+%s:recvAnsCircleJoin ok
+%s:recvAnsCircleKick
+%s:recvAnsCircleLeave ok
+%s:recvAnsCircleListLayer ok
+%s:recvAnsCircleMatchEnd ok
+%s:recvAnsCircleMatchOptionGet
+%s:recvAnsCircleMatchOptionSet ok
+%s:recvAnsCircleMatchStart ok
+%s:recvAnsCircleSearchData ok
+%s:recvAnsCircleSearchFoot ok
+%s:recvAnsCircleSearchHead ok
+%s:recvAnsCircleTell
+%s:recvAnsCircleUserList ok
+%s:recvAnsCommonKey ok
+%s:recvAnsFmpInfo ok
+%s:recvAnsFmpListData ok
+%s:recvAnsFmpListFoot ok
+%s:recvAnsFmpListHead ok
+%s:recvAnsFmpListVersion ok
+%s:recvAnsFriendAccept
+%s:recvAnsFriendAdd
+%s:recvAnsFriendDelete
+%s:recvAnsFriendList
+%s:recvAnsLayerChildInfo
+%s:recvAnsLayerChildListData
+%s:recvAnsLayerChildListFoot
+%s:recvAnsLayerChildListHead
+%s:recvAnsLayerCreateFoot
+%s:recvAnsLayerCreateHead
+%s:recvAnsLayerCreateSet
+%s:recvAnsLayerDetailSearchData
+%s:recvAnsLayerDetailSearchFoot
+%s:recvAnsLayerDetailSearchHead
+%s:recvAnsLayerDown
+%s:recvAnsLayerEnd
+%s:recvAnsLayerHost
+%s:recvAnsLayerInfo
+%s:recvAnsLayerInfoSet
+%s:recvAnsLayerJump
+%s:recvAnsLayerMediationList
+%s:recvAnsLayerMediationLock
+%s:recvAnsLayerMediationUnlock
+%s:recvAnsLayerParentInfo
+%s:recvAnsLayerSiblingListData
+%s:recvAnsLayerSiblingListFoot
+%s:recvAnsLayerSiblingListHead
+%s:recvAnsLayerStart
+%s:recvAnsLayerTell
+%s:recvAnsLayerUp
+%s:recvAnsLayerUserInfoSet
+%s:recvAnsLayerUserList
+%s:recvAnsLayerUserListData
+%s:recvAnsLayerUserListFoot
+%s:recvAnsLayerUserListHead
+%s:recvAnsLayerUserSearchData
+%s:recvAnsLayerUserSearchFoot
+%s:recvAnsLayerUserSearchHead
+%s:recvAnsLmpConnect ok
+%s:recvAnsLoginInfo ok
+%s:recvAnsMaintenance ok
+%s:recvAnsMcsCreate
+%s:recvAnsMediaVersionInfo ok
+%s:recvAnsNg[%02Xx%02X]
+%s:recvAnsNoCharge ok
+%s:recvAnsRfpConnect ok
+%s:recvAnsServerTime ok
+%s:recvAnsShut ok
+%s:recvAnsSubTerms ok
+%s:recvAnsSubTermsInfo ok
+%s:recvAnsTell
+%s:recvAnsTerms ok
+%s:recvAnsTermsInfo ok
+%s:recvAnsTermsVersion ok
+%s:recvAnsTicket ok
+%s:recvAnsUserBinaryNotice
+%s:recvAnsUserBinarySet
+%s:recvAnsUserListData ok
+%s:recvAnsUserListFoot ok
+%s:recvAnsUserListHead ok
+%s:recvAnsUserObject ok
+%s:recvAnsUserSearchData
+%s:recvAnsUserSearchFoot
+%s:recvAnsUserSearchHead
+%s:recvAnsUserSearchInfo
+%s:recvAnsUserSearchInfoMine
+%s:recvAnsUserSearchSet
+%s:recvAnsUserStatus
+%s:recvAnsUserStatusSet
+%s:recvAnsVulgarityHigh ok
+%s:recvAnsVulgarityInfoHigh ok
+%s:recvAnsVulgarityInfoLow ok
+%s:recvAnsVulgarityLow ok
+%s:recvNotProvided[%02Xx%02X]
+%s:recvNtcBinaryServer ok
+%s:recvNtcBinaryUser ok
+%s:recvNtcChat
+%s:recvNtcCircleBinary
+%s:recvNtcCircleBreak ok
+%s:recvNtcCircleHost ok
+%s:recvNtcCircleHostHandover ok
+%s:recvNtcCircleInfoSet ok
+%s:recvNtcCircleJoin
+%s:recvNtcCircleKick
+%s:recvNtcCircleLeave
+%s:recvNtcCircleListLayerChange ok
+%s:recvNtcCircleListLayerCreate ok
+%s:recvNtcCircleListLayerDelete ok
+%s:recvNtcCircleMatchOptionSet
+%s:recvNtcCircleMatchStart ok
+%s:recvNtcCircleTell
+%s:recvNtcFriendAccept
+%s:recvNtcFriendAdd
+%s:recvNtcLayerBinary
+%s:recvNtcLayerChat
+%s:recvNtcLayerHost
+%s:recvNtcLayerIn
+%s:recvNtcLayerInfoSet
+%s:recvNtcLayerJumpGo
+%s:recvNtcLayerJumpReady
+%s:recvNtcLayerMediationLock
+%s:recvNtcLayerMediationUnlock
+%s:recvNtcLayerOut
+%s:recvNtcLayerTell
+%s:recvNtcLayerTellLow
+%s:recvNtcLayerUserInfoSet
+%s:recvNtcLayerUserNum
+%s:recvNtcLayerUserPosition
+%s:recvNtcLogin ok
+%s:recvNtcMcsCreate
+%s:recvNtcMcsStart
+%s:recvNtcRecconect ok
+%s:recvNtcShut ok
+%s:recvNtcTell
+%s:recvNtcUserBinaryNotice
+%s:recvReqConnection ok
+%s:recvReqLineCheck ok
+%s:recvReqMemoryCheck ok
+%s:recvReqTicket ok
+%s:recvReqWarning ok
+```
+
+
+
 NetworkBuffer
 -------------
 

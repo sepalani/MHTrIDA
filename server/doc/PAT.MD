@@ -299,3 +299,300 @@ MCS移行通知
 同意送信
 同意返答 
 ```
+
+## English
+```
+Line check
+Server time request
+Server time reply
+Disconnection request
+Disconnection reply
+Disconnection notification
+Reconnection notification
+PAT connection environment requirement
+PAT connection environment response
+Login process summary notification
+PAT ticket request
+PAT ticket reply
+Send PAT ticket
+Receive PAT ticket
+Send warning text
+Confirmation of warning message reception
+Collection log notification
+Common key request
+Common key reply
+Send cheat check data
+Memory content request
+Memory content transmission
+Send login information
+Login information reply
+Billing information request
+Billing information reply
+Request for the number of PAT ID candidates
+PAT ID candidate count response
+PAT ID candidate request
+Send PAT ID candidate
+Confirmation of completion of PAT ID candidate transmission
+PAT ID candidate transmission end reply
+Send user object
+User object result
+FMP list version check
+FMP list version acknowledgment
+Send FMP list number
+FMP list number response
+Send FMP list
+FMP list response
+End of FMP list transmission
+FMP data request
+FMP data reply
+RFP connection request
+RFP destination response
+LMP connection destination request
+LMP destination response
+Confirmation of terms of use information
+Terms of use information response
+Terms of use request
+Terms of use response
+Sub-Terms of Service Designation Information Confirmation
+Sub-Terms of Service Specified Information Response
+Sub-Terms of Service Request
+Sub Terms of Service Response
+Maintenance information request
+Maintenance information notification
+Notification request
+Notification Notification
+Unpaid message request
+Unpaid message notification
+Send new media version
+New media version reply
+Prohibition wording request for true / name
+Forbidden wording response for true / name
+Request for acquisition of prohibited words for true / name
+Prohibition word acquisition response for true / name
+Prohibition wording request for anything other than true / name
+Prohibition word response for anything other than true / name
+Request to obtain prohibited words for anything other than true / name
+Prohibition word acquisition response for other than true / name
+Send authentication token
+Authentication token reply
+Binary version check
+Binary version acknowledgment
+Binary data start request
+Binary data start response
+Binary data request
+Binary data response
+Binary data completion request
+Binary data completion response
+FMP list count request
+FMP list request
+FMP list end send
+FMP list end reply
+Layer start request
+Layer start response
+Layer end request
+Layer end response
+Layer number notification
+Layer move request (position binary)
+Layer move reply (position binary)
+Layer creation request (number specified)
+Layer creation reply
+Layer creation setting request (number specification)
+Layer creation setting reply
+Layer creation completion request (number specified)
+Layer creation completion reply
+Layer down request (number specified)
+Layer down reply
+Layer-in notification
+Layer up request
+Layer up reply
+Layer out reply
+Layer reservation move confirmation request
+Layer reservation move confirmation reply
+Layer reserved move execution request
+Layer reservation move execution reply
+Layer information setting request
+Layer information setting reply
+Layer information setting notification
+Layer information request
+Layer information reply
+Parent layer information request
+Parent layer information reply
+Child layer information request
+Child layer information reply
+Child layer list number request
+Number of child layer lists Reply
+Child layer list request
+Child layer list reply
+Child layer list end request
+Child layer list end reply
+Sibling layer list count request
+Number of sibling layer lists Reply
+Brother layer list request
+Brother layer list reply
+Brother layer list end request
+Brother layer list end reply
+Layer host request
+Layer host response
+Layer host notification
+Layer user data setting request
+Layer user data setting reply
+Layer user data setting notification
+Layer sync user list request
+Layer sync user list reply
+Layer user list count request
+Layer user list number reply
+Layer user list request
+Layer user list reply
+Layer user list end request
+Layer user list end reply
+Layer user search list count request
+Layer user search list number response
+Layer user search list request
+Layer user search list response
+Layer user search list end request
+Layer user search list end reply
+Binary notifications for layer users
+Binary transmission for layer users
+Layer game position reception notification
+Layer game position notification
+Layer chat notification
+Layer chat transmission
+Layer specified chat transmission
+Layer partner specified chat reply
+Layer partner specified chat notification
+Layer partner specified chat notification (notification only)
+Layer specified chat transmission (notification only)
+Binary notification for layer users (specify the other party)
+Binary transmission for layer users (specify the other party)
+Layer arbitration data securing request
+Layer arbitration data secure reply
+Layer arbitration data securing notification
+Layer arbitration data release request
+Layer arbitration data release reply
+Layer arbitration data release notification
+Layer arbitration data list acquisition request
+Layer arbitration data list acquisition reply
+Layer search detail request
+Layer search details number reply
+Layer search detailed data request
+Layer search detailed data reply
+Layer search details end request
+Layer search details end reply
+Circle creation request
+Circle creation reply
+Circle data acquisition request
+Circle data acquisition reply
+Circle-in request
+Circle-in reply
+Circle-in notification
+Circle out request
+Circle out reply
+Circle out notification
+Circle dissolution request
+Circle dissolution reply
+Circle dissolution notice
+Matching option setting request
+Matching option setting reply
+Matching option setting notification
+Matching option acquisition request
+Matching option acquisition reply
+Matching start request
+Matching start reply
+Matching start notification
+Matching end request
+Matching end reply
+Circle data setting request
+Circle data setting reply
+Circle data setting notification
+Circle sync list request (layer)
+Circle sync list reply (layer)
+Circle search number request
+Circle search number reply
+Circle search request
+Circle search reply
+Circle search end request
+Circle search end reply
+Kick request from the circle
+Kick response from the circle
+Kick notification from the circle
+Request to remove from kicklist
+Delete reply from kick list
+Circle host transfer request
+Circle host transfer reply
+Circle host transfer notice
+Circle host request
+Circle host response
+Circle host notification
+Circle sync user list request
+Circle sync user list reply
+Circle binary notification
+Circle binary transmission
+Circle binary notification (specified by the other party)
+Circle binary transmission (specified by the other party)
+Circle chat notification
+Circle chat transmission
+Circle partner specified chat transmission
+Circle partner specified chat reply
+Circle partner specified chat notification
+Circle notification definition registration request
+Circle notification definition registration reply
+Circle addition notification (layer)
+Circle change notification (layer)
+Circle deletion notification (layer)
+MCS creation request
+MCS creation reply
+MCS creation notification
+MCS migration notification
+Send specified chat
+Chat reply specified by the other party
+Chat notification by partner
+Binary request
+Binary reply specified by the other party
+Binary notification specified by the other party
+Server binary notification
+User search setting request
+User search settings reply
+Binary setting request for user display
+Binary setting reply for user display
+Binary notification request for user display
+Binary notification reply for user display
+Binary notification for user display Notification
+User search count request
+Number of user searches Reply
+User search request
+User search response
+User search end request
+User search end reply
+User search data request
+User search data reply
+User search data request (self)
+User search data reply (self)
+User status setting request
+User status setting reply
+User status request
+User status reply
+Friend registration request
+Friend registration reply
+Friend registration completion notification
+Friend registration request Reply request
+Friend registration request reply reply
+Friend registration request notification
+Friend data deletion request
+Friend data deletion reply
+Friend list request
+Friend list reply
+Black data registration request
+Black data registration reply
+Black data deletion request
+Black data deletion reply
+Blacklist request
+Blacklist reply
+Automatic consent page count request
+Automatic consent page number reply
+Automatic consent page information request
+Automatic consent page information reply
+Automatic consent page data request
+Automatic consent page data reply
+Send consent
+Consent reply
+```

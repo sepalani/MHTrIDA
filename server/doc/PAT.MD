@@ -58,6 +58,10 @@ file in all version of the game.
 |62100200|recvAnsTermsVersion|利用規約情報応答|Terms of use information response|
 |62110100|sendReqTerms|利用規約要求|Terms of use request|
 |62110200|recvAnsTerms|利用規約応答|Terms of use response|
+|62130100||サブ利用規約指定情報確認|Sub-Terms of Service Designation Information Confirmation|
+|62130200||サブ利用規約指定情報応答|Sub-Terms of Service Specified Information Response|
+|62140100||サブ利用規約要求|Sub-Terms of Service Request|
+|62140200||サブ利用規約応答|Sub-Terms of Service Response|
 |62200100|sendReqMaintenance|メンテナンス情報要求|Maintenance information request|
 |62200200|recvAnsMaintenance|メンテナンス情報通知|Maintenance information notification|
 |62300100|sendReqAnnounce|お知らせ要求|Notification request|

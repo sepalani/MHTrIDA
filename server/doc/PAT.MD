@@ -70,6 +70,14 @@ file in all version of the game.
 |62310200|recvAnsNoCharge|未課金メッセージ通知|Unpaid message notification|
 |62410100|sendReqMediaVersionInfo|新メディアバージョン送信|Send new media version|
 |62410200|recvAnsMediaVersionInfo|新メディアバージョン返答|New media version reply|
+|62500100||名前用禁止文言要求|Prohibition wording request for name|
+|62500200||名前用禁止文言応答|Forbidden wording response for names|
+|62510100||名前用禁止文言取得要求|Request for acquisition of prohibited words for names|
+|62510200||名前用禁止文言取得応答|Forbidden wording acquisition response for name|
+|62520100||名前以外用禁止文言要求|Prohibition wording request for other than name|
+|62520200||名前以外用禁止文言応答|Prohibited wording response for other than name|
+|62530100||名前以外用禁止文言取得要求|Request for acquisition of prohibited words for other than name|
+|62530200||名前以外用禁止文言取得応答|Prohibition word acquisition response for other than name|
 |62540100|sendReqVulgarityInfoHigh|真・名前用禁止文言要求|Prohibition wording request for true / name|
 |62540200|recvAnsVulgarityInfoHigh|真・名前用禁止文言応答|Forbidden wording response for true / name|
 |62550100|sendReqVulgarityHigh|真・名前用禁止文言取得要求|Request for acquisition of prohibited words for true / name|

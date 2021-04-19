@@ -70,22 +70,22 @@ file in all version of the game.
 |62310200|recvAnsNoCharge|未課金メッセージ通知|Unpaid message notification|
 |62410100|sendReqMediaVersionInfo|新メディアバージョン送信|Send new media version|
 |62410200|recvAnsMediaVersionInfo|新メディアバージョン返答|New media version reply|
-|62500100||名前用禁止文言要求|Prohibition wording request for name|
-|62500200||名前用禁止文言応答|Forbidden wording response for names|
-|62510100||名前用禁止文言取得要求|Request for acquisition of prohibited words for names|
-|62510200||名前用禁止文言取得応答|Forbidden wording acquisition response for name|
-|62520100||名前以外用禁止文言要求|Prohibition wording request for other than name|
-|62520200||名前以外用禁止文言応答|Prohibited wording response for other than name|
-|62530100||名前以外用禁止文言取得要求|Request for acquisition of prohibited words for other than name|
-|62530200||名前以外用禁止文言取得応答|Prohibition word acquisition response for other than name|
-|62540100|sendReqVulgarityInfoHigh|真・名前用禁止文言要求|Prohibition wording request for true / name|
-|62540200|recvAnsVulgarityInfoHigh|真・名前用禁止文言応答|Forbidden wording response for true / name|
-|62550100|sendReqVulgarityHigh|真・名前用禁止文言取得要求|Request for acquisition of prohibited words for true / name|
-|62550200|recvAnsVulgarityHigh|真・名前用禁止文言取得応答|Prohibition word acquisition response for true / name|
-|62560100|sendReqVulgarityInfoLow|真・名前以外用禁止文言要求|Prohibition wording request for anything other than true / name|
-|62560200|recvAnsVulgarityInfoLow|真・名前以外用禁止文言応答|Prohibition word response for anything other than true / name|
-|62570100|sendReqVulgarityLow|真・名前以外用禁止文言取得要求|Request to obtain prohibited words for anything other than true / name|
-|62570200|recvAnsVulgarityLow|真・名前以外用禁止文言取得応答|Prohibition word acquisition response for other than true / name|
+|62500100|sendReqVulgarityInfoHigh|名前用禁止文言要求|Prohibition wording request for name|
+|62500200|recvAnsVulgarityInfoHigh|名前用禁止文言応答|Forbidden wording response for names|
+|62510100|sendReqVulgarityHigh|名前用禁止文言取得要求|Request for acquisition of prohibited words for names|
+|62510200|recvAnsVulgarityHigh|名前用禁止文言取得応答|Forbidden wording acquisition response for name|
+|62520100|sendReqVulgarityInfoLow|名前以外用禁止文言要求|Prohibition wording request for other than name|
+|62520200|recvAnsVulgarityInfoLow|名前以外用禁止文言応答|Prohibited wording response for other than name|
+|62530100|sendReqVulgarityLow|名前以外用禁止文言取得要求|Request for acquisition of prohibited words for other than name|
+|62530200|recvAnsVulgarityLow|名前以外用禁止文言取得応答|Prohibition word acquisition response for other than name|
+|62540100|sendReqVulgarityInfoHigh|真・名前用禁止文言要求|(New) Prohibition wording request for name|
+|62540200|recvAnsVulgarityInfoHigh|真・名前用禁止文言応答|(New) Forbidden wording response for name|
+|62550100|sendReqVulgarityHigh|真・名前用禁止文言取得要求|(New) Request for acquisition of prohibited words for name|
+|62550200|recvAnsVulgarityHigh|真・名前用禁止文言取得応答|(New) Forbidden wording acquisition response for name|
+|62560100|sendReqVulgarityInfoLow|真・名前以外用禁止文言要求|(New) Prohibition wording request for anything other than name|
+|62560200|recvAnsVulgarityInfoLow|真・名前以外用禁止文言応答|(New) Prohibition wording response for anything other than name|
+|62570100|sendReqVulgarityLow|真・名前以外用禁止文言取得要求|(New) Request to obtain prohibited words for anything other than name|
+|62570200|recvAnsVulgarityLow|真・名前以外用禁止文言取得応答|(New) Prohibition word acquisition response for other than name|
 |62600100|sendReqAuthenticationToken|認証トークン送信|Send authentication token|
 |62600200|recvAnsAuthenticationToken|認証トークン返答|Authentication token reply|
 |63010100|sendReqBinaryVersion|バイナリバージョン確認|Binary version check|

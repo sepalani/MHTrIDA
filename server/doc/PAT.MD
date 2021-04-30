@@ -25,7 +25,7 @@ file in all version of the game.
 |60501000|sendNtc0x6050|収集ログ通知|Collection log notification|
 |60700100|sendReqCommonKey|共通鍵要求|Common key request|
 |60700200|recvAnsCommonKey|共通鍵返答|Common key reply|
-|60801000|sendNtc0x6080|チートチェックデータ送信|Send cheat check data|
+|60801000|sendNtcCheatCheck|チートチェックデータ送信|Send cheat check data|
 |60810100|recvReqMemoryCheck|メモリ内容要求|Memory content request|
 |60810200|sendAnsMemoryCheck|メモリ内容送信|Memory content transmission|
 |61010100|sendReqLoginInfo|ログイン情報送信|Send login information|
@@ -119,10 +119,10 @@ file in all version of the game.
 |64120200|recvAnsLayerCreateSet|レイヤ作成設定返答|Layer creation setting reply|
 |64130100|sendReqLayerCreateFoot|レイヤ作成完了要求（番号指定）|Layer creation completion request (number specified)|
 |64130200|recvAnsLayerCreateFoot|レイヤ作成完了返答|Layer creation completion reply|
-|64140100|sendReqLayerIn|レイヤダウン要求（番号指定）|Layer down request (number specified)|
+|64140100|sendReqLayerDown|レイヤダウン要求（番号指定）|Layer down request (number specified)|
 |64140200|recvAnsLayerDown|レイヤダウン返答|Layer down reply|
 |64141000|recvNtcLayerIn|レイヤイン通知|Layer-in notification|
-|64150100|sendReqLayerOut|レイヤアップ要求|Layer up request|
+|64150100|sendReqLayerUp|レイヤアップ要求|Layer up request|
 |64150200|recvAnsLayerUp|レイヤアップ返答|Layer up reply|
 |64151000|recvNtcLayerOut|レイヤアウト返答|Layer out reply|
 |64160100|sendReqLayerJumpReady|レイヤ予約移動確認要求|Layer reservation move confirmation request|
@@ -314,4 +314,3 @@ file in all version of the game.
 |69030200|recvAnsAgreementPage|自動同意ページデータ返答|Automatic consent page data reply|
 |69100100|sendReqAgreement|同意送信|Send consent|
 |69100200|recvAnsAgreement|同意返答|Consent reply|
-

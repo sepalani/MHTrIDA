@@ -170,18 +170,18 @@ file in all version of the game.
 |64680200|recvAnsLayerUserSearchData|レイヤユーザ検索リスト返答|Layer user search list response|
 |64690100|sendReqLayerUserSearchFoot|レイヤユーザ検索リスト終了要求|Layer user search list end request|
 |64690200|recvAnsLayerUserSearchFoot|レイヤユーザ検索リスト終了返答|Layer user search list end reply|
-|64701000|sendNtc0x6470|レイヤユーザ用バイナリ通知|Binary notifications for layer users|
+|64701000|recvNtc0x6470|レイヤユーザ用バイナリ通知|Binary notifications for layer users|
 |64701000|sendNtc0x6470|レイヤユーザ用バイナリ送信|Binary transmission for layer users|
-|64711000|sendNtc0x6471|レイヤゲームポジション受信通知|Layer game position reception notification|
+|64711000|recvNtc0x6471|レイヤゲームポジション受信通知|Layer game position reception notification|
 |64711000|sendNtc0x6471|レイヤゲームポジション通知|Layer game position notification|
-|64721000|sendNtc0x6472|レイヤチャット通知|Layer chat notification|
+|64721000|recvNtc0x6472|レイヤチャット通知|Layer chat notification|
 |64721000|sendNtc0x6472|レイヤチャット送信|Layer chat transmission|
 |64730100|sendReqLayerTell|レイヤ相手指定チャット送信|Layer specified chat transmission|
 |64730200|recvAnsLayerTell|レイヤ相手指定チャット返信|Layer partner specified chat reply|
 |64731000|recvNtcLayerTell|レイヤ相手指定チャット通知|Layer partner specified chat notification|
-|64741000|sendNtc0x6474|レイヤ相手指定チャット通知 (通知のみ)|Layer partner specified chat notification (notification only)|
+|64741000|recvNtc0x6474|レイヤ相手指定チャット通知 (通知のみ)|Layer partner specified chat notification (notification only)|
 |64741000|sendNtc0x6474|レイヤ相手指定チャット送信 (通知のみ)|Layer specified chat transmission (notification only)|
-|64751000|sendNtc0x6475|レイヤユーザ用バイナリ通知 (相手指定)|Binary notification for layer users (specify the other party)|
+|64751000|recvNtc0x6475|レイヤユーザ用バイナリ通知 (相手指定)|Binary notification for layer users (specify the other party)|
 |64751000|sendNtc0x6475|レイヤユーザ用バイナリ送信 (相手指定)|Binary transmission for layer users (specify the other party)|
 |64800100|sendReqLayerMediationLock|レイヤ調停データ確保要求|Layer arbitration data securing request|
 |64800200|recvAnsLayerMediationLock|レイヤ調停データ確保返答|Layer arbitration data secure reply|
@@ -244,11 +244,11 @@ file in all version of the game.
 |65411000|recvNtcCircleHost|サークルのホスト通知|Circle host notification|
 |65600100|sendReqCircleUserList|サークル同期ユーザリスト要求|Circle sync user list request|
 |65600200|recvAnsCircleUserList|サークル同期ユーザリスト返答|Circle sync user list reply|
-|65701000|sendNtc0x6570|サークルバイナリ通知|Circle binary notification|
+|65701000|recvNtc0x6570|サークルバイナリ通知|Circle binary notification|
 |65701000|sendNtc0x6570|サークルバイナリ送信|Circle binary transmission|
-|65711000|sendNtc0x6571|サークルバイナリ通知 (相手指定)|Circle binary notification (specified by the other party)|
+|65711000|recvNtc0x6571|サークルバイナリ通知 (相手指定)|Circle binary notification (specified by the other party)|
 |65711000|sendNtc0x6571|サークルバイナリ送信 (相手指定)|Circle binary transmission (specified by the other party)|
-|65721000|sendNtc0x6572|サークルチャット通知|Circle chat notification|
+|65721000|recvNtc0x6572|サークルチャット通知|Circle chat notification|
 |65721000|sendNtc0x6572|サークルチャット送信|Circle chat transmission|
 |65730100|sendReqCircleTell|サークル相手指定チャット送信|Circle partner specified chat transmission|
 |65730200|recvAnsCircleTell|サークル相手指定チャット返信|Circle partner specified chat reply|

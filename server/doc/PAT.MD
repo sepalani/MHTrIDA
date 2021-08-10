@@ -244,12 +244,12 @@ file in all version of the game.
 |65411000|recvNtcCircleHost|サークルのホスト通知|Circle host notification|
 |65600100|sendReqCircleUserList|サークル同期ユーザリスト要求|Circle sync user list request|
 |65600200|recvAnsCircleUserList|サークル同期ユーザリスト返答|Circle sync user list reply|
-|65701000|recvNtc0x6570|サークルバイナリ通知|Circle binary notification|
-|65701000|sendNtc0x6570|サークルバイナリ送信|Circle binary transmission|
-|65711000|recvNtc0x6571|サークルバイナリ通知 (相手指定)|Circle binary notification (specified by the other party)|
-|65711000|sendNtc0x6571|サークルバイナリ送信 (相手指定)|Circle binary transmission (specified by the other party)|
-|65721000|recvNtc0x6572|サークルチャット通知|Circle chat notification|
-|65721000|sendNtc0x6572|サークルチャット送信|Circle chat transmission|
+|65701000|recvNtcCircleBinary|サークルバイナリ通知|Circle binary notification|
+|65701000|sendNtcCircleBinary|サークルバイナリ送信|Circle binary transmission|
+|65711000|recvNtcCircleBinary (partner specified)|サークルバイナリ通知 (相手指定)|Circle binary notification (specified by the other party)|
+|65711000|sendNtcCircleBinary (partner specified)|サークルバイナリ送信 (相手指定)|Circle binary transmission (specified by the other party)|
+|65721000|recvNtcChat|サークルチャット通知|Circle chat notification|
+|65721000|sendNtcChat|サークルチャット送信|Circle chat transmission|
 |65730100|sendReqCircleTell|サークル相手指定チャット送信|Circle partner specified chat transmission|
 |65730200|recvAnsCircleTell|サークル相手指定チャット返信|Circle partner specified chat reply|
 |65731000|recvNtcCircleTell|サークル相手指定チャット通知|Circle partner specified chat notification|

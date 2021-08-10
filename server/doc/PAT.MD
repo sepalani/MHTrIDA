@@ -22,7 +22,7 @@ file in all version of the game.
 |60310200|sendAnsTicket|ＰＡＴチケット受信|Receive PAT ticket|
 |60400100|recvReqWarning|警告文送信|Send warning text|
 |60400200|sendAnsWarning|警告文受信確認|Confirmation of warning message reception|
-|60501000|sendNtc0x6050|収集ログ通知|Collection log notification|
+|60501000|sendNtcCollectionLog|収集ログ通知|Collection log notification|
 |60700100|sendReqCommonKey|共通鍵要求|Common key request|
 |60700200|recvAnsCommonKey|共通鍵返答|Common key reply|
 |60801000|sendNtcCheatCheck|チートチェックデータ送信|Send cheat check data|
@@ -170,19 +170,19 @@ file in all version of the game.
 |64680200|recvAnsLayerUserSearchData|レイヤユーザ検索リスト返答|Layer user search list response|
 |64690100|sendReqLayerUserSearchFoot|レイヤユーザ検索リスト終了要求|Layer user search list end request|
 |64690200|recvAnsLayerUserSearchFoot|レイヤユーザ検索リスト終了返答|Layer user search list end reply|
-|64701000|recvNtc0x6470|レイヤユーザ用バイナリ通知|Binary notifications for layer users|
-|64701000|sendNtc0x6470|レイヤユーザ用バイナリ送信|Binary transmission for layer users|
-|64711000|recvNtc0x6471|レイヤゲームポジション受信通知|Layer game position reception notification|
-|64711000|sendNtc0x6471|レイヤゲームポジション通知|Layer game position notification|
-|64721000|recvNtc0x6472|レイヤチャット通知|Layer chat notification|
-|64721000|sendNtc0x6472|レイヤチャット送信|Layer chat transmission|
+|64701000|recvNtcLayerBinary|レイヤユーザ用バイナリ通知|Binary notifications for layer users|
+|64701000|sendNtcLayerBinary|レイヤユーザ用バイナリ送信|Binary transmission for layer users|
+|64711000|recvNtcLayerUserPosition|レイヤゲームポジション受信通知|Layer game position reception notification|
+|64711000|sendNtcLayerUserPosition|レイヤゲームポジション通知|Layer game position notification|
+|64721000|recvNtcLayerChat|レイヤチャット通知|Layer chat notification|
+|64721000|sendNtcLayerChat|レイヤチャット送信|Layer chat transmission|
 |64730100|sendReqLayerTell|レイヤ相手指定チャット送信|Layer specified chat transmission|
 |64730200|recvAnsLayerTell|レイヤ相手指定チャット返信|Layer partner specified chat reply|
 |64731000|recvNtcLayerTell|レイヤ相手指定チャット通知|Layer partner specified chat notification|
-|64741000|recvNtc0x6474|レイヤ相手指定チャット通知 (通知のみ)|Layer partner specified chat notification (notification only)|
-|64741000|sendNtc0x6474|レイヤ相手指定チャット送信 (通知のみ)|Layer specified chat transmission (notification only)|
-|64751000|recvNtc0x6475|レイヤユーザ用バイナリ通知 (相手指定)|Binary notification for layer users (specify the other party)|
-|64751000|sendNtc0x6475|レイヤユーザ用バイナリ送信 (相手指定)|Binary transmission for layer users (specify the other party)|
+|64741000|recvNtcLayerTellLow|レイヤ相手指定チャット通知 (通知のみ)|Layer partner specified chat notification (notification only)|
+|64741000|sendNtcLayerTellLow|レイヤ相手指定チャット送信 (通知のみ)|Layer specified chat transmission (notification only)|
+|64751000|recvNtcLayerBinary (partner specified)|レイヤユーザ用バイナリ通知 (相手指定)|Binary notification for layer users (specify the other party)|
+|64751000|sendNtcLayerBinary (partner specified)|レイヤユーザ用バイナリ送信 (相手指定)|Binary transmission for layer users (specify the other party)|
 |64800100|sendReqLayerMediationLock|レイヤ調停データ確保要求|Layer arbitration data securing request|
 |64800200|recvAnsLayerMediationLock|レイヤ調停データ確保返答|Layer arbitration data secure reply|
 |64801000|recvNtcLayerMediationLock|レイヤ調停データ確保通知|Layer arbitration data securing notification|

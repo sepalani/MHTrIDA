@@ -13,8 +13,6 @@ Nintendo Certificate
 --------------------
 It was issued by Nintendo and is present in the game files. This certificate acts as a **Root CA certificate**, any generated certificate having it as a CA will automatically be trusted. **You need to replace it** with your own to make the game trust secure connections with custom servers (_i.e. Capcom and Nintendo ones_).
 
-**Note for Dolphin users:** The emulator doesn't verify the certificate, so this step can be skipped if wanted.
-
 You can find it in the Data4 section of the **main.dol** at these addresses depending of your region:
  * 0x00639EA0, Offset from Data4 section: 0x00011400 [NTSC-J]
  * 0x0056DF80, Offset from Data4 section: 0x00002A20 [NTSC-U]

@@ -1,0 +1,36 @@
+803c987c 00000020 803c987c 0 clear(NetworkBuffer * this)
+803c989c 00000044 803c989c 0 __dt__(NetworkBuffer * this, short param_2)
+803c98e0 00000004 803c98e0 0 ___blank(NetworkBuffer * this)
+803c98e4 00000018 803c98e4 0 delete(NetworkBuffer * this)
+803c98fc 0000001c 803c98fc 0 setBufferCapacity(NetworkBuffer * this, void * buf, typedef size_t ulong max)
+803c9918 0000005c 803c9918 0 init(NetworkBuffer * this)
+803c997c 00000010 803c997c 0 setBufferLen(NetworkBuffer * this, undefined4 buf, undefined4 len)
+803c998c 00000104 803c998c 0 serialize(NetworkBuffer * this, void * out_buf, uint out_size)
+803c9a90 00000100 803c9a90 0 deserialize(NetworkBuffer * this, void * in_buf, typedef size_t ulong in_len)
+803c9b90 00000148 803c9b90 0 duplicate(NetworkBuffer * this, NetworkBuffer * arg)
+803c9cd8 00000110 803c9cd8 0 equals(NetworkBuffer * this, NetworkBuffer * arg)
+803c9de8 0000010c 803c9de8 0 encrypt(NetworkBuffer * this, byte iv, uint offset, ushort size)
+803c9ef4 00000108 803c9ef4 0 decrypt(NetworkBuffer * this, byte iv, uint offset, ushort size)
+803c9ffc 000001d8 803c9ffc 0 crc16(NetworkBuffer * this, ushort size)
+803f89c4 00000004 803f89c4 0 setBufferLen(NetworkBuffer * this, undefined4 buf, undefined4 len)
+803fa5f4 00000048 803fa5f4 0 array_ctor(NetworkBufferExt? * this)
+803fa63c 0000005c 803fa63c 0 array_dtor(NetworkBufferExt? * this, short param_2)
+803fae70 00000004 803fae70 0 ___blank(NetworkBuffer * this)
+805f8db0 00000029 805f8db0 0 s_NetworkBuffer::init:_this->buf_i_805f8db0
+805f8ddc 00000030 805f8ddc 0 s_NetworkBuffer::serialize:_this->_805f8ddc
+805f8e0c 00000034 805f8e0c 0 s_NetworkBuffer::serialize:_arg->d_805f8e0c
+805f8e40 0000003c 805f8e40 0 s_NetworkBuffer::serialize:_arg->d_805f8e40
+805f8e7c 00000030 805f8e7c 0 s_NetworkBuffer::serialize:_this->_805f8e7c
+805f8eb0 00000030 805f8eb0 0 s_NetworkBuffer::deserialize:_this_805f8eb0
+805f8ee0 00000034 805f8ee0 0 s_NetworkBuffer::deserialize:_arg-_805f8ee0
+805f8f18 00000038 805f8f18 0 s_NetworkBuffer::deserialize:_this_805f8f18
+805f8f50 00000038 805f8f50 0 s_NetworkBuffer::deserialize:_arg-_805f8f50
+805f8f88 00000030 805f8f88 0 s_NetworkBuffer::duplicate:_this->_805f8f88
+805f8fb8 00000030 805f8fb8 0 s_NetworkBuffer::duplicate:_arg->o_805f8fb8
+805f8fe8 00000034 805f8fe8 0 s_NetworkBuffer::duplicate:_arg->o_805f8fe8
+805f901c 00000038 805f901c 0 s_NetworkBuffer::duplicate:_this->_805f901c
+805f9054 00000034 805f9054 0 s_NetworkBuffer::duplicate:_arg->o_805f9054
+805f9088 0000002c 805f9088 0 s_NetworkBuffer::equals:_this->buf_805f9088
+805f90b4 0000002c 805f90b4 0 s_NetworkBuffer::equals:_arg->obj_i_805f90b4
+805f90e0 00000030 805f90e0 0 s_NetworkBuffer::equals:_arg->obj-_805f90e0
+805f9110 00000040 805f9110 0 s_NetworkBuffer::equals:_this->len_805f9110

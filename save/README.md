@@ -167,6 +167,13 @@ Hunters can register bowgun sets to automatically equip appropriate bowgun parts
 
 
 
+Network
+-------
+Hunters network properties.
+ * 0x003E2C | 0x009E2C | 0x00FE2C - Hunter Rank (HR) [uint16]
+
+
+
 Fishery
 -------
 Hunting Boats allow you to collect items by sending your fleets on different locations. During the game you'll be able to manage 3 boats, the **Cap'n ship**, the **Black ship** and the **Red ship**.

@@ -38,7 +38,7 @@ class PatCommand(namedtuple("_PatCommand", [
     PATTERN = bytearray([
         0x60, 0x01, 0x01, 0x00,
         0x00, 0x00, 0x00, 0x00,
-        0x00, 0x00, 0x00, 0x10
+        0x00, 0x00, 0x00, # 0x10/0x14 - MH3/MHG
     ])
 
 
@@ -79,12 +79,17 @@ def load_file(path):
 def get_commands(data):
     """Get PAT commands based on PatCommand.PATTERN."""
     pattern = bytes(PatCommand.PATTERN)
-    count = data.count(pattern)
+    matches = []
+    offset = data.find(pattern)
+    while offset != -1:
+        if (offset % 4) == 0:
+            matches.append(offset)
+        offset = data.find(pattern, offset+1)
 
-    if count != 1:
+    if len(matches) != 1:
         raise AssertionError("Unable to find PAT commands")
 
-    offset = data.find(pattern)
+    offset = matches[0]
     commands = []
     while True:
         command = PatCommand(*struct.unpack_from(

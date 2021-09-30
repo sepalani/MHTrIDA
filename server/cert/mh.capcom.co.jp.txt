@@ -1,0 +1,73 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 33 (0x21)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C = US, ST = Washington, O = Nintendo of America Inc., OU = NOA, CN = Nintendo Class 2 CA, emailAddress = ca@noa.nintendo.com
+        Validity
+            Not Before: Jan 23 23:22:50 2009 GMT
+            Not After : Jan 16 23:22:50 2038 GMT
+        Subject: C = JP, ST = Osaka, L = Osaka city, O = "CAPCOM Co.,Ltd.", OU = SDD, CN = mh.capcom.co.jp
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (1024 bit)
+                Modulus:
+                    00:a3:ca:58:2f:82:df:5e:2a:4f:73:45:d6:ce:43:
+                    0e:a1:b1:61:5b:dc:0a:cd:1f:7e:c4:3e:5d:aa:7e:
+                    96:e6:2b:03:4b:87:d5:f7:d0:8f:bc:6a:f2:4d:5c:
+                    f8:87:93:08:35:76:a3:a7:bf:b9:af:54:7f:ba:c3:
+                    02:08:f8:8b:da:97:64:64:9a:f7:f7:6c:d3:91:36:
+                    b7:c5:f1:cd:4f:37:34:40:11:fa:d3:77:25:82:0e:
+                    94:d2:b8:c0:b5:8b:4c:10:f0:f0:6c:eb:a7:a6:da:
+                    b2:a9:44:7f:2c:fb:7c:9b:9a:88:b7:02:f0:a4:ab:
+                    45:eb:fb:30:96:e2:ae:e5:8f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                5B:42:0A:CD:7E:9F:6F:09:C9:3E:57:7F:24:35:FA:4F:FB:FB:A9:06
+            X509v3 Authority Key Identifier: 
+                keyid:CB:40:16:7C:B1:37:2B:26:5A:35:DE:BE:F1:5B:50:8A:8D:0C:D4:BD
+                DirName:/C=US/ST=Washington/O=Nintendo of America Inc./OU=NOA/CN=Nintendo Class 2 CA/emailAddress=ca@noa.nintendo.com
+                serial:01
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.nintendo.com/nintendo-c2.crl
+
+    Signature Algorithm: sha1WithRSAEncryption
+         86:22:aa:5e:93:fc:8d:f9:0a:6a:a1:b7:96:e9:5a:2a:e9:53:
+         9a:e9:8b:4f:92:00:2c:85:d1:3b:d2:0a:ec:39:45:6e:0c:54:
+         39:17:c7:0f:f4:36:36:1f:9b:9e:01:ee:8d:5f:39:f3:49:9c:
+         e1:5e:60:86:e6:58:fc:f3:bc:1c:dd:a5:c3:91:c5:66:91:f6:
+         c2:76:ff:db:85:06:b8:3e:45:3b:eb:b0:71:29:e6:e5:99:87:
+         4b:f6:e6:98:a5:cd:59:92:71:56:3f:50:ff:3a:2a:e1:b7:f1:
+         ac:66:80:5e:4b:63:b3:33:9b:aa:12:c5:b9:49:70:76:45:dc:
+         a6:96
+-----BEGIN CERTIFICATE-----
+MIID3TCCA0agAwIBAgIBITANBgkqhkiG9w0BAQUFADCBlTELMAkGA1UEBhMCVVMx
+EzARBgNVBAgTCldhc2hpbmd0b24xITAfBgNVBAoTGE5pbnRlbmRvIG9mIEFtZXJp
+Y2EgSW5jLjEMMAoGA1UECxMDTk9BMRwwGgYDVQQDExNOaW50ZW5kbyBDbGFzcyAy
+IENBMSIwIAYJKoZIhvcNAQkBFhNjYUBub2EubmludGVuZG8uY29tMB4XDTA5MDEy
+MzIzMjI1MFoXDTM4MDExNjIzMjI1MFowdDELMAkGA1UEBhMCSlAxDjAMBgNVBAgT
+BU9zYWthMRMwEQYDVQQHEwpPc2FrYSBjaXR5MRgwFgYDVQQKEw9DQVBDT00gQ28u
+LEx0ZC4xDDAKBgNVBAsTA1NERDEYMBYGA1UEAxMPbWguY2FwY29tLmNvLmpwMIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjylgvgt9eKk9zRdbOQw6hsWFb3ArN
+H37EPl2qfpbmKwNLh9X30I+8avJNXPiHkwg1dqOnv7mvVH+6wwII+Ival2Rkmvf3
+bNORNrfF8c1PNzRAEfrTdyWCDpTSuMC1i0wQ8PBs66em2rKpRH8s+3ybmoi3AvCk
+q0Xr+zCW4q7ljwIDAQABo4IBWzCCAVcwCQYDVR0TBAIwADAsBglghkgBhvhCAQ0E
+HxYdT3BlblNTTCBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFFtCCs1+
+n28JyT5XfyQ1+k/7+6kGMIHCBgNVHSMEgbowgbeAFMtAFnyxNysmWjXevvFbUIqN
+DNS9oYGbpIGYMIGVMQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEh
+MB8GA1UEChMYTmludGVuZG8gb2YgQW1lcmljYSBJbmMuMQwwCgYDVQQLEwNOT0Ex
+HDAaBgNVBAMTE05pbnRlbmRvIENsYXNzIDIgQ0ExIjAgBgkqhkiG9w0BCQEWE2Nh
+QG5vYS5uaW50ZW5kby5jb22CAQEwOAYDVR0fBDEwLzAtoCugKYYnaHR0cDovL2Ny
+bC5uaW50ZW5kby5jb20vbmludGVuZG8tYzIuY3JsMA0GCSqGSIb3DQEBBQUAA4GB
+AIYiql6T/I35Cmqht5bpWirpU5rpi0+SACyF0TvSCuw5RW4MVDkXxw/0NjYfm54B
+7o1fOfNJnOFeYIbmWPzzvBzdpcORxWaR9sJ2/9uFBrg+RTvrsHEp5uWZh0v25pil
+zVmScVY/UP86KuG38axmgF5LY7Mzm6oSxblJcHZF3KaW
+-----END CERTIFICATE-----
